@@ -1,0 +1,30 @@
+{
+  "match_thresholds": {
+    "auto_apply": 90,
+    "apply": 80,
+    "manual_review": 70,
+    "ignore_below": 70
+  },
+  "scraping": {
+    "delay_between_requests_seconds": 3,
+    "max_jobs_per_source": 50,
+    "max_pages_per_source": 5,
+    "headless": true
+  },
+  "gemini": {
+    "model": "gemini-2.0-flash",
+    "max_retries": 3,
+    "retry_delay_seconds": 5,
+    "rate_limit_rpm": 14
+  },
+  "filters": {
+    "exclude_experience_above_years": 2,
+    "exclude_companies": [],
+    "exclude_keywords": ["senior", "lead", "manager", "10+ years", "5+ years"],
+    "include_keywords": ["fresher", "0-2 years", "entry level", "junior", "graduate"]
+  },
+  "telegram": {
+    "morning_report_hour": 9,
+    "evening_report_hour": 18
+  }
+}

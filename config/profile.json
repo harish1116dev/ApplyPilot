@@ -1,0 +1,131 @@
+{
+  "personal": {
+    "name": "Harish S",
+    "email": "harish1116.dev@gmail.com",
+    "phone": "7010308345",
+    "location": "Chennai, Poonamallee, Tamil Nadu",
+    "linkedin": "https://linkedin.com/in/harish-s-916b24299/",
+    "github": "https://github.com/harish1116dev",
+    "portfolio": "https://portfolio-tau-blush-68.vercel.app"
+  },
+  "target": {
+    "roles": [
+      "Full Stack Developer",
+      "Frontend Developer",
+      "Backend Developer",
+      "Software Engineer",
+      "Node.js Developer",
+      "React Developer",
+      "AI/ML Engineer",
+      "Flutter Developer"
+    ],
+    "experience_level": "Fresher",
+    "preferred_cities": ["Chennai", "Bengaluru", "Coimbatore", "Hyderabad", "Remote"],
+    "salary_expectation_lpa": {
+      "min": 4,
+      "max": 8
+    },
+    "notice_period_days": 0,
+    "work_type": ["full-time", "remote", "hybrid"]
+  },
+  "education": [
+    {
+      "degree": "B.Tech",
+      "field": "Artificial Intelligence and Data Science",
+      "institution": "S.A. Engineering College",
+      "year": 2024,
+      "cgpa": null
+    },
+    {
+      "degree": "Class 12",
+      "institution": "Holy Angel Higher Secondary School, Rettanai, Vilupuram",
+      "year": null
+    },
+    {
+      "degree": "Class 10",
+      "institution": "Sri Raja Rajeshwari Matric High School, Pelakuppam, Tindivanam",
+      "year": null
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "JavaScript", "SQL", "HTML", "CSS"],
+    "frontend": ["React.js", "HTML5", "CSS3", "Tailwind CSS", "Responsive Design"],
+    "backend": ["Node.js", "Express.js", "REST APIs", "Authentication Systems"],
+    "databases": ["Supabase", "SQLite", "PostgreSQL"],
+    "tools": ["Git", "GitHub", "CLI", "Postman", "Gen AI Tools"],
+    "ai_ml": ["Machine Learning", "Deep Learning", "TensorFlow", "scikit-learn", "AI/LLM Tools"],
+    "other": ["Network Basics", "OS Fundamentals", "IoT", "GitHub Actions"]
+  },
+  "projects": [
+    {
+      "name": "Twitter Backend with Express",
+      "description": "Built a Twitter clone backend server with RESTful APIs using Node.js and Express.js, implementing user authentication, tweet management, and follower relationships.",
+      "tech_stack": ["Node.js", "Express.js", "REST APIs", "JavaScript", "SQLite"],
+      "github": "https://github.com/harish1116dev",
+      "live": null,
+      "highlight": true,
+      "category": "backend"
+    },
+    {
+      "name": "Compass",
+      "description": "AI-powered personalized daily news briefing app using Gemini API, featuring conversational onboarding, proactive profile evolution, and zero-backend architecture with React and LocalStorage.",
+      "tech_stack": ["React.js", "Gemini API", "JavaScript", "LocalStorage"],
+      "github": "https://github.com/harish1116dev",
+      "live": null,
+      "highlight": true,
+      "category": "ai"
+    },
+    {
+      "name": "ML & DL Models — Fake Healthcare News Detector",
+      "description": "Built ML and DL models using synthetic medical datasets to detect fake healthcare news, combining NLP techniques with classification algorithms.",
+      "tech_stack": ["Python", "TensorFlow", "scikit-learn", "NLP", "pandas"],
+      "github": "https://github.com/harish1116dev",
+      "live": null,
+      "highlight": true,
+      "category": "ai"
+    },
+    {
+      "name": "Watt Wise",
+      "description": "Designed an IoT-powered electricity monitoring platform with real-time dashboards, data storage, and energy usage prediction using ML models.",
+      "tech_stack": ["IoT", "Python", "Machine Learning", "Real-time Dashboard", "Data Storage"],
+      "github": "https://github.com/harish1116dev",
+      "live": null,
+      "highlight": true,
+      "category": "fullstack"
+    },
+    {
+      "name": "Dealzy",
+      "description": "Building a geo-based local deals and offers discovery platform connecting customers with nearby shops and businesses. Features GPS-based shop registration and a hybrid map strategy.",
+      "tech_stack": ["React.js", "Node.js", "Supabase", "Leaflet", "OpenStreetMap", "Google OAuth"],
+      "github": "https://github.com/harish1116dev",
+      "live": null,
+      "highlight": true,
+      "category": "fullstack",
+      "status": "Under Development"
+    }
+  ],
+  "certifications": [
+    "XPM 4.0 Fundamentals",
+    "LLMs & Agentic AI Masterclass",
+    "Ethical Hacking Workshop",
+    "AWS Workshop",
+    "Gen AI Tools Workshop",
+    "Data Visualization – Empowering Business with Effective Insights"
+  ],
+  "soft_skills": [
+    "Problem Solving",
+    "Time Management",
+    "Fast Learner",
+    "Team Collaboration",
+    "Leadership"
+  ],
+  "languages_spoken": ["Tamil", "English"],
+  "resume_variants": {
+    "fullstack": ["React.js", "Node.js", "Express.js", "JavaScript", "Supabase", "REST APIs"],
+    "frontend": ["React.js", "HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Responsive Design"],
+    "backend": ["Node.js", "Express.js", "Python", "SQL", "Supabase", "REST APIs", "Authentication"],
+    "ai": ["Python", "TensorFlow", "scikit-learn", "Gemini API", "NLP", "ML/DL Models", "LLMs"],
+    "flutter": ["Flutter", "Dart", "Supabase", "Firebase", "Mobile Development"]
+  },
+  "current_training": "NxtWave Full Stack Development (React, Node.js, Express.js, Git)"
+}

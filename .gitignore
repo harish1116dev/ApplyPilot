@@ -1,0 +1,8 @@
+.env
+config/resumes/
+*.pdf
+__pycache__/
+*.pyc
+.playwright/
+logs/
+*.log
