@@ -13,6 +13,8 @@ def decide(match_score: int, settings: dict) -> str:
         decision = "apply"
     elif match_score >= thresholds["manual_review"]:
         decision = "manual_review"
+    elif match_score >= thresholds.get("ignore_below", 50):
+        decision = "manual_review"  # borderline — still surface it
     else:
         decision = "ignore"
     logger.debug(f"Score {match_score} → decision: {decision}")

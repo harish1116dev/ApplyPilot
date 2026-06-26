@@ -1,27 +1,34 @@
 {
+  "pipeline": {
+    "analyze_workers": 1,
+    "apply_workers": 3
+  },
   "match_thresholds": {
-    "auto_apply": 90,
-    "apply": 80,
-    "manual_review": 70,
-    "ignore_below": 70
+    "auto_apply": 70,
+    "apply": 70,
+    "manual_review": 60,
+    "ignore_below": 50
   },
   "scraping": {
     "delay_between_requests_seconds": 3,
-    "max_jobs_per_source": 50,
-    "max_pages_per_source": 5,
-    "headless": true
+    "max_jobs_per_source": 20,
+    "max_pages_per_source": 2,
+    "headless": true,
+    "playwright_timeout_ms": 15000
   },
   "gemini": {
-    "model": "gemini-2.0-flash",
-    "max_retries": 3,
-    "retry_delay_seconds": 5,
-    "rate_limit_rpm": 14
+    "model": "gemini-3.1-flash-lite",
+    "fallback_model": "gemini-2.5-flash-lite",
+    "max_retries": 4,
+    "retry_delay_seconds": 10,
+    "rate_limit_rpm": 12,
+    "rate_limit_rpd": 500
   },
   "filters": {
     "exclude_experience_above_years": 2,
     "exclude_companies": [],
-    "exclude_keywords": ["senior", "lead", "manager", "10+ years", "5+ years"],
-    "include_keywords": ["fresher", "0-2 years", "entry level", "junior", "graduate"]
+    "exclude_keywords": ["senior", "lead", "manager", "10+ years", "5+ years", "8+ years", "7+ years"],
+    "include_experience_patterns": ["0-1", "0-2", "0-3", "0 years", "0 - 1", "0 - 2", "entry level", "no experience", "any graduate", "2024 passout", "2025 passout", "recent graduate"]
   },
   "telegram": {
     "morning_report_hour": 9,

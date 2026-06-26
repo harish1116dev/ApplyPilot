@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CareerOS Dashboard</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+  :root {
+    --bg: #0a0a0f;
+    --surface: #13131a;
+    --surface2: #1c1c28;
+    --border: #2a2a3a;
+    --accent: #6366f1;
+    --accent2: #8b5cf6;
+    --green: #10b981;
+    --yellow: #f59e0b;
+    --red: #ef4444;
+    --blue: #3b82f6;
+    --text: #e2e8f0;
+    --muted: #64748b;
+    --gradient: linear-gradient(135deg, #6366f1, #8b5cf6);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ── Sidebar ─────────────────────────────────────── */
+  .sidebar {
+    position: fixed; top: 0; left: 0;
+    width: 220px; height: 100vh;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    display: flex; flex-direction: column;
+    padding: 24px 16px;
+    z-index: 100;
+  }
+
+  .logo {
+    font-size: 20px; font-weight: 700;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
+    display: flex; align-items: center; gap: 8px;
+  }
+
+  .logo::before { content: "🤖"; font-size: 22px; }
+
+  .nav-item {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 12px; border-radius: 8px;
+    cursor: pointer; font-size: 14px; font-weight: 500;
+    color: var(--muted); transition: all 0.2s;
+    margin-bottom: 4px;
+  }
+
+  .nav-item:hover, .nav-item.active {
+    background: var(--surface2);
+    color: var(--text);
+  }
+
+  .nav-item.active { color: var(--accent); }
+
+  .sidebar-footer {
+    margin-top: auto;
+  }
+
+  .run-btn {
+    width: 100%;
+    padding: 12px;
+    background: var(--gradient);
+    border: none; border-radius: 10px;
+    color: white; font-size: 14px; font-weight: 600;
+    cursor: pointer; transition: opacity 0.2s;
+  }
+
+  .run-btn:hover { opacity: 0.85; }
+  .run-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+  /* ── Main ────────────────────────────────────────── */
+  .main {
+    margin-left: 220px;
+    padding: 32px;
+    min-height: 100vh;
+  }
+
+  .page { display: none; }
+  .page.active { display: block; }
+
+  .page-header {
+    margin-bottom: 28px;
+  }
+
+  .page-header h1 {
+    font-size: 26px; font-weight: 700;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .page-header p { color: var(--muted); font-size: 14px; margin-top: 4px; }
+
+  /* ── Stat Cards ──────────────────────────────────── */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+
+  .stat-card:hover { transform: translateY(-2px); border-color: var(--accent); }
+
+  .stat-card .glow {
+    position: absolute; top: -30px; right: -30px;
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    opacity: 0.15;
+  }
+
+  .stat-card .label {
+    font-size: 12px; font-weight: 500;
+    color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em;
+    margin-bottom: 8px;
+  }
+
+  .stat-card .value {
+    font-size: 36px; font-weight: 700;
+    line-height: 1;
+  }
+
+  .stat-card .sub { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+  /* ── Table ───────────────────────────────────────── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+
+  .card-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border);
+    font-weight: 600; font-size: 15px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+
+  .card-header .icon { margin-right: 8px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+
+  th {
+    padding: 10px 16px;
+    text-align: left;
+    font-size: 11px; font-weight: 600;
+    color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em;
+    background: var(--surface2);
+  }
+
+  td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: var(--surface2); }
+
+  /* ── Badges ──────────────────────────────────────── */
+  .badge {
+    display: inline-block;
+    padding: 3px 10px; border-radius: 999px;
+    font-size: 11px; font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .badge-applied    { background: #10b98120; color: #10b981; }
+  .badge-manual     { background: #f59e0b20; color: #f59e0b; }
+  .badge-skipped    { background: #64748b20; color: #64748b; }
+  .badge-failed     { background: #ef444420; color: #ef4444; }
+  .badge-found      { background: #3b82f620; color: #3b82f6; }
+  .badge-analyzed   { background: #6366f120; color: #6366f1; }
+  .badge-auto_apply { background: #10b98120; color: #10b981; }
+  .badge-apply      { background: #3b82f620; color: #3b82f6; }
+  .badge-manual_review { background: #f59e0b20; color: #f59e0b; }
+  .badge-ignore     { background: #64748b20; color: #64748b; }
+  .badge-high       { background: #ef444420; color: #ef4444; }
+  .badge-medium     { background: #f59e0b20; color: #f59e0b; }
+  .badge-low        { background: #10b98120; color: #10b981; }
+
+  /* ── Score Bar ───────────────────────────────────── */
+  .score-bar {
+    display: flex; align-items: center; gap: 8px;
+  }
+
+  .score-bar .bar {
+    flex: 1; height: 6px;
+    background: var(--border);
+    border-radius: 3px; overflow: hidden;
+  }
+
+  .score-bar .fill {
+    height: 100%; border-radius: 3px;
+    background: var(--gradient);
+    transition: width 0.6s ease;
+  }
+
+  .score-bar .num {
+    font-size: 12px; font-weight: 600;
+    min-width: 32px; text-align: right;
+  }
+
+  /* ── Skill Gap Cards ─────────────────────────────── */
+  .gap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+
+  .gap-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    transition: transform 0.2s;
+  }
+
+  .gap-card:hover { transform: translateY(-2px); }
+
+  .gap-card .skill-name {
+    font-size: 16px; font-weight: 700;
+    margin-bottom: 8px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+
+  .gap-card .impact {
+    font-size: 13px; color: var(--green);
+    font-weight: 600;
+  }
+
+  .gap-card .detail {
+    font-size: 12px; color: var(--muted);
+    margin-top: 4px;
+  }
+
+  .gap-card .resources {
+    margin-top: 10px;
+    display: flex; flex-wrap: wrap; gap: 6px;
+  }
+
+  .gap-card .resource-tag {
+    background: var(--accent)20;
+    color: var(--accent);
+    padding: 3px 8px; border-radius: 4px;
+    font-size: 11px;
+  }
+
+  /* ── Resume Versions ─────────────────────────────── */
+  .version-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px; padding: 16px;
+  }
+
+  .version-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px; text-align: center;
+  }
+
+  .version-card .rate {
+    font-size: 40px; font-weight: 700;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .version-card .variant-name {
+    font-size: 14px; font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 4px;
+  }
+
+  .version-card .version-detail {
+    font-size: 12px; color: var(--muted);
+    margin-top: 4px;
+  }
+
+  /* ── Loading ─────────────────────────────────────── */
+  .loading {
+    display: flex; align-items: center; justify-content: center;
+    padding: 40px; color: var(--muted);
+    gap: 10px; font-size: 14px;
+  }
+
+  .spinner {
+    width: 20px; height: 20px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Toast ───────────────────────────────────────── */
+  #toast {
+    position: fixed; bottom: 24px; right: 24px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 14px;
+    transform: translateY(100px); opacity: 0;
+    transition: all 0.3s;
+    z-index: 9999;
+  }
+
+  #toast.show { transform: translateY(0); opacity: 1; }
+  #toast.success { border-color: var(--green); color: var(--green); }
+  #toast.error   { border-color: var(--red);   color: var(--red); }
+
+  /* ── Filter bar ──────────────────────────────────── */
+  .filter-bar {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--border);
+    display: flex; gap: 8px; flex-wrap: wrap;
+  }
+
+  .filter-btn {
+    padding: 5px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--muted);
+    font-size: 12px; cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+  }
+
+  /* ── Scrollbar ───────────────────────────────────── */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg); }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<aside class="sidebar">
+  <div class="logo">CareerOS</div>
+
+  <nav>
+    <div class="nav-item active" onclick="showPage('overview')" id="nav-overview">
+      📊 Overview
+    </div>
+    <div class="nav-item" onclick="showPage('jobs')" id="nav-jobs">
+      💼 Jobs
+    </div>
+    <div class="nav-item" onclick="showPage('skills')" id="nav-skills">
+      🧠 Skill Gaps
+    </div>
+    <div class="nav-item" onclick="showPage('resumes')" id="nav-resumes">
+      📄 Resumes
+    </div>
+    <div class="nav-item" onclick="showPage('manual')" id="nav-manual">
+      🔴 Manual Tasks
+    </div>
+    <div class="nav-item" onclick="showPage('failures')" id="nav-failures">
+      🐛 Failures
+    </div>
+  </nav>
+
+  <div class="sidebar-footer">
+    <button class="run-btn" id="runBtn" onclick="triggerPipeline()">
+      ▶ Run Pipeline
+    </button>
+    <div style="font-size:11px;color:var(--muted);text-align:center;margin-top:8px;" id="lastRun">
+      Auto-runs 9AM & 3PM IST
+    </div>
+  </div>
+</aside>
+
+<!-- Main Content -->
+<main class="main">
+
+  <!-- Overview Page -->
+  <div class="page active" id="page-overview">
+    <div class="page-header">
+      <h1>Overview</h1>
+      <p id="last-updated">Loading stats...</p>
+    </div>
+
+    <div class="stats-grid" id="stats-grid">
+      <div class="loading"><div class="spinner"></div> Loading...</div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <span><span class="icon">🎯</span>Recent Applications</span>
+        <span style="font-size:12px;color:var(--muted);" id="app-count"></span>
+      </div>
+      <div id="recent-jobs-table">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Jobs Page -->
+  <div class="page" id="page-jobs">
+    <div class="page-header">
+      <h1>Job Pipeline</h1>
+      <p>All scraped and analyzed jobs</p>
+    </div>
+
+    <div class="card">
+      <div class="filter-bar" id="jobs-filters">
+        <button class="filter-btn active" onclick="filterJobs(null, this)">All</button>
+        <button class="filter-btn" onclick="filterJobs('applied', this)">Applied</button>
+        <button class="filter-btn" onclick="filterJobs('manual', this)">Manual</button>
+        <button class="filter-btn" onclick="filterJobs('skipped', this)">Skipped</button>
+        <button class="filter-btn" onclick="filterJobs('analyzed', this)">Analyzed</button>
+        <button class="filter-btn" onclick="filterJobs('failed', this)">Failed</button>
+      </div>
+      <div id="jobs-table">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skill Gaps Page -->
+  <div class="page" id="page-skills">
+    <div class="page-header">
+      <h1>Skill Gap Engine</h1>
+      <p>Skills missing from rejected applications — learn these to increase match rates</p>
+    </div>
+    <div class="gap-grid" id="gaps-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+  </div>
+
+  <!-- Resumes Page -->
+  <div class="page" id="page-resumes">
+    <div class="page-header">
+      <h1>Resume Performance</h1>
+      <p>Interview rate per resume variant — your A/B test results</p>
+    </div>
+    <div class="version-grid" id="versions-grid">
+      <div class="loading"><div class="spinner"></div></div>
+    </div>
+  </div>
+
+  <!-- Manual Tasks Page -->
+  <div class="page" id="page-manual">
+    <div class="page-header">
+      <h1>Manual Tasks</h1>
+      <p>Jobs that need your personal attention (CAPTCHA, OTP, account creation)</p>
+    </div>
+    <div class="card">
+      <div id="manual-table">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Failures Page -->
+  <div class="page" id="page-failures">
+    <div class="page-header">
+      <h1>Failure Log</h1>
+      <p>Plugin failures with screenshots and stack traces</p>
+    </div>
+    <div class="card">
+      <div id="failures-table">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<div id="toast"></div>
+
+<script>
+// ── Navigation ──────────────────────────────────────────────────────────────
+function showPage(name) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('page-' + name).classList.add('active');
+  document.getElementById('nav-' + name).classList.add('active');
+}
+
+// ── Toast ────────────────────────────────────────────────────────────────────
+function toast(msg, type='success') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'show ' + type;
+  setTimeout(() => t.className = '', 3000);
+}
+
+// ── API helpers ──────────────────────────────────────────────────────────────
+async function api(path) {
+  const res = await fetch(path);
+  return res.json();
+}
+
+// ── Badge helper ─────────────────────────────────────────────────────────────
+function badge(val, cls=null) {
+  const c = cls || ('badge-' + (val||'').toLowerCase().replace(' ','_'));
+  return `<span class="badge ${c}">${val || '—'}</span>`;
+}
+
+// ── Score bar ─────────────────────────────────────────────────────────────────
+function scoreBar(score) {
+  const s = score || 0;
+  const color = s >= 90 ? '#10b981' : s >= 70 ? '#f59e0b' : '#ef4444';
+  return `<div class="score-bar">
+    <div class="bar"><div class="fill" style="width:${s}%;background:${color}"></div></div>
+    <div class="num" style="color:${color}">${s}%</div>
+  </div>`;
+}
+
+// ── Overview ─────────────────────────────────────────────────────────────────
+async function loadOverview() {
+  const stats = await api('/api/stats');
+  const jobs  = await api('/api/jobs?limit=15');
+
+  const cards = [
+    { label: 'Jobs Found',    value: stats.total_found || 0,    color: '#3b82f6',  icon: '🔍' },
+    { label: 'Applied',       value: stats.applied || 0,        color: '#10b981',  icon: '✅' },
+    { label: 'Interviews',    value: stats.interviews || 0,     color: '#6366f1',  icon: '🎤' },
+    { label: 'Manual Needed', value: stats.manual_pending || 0, color: '#f59e0b',  icon: '🔴' },
+    { label: 'Rejected',      value: stats.rejected || 0,       color: '#ef4444',  icon: '❌' },
+    { label: 'Offers',        value: stats.offers || 0,         color: '#10b981',  icon: '🎉' },
+    { label: 'Avg Match',     value: (stats.avg_match||0)+'%',  color: '#8b5cf6',  icon: '🎯' },
+    { label: 'Skipped',       value: stats.skipped || 0,        color: '#64748b',  icon: '⏭' },
+  ];
+
+  document.getElementById('stats-grid').innerHTML = cards.map(c => `
+    <div class="stat-card">
+      <div class="glow" style="background:${c.color}"></div>
+      <div class="label">${c.icon} ${c.label}</div>
+      <div class="value" style="color:${c.color}">${c.value}</div>
+    </div>
+  `).join('');
+
+  document.getElementById('last-updated').textContent =
+    'Last updated: ' + new Date().toLocaleTimeString('en-IN');
+
+  // Recent jobs table
+  document.getElementById('app-count').textContent = `${jobs.length} shown`;
+  document.getElementById('recent-jobs-table').innerHTML = jobsTable(jobs.slice(0, 10));
+}
+
+// ── Jobs ──────────────────────────────────────────────────────────────────────
+let _allJobs = [];
+
+async function loadJobs() {
+  _allJobs = await api('/api/jobs?limit=100');
+  renderJobsTable(_allJobs);
+}
+
+function jobsTable(jobs) {
+  if (!jobs.length) return '<div class="loading">No jobs found</div>';
+  return `<table>
+    <thead><tr>
+      <th>Role</th><th>Company</th><th>Platform</th>
+      <th>Match</th><th>Decision</th><th>Status</th>
+    </tr></thead>
+    <tbody>
+    ${jobs.map(j => `<tr>
+      <td style="font-weight:500">${j.title||'—'}</td>
+      <td>${j.company||'—'}</td>
+      <td style="color:var(--muted)">${j.platform||'—'}</td>
+      <td>${scoreBar(j.match_score)}</td>
+      <td>${badge(j.decision)}</td>
+      <td>${badge(j.status)}</td>
+    </tr>`).join('')}
+    </tbody>
+  </table>`;
+}
+
+function renderJobsTable(jobs) {
+  document.getElementById('jobs-table').innerHTML = jobsTable(jobs);
+}
+
+function filterJobs(status, btn) {
+  document.querySelectorAll('#jobs-filters .filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const filtered = status ? _allJobs.filter(j => j.status === status) : _allJobs;
+  renderJobsTable(filtered);
+}
+
+// ── Skill Gaps ────────────────────────────────────────────────────────────────
+async function loadSkillGaps() {
+  const gaps = await api('/api/skill-gaps');
+  if (!gaps.length) {
+    document.getElementById('gaps-grid').innerHTML =
+      '<div class="loading">No data yet — run the pipeline first and wait for rejections.</div>';
+    return;
+  }
+  document.getElementById('gaps-grid').innerHTML = gaps.map(g => `
+    <div class="gap-card">
+      <div class="skill-name">
+        ${g.skill}
+        ${badge(g.priority || 'medium')}
+      </div>
+      <div class="impact">↑ +${g.match_increase_percent||'?'}% match score</div>
+      <div class="detail">Seen in ${g.frequency||'?'} rejections · ~${g.learn_days||'?'} days to learn</div>
+      <div class="detail" style="margin-top:6px;font-style:italic">${g.reason||''}</div>
+      <div class="resources">
+        ${(g.resources||[]).map(r => `<span class="resource-tag">${r}</span>`).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+// ── Resume Versions ───────────────────────────────────────────────────────────
+async function loadResumeVersions() {
+  const versions = await api('/api/resume-versions');
+  if (!versions.length) {
+    document.getElementById('versions-grid').innerHTML =
+      '<div class="loading">No data yet — apply to more jobs first.</div>';
+    return;
+  }
+  document.getElementById('versions-grid').innerHTML = versions.map(v => `
+    <div class="version-card">
+      <div class="rate">${v.rate_pct}%</div>
+      <div class="variant-name">${v.variant}</div>
+      <div class="version-detail">Interview rate</div>
+      <div class="version-detail" style="margin-top:6px">
+        ${v.interviews} interviews / ${v.total} sent
+      </div>
+    </div>
+  `).join('');
+}
+
+// ── Manual Tasks ──────────────────────────────────────────────────────────────
+async function loadManualTasks() {
+  const tasks = await api('/api/manual-tasks');
+  if (!tasks.length) {
+    document.getElementById('manual-table').innerHTML =
+      '<div class="loading">🎉 No pending manual tasks!</div>';
+    return;
+  }
+  document.getElementById('manual-table').innerHTML = `<table>
+    <thead><tr>
+      <th>Company</th><th>Role</th><th>Reason</th><th>URL</th><th>Resume</th>
+    </tr></thead>
+    <tbody>
+    ${tasks.map(t => `<tr>
+      <td>${t.company||'—'}</td>
+      <td>${t.title||'—'}</td>
+      <td>${badge(t.reason,'badge-manual')}</td>
+      <td><a href="${t.apply_url||'#'}" target="_blank" style="color:var(--accent)">Open ↗</a></td>
+      <td style="color:var(--muted)">${t.resume_path||'—'}</td>
+    </tr>`).join('')}
+    </tbody>
+  </table>`;
+}
+
+// ── Failures ──────────────────────────────────────────────────────────────────
+async function loadFailures() {
+  const failures = await api('/api/failures');
+  if (!failures.length) {
+    document.getElementById('failures-table').innerHTML =
+      '<div class="loading">✅ No failures logged!</div>';
+    return;
+  }
+  document.getElementById('failures-table').innerHTML = `<table>
+    <thead><tr>
+      <th>Company</th><th>Role</th><th>Stage</th><th>Error</th><th>Screenshot</th><th>Time</th>
+    </tr></thead>
+    <tbody>
+    ${failures.map(f => `<tr>
+      <td>${f.company||'—'}</td>
+      <td>${f.title||'—'}</td>
+      <td>${badge(f.stage,'badge-failed')}</td>
+      <td style="color:var(--red);font-size:12px;max-width:300px;word-break:break-all">${(f.error||'').slice(0,120)}</td>
+      <td>${f.screenshot_path ?
+        `<a href="#" style="color:var(--accent)" onclick="alert('${f.screenshot_path}')">📷 View path</a>` :
+        '—'}</td>
+      <td style="color:var(--muted);font-size:11px">${(f.created_at||'').slice(0,16)}</td>
+    </tr>`).join('')}
+    </tbody>
+  </table>`;
+}
+
+// ── Run Pipeline ──────────────────────────────────────────────────────────────
+async function triggerPipeline() {
+  const btn = document.getElementById('runBtn');
+  btn.disabled = true;
+  btn.textContent = '⏳ Running...';
+  try {
+    const res = await fetch('/api/run-pipeline', { method: 'POST' });
+    const data = await res.json();
+    toast('✅ ' + data.status, 'success');
+    setTimeout(() => loadOverview(), 3000);
+  } catch (e) {
+    toast('❌ Failed to start pipeline', 'error');
+  }
+  setTimeout(() => {
+    btn.disabled = false;
+    btn.textContent = '▶ Run Pipeline';
+  }, 5000);
+}
+
+// ── Init ──────────────────────────────────────────────────────────────────────
+(async () => {
+  await loadOverview();
+  await loadJobs();
+  await loadSkillGaps();
+  await loadResumeVersions();
+  await loadManualTasks();
+  await loadFailures();
+
+  // Auto-refresh every 60 seconds
+  setInterval(loadOverview, 60000);
+})();
+</script>
+</body>
+</html>

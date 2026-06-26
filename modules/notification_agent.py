@@ -73,21 +73,25 @@ def send_application_update(job: dict, result: str) -> None:
 
 
 def send_manual_alert(job: dict, answers: dict, reason: str = "unknown") -> None:
+    apply_url = job.get('apply_url', '')
     answers_text = "\n".join(f"Q: {q}\nA: {a}" for q, a in (answers or {}).items())
     alert_text = (
-        f"🔴 <b>Manual Action Needed</b>\n"
-        f"Company: {job.get('company')}\n"
-        f"Role: {job.get('title')}\n"
-        f"Match: {job.get('match_score', '?')}%\n"
-        f"URL: {job.get('apply_url', '')}\n"
-        f"Reason: {reason}\n"
-        f"Resume: {job.get('resume_variant', 'master')} variant\n\n"
-        f"I've prepared all answers — open link and apply."
+        f"\U0001f7e1 <b>Apply Manually</b>\n"
+        f"━━━━━━━━━━━━━━━━━━━━\n"
+        f"\U0001f3e2 <b>{job.get('company')}</b>\n"
+        f"\U0001f4bc Role: {job.get('title')}\n"
+        f"\U0001f4cd Location: {job.get('location', 'N/A')}\n"
+        f"\U0001f3af Match: <b>{job.get('match_score', '?')}%</b>\n"
+        f"\u26a0\ufe0f Reason: {reason}\n"
+        f"━━━━━━━━━━━━━━━━━━━━\n"
+        f"\U0001f517 <a href=\"{apply_url}\">👆 TAP HERE TO APPLY</a>\n\n"
+        f"Resume variant: <code>{job.get('resume_variant', 'master')}</code>\n"
+        f"I've prepared all answers below \u2193"
     )
     _send(alert_text)
 
     if answers_text:
-        _send(f"📋 <b>Prepared Answers:</b>\n\n{answers_text[:3000]}")
+        _send(f"\U0001f4cb <b>Prepared Answers:</b>\n\n{answers_text[:3000]}")
 
     try:
         insert_notification({"type": "manual_action", "message": alert_text})

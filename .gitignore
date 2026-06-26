@@ -6,3 +6,4 @@ __pycache__/
 .playwright/
 logs/
 *.log
+sessions/checkpoint.json

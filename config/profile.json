@@ -10,17 +10,22 @@
   },
   "target": {
     "roles": [
-      "Full Stack Developer",
+      "Associate Software Engineer",
+      "Graduate Engineer Trainee",
+      "JavaScript Developer",
+      "Software Developer",
+      "Full Stack Engineer",
+      "SDE-1",
       "Frontend Developer",
       "Backend Developer",
-      "Software Engineer",
       "Node.js Developer",
       "React Developer",
-      "AI/ML Engineer",
-      "Flutter Developer"
+      "Web Developer",
+      "Software Engineer",
+      "Full Stack Developer"
     ],
     "experience_level": "Fresher",
-    "preferred_cities": ["Chennai", "Bengaluru", "Coimbatore", "Hyderabad", "Remote"],
+    "preferred_cities": ["Chennai", "Bengaluru", "Coimbatore", "Remote"],
     "salary_expectation_lpa": {
       "min": 4,
       "max": 8

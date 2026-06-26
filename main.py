@@ -1,45 +1,69 @@
 """
-Career Bot — Main Orchestrator
-Run locally: python main.py
-GitHub Actions runs this on schedule.
+CareerOS v2 — Main Orchestrator
+Run locally:         python main.py
+Dashboard:           python -m uvicorn dashboard.app:app --reload --port 8000
+Weekly skill gaps:   python -c "from modules.skill_gap_engine import run; run()"
+GitHub Actions runs this on schedule (9AM + 3PM IST).
+
+Ctrl+C / SIGTERM safe:
+  - Signal handler calls request_shutdown() immediately (prints message, no hang)
+  - All worker threads, sleeps, and Gemini retries check is_shutdown() and exit cleanly
+  - Browser sessions (Playwright) are closed in finally blocks inside each plugin
 """
 import json
-import logging
 import os
 import sys
+import signal
 
 from dotenv import load_dotenv
 load_dotenv()
 
+from utils.shutdown import request_shutdown, is_shutdown
 from modules.profile_brain import load_profile, validate_profile
 from modules.job_scout.scout import run_all_scrapers
 from modules.duplicate_detector import deduplicate
-from modules.job_analyzer import analyze_job
-from modules.match_engine import calculate_match
-from modules.decision_engine import decide
-from modules.resume_library import select_resume
-from modules.resume_optimizer import optimize_resume
-from modules.cover_letter_agent import generate_cover_letter
-from modules.qa_agent import generate_answers
-from modules.platform_detector import detect_platform
-from modules.plugins import get_plugin
-from modules.human_assist import trigger_human_assist
-from modules.notification_agent import send_morning_report, send_application_update, send_manual_alert
-from modules.analytics import get_summary_stats
-from db.supabase_client import insert_job, update_job_status, insert_application, job_exists
+from modules.notification_agent import send_morning_report
 from utils.logger import setup_logger
 
 logger = setup_logger()
 
+
+# ─── Signal Handling ──────────────────────────────────────────────────────────
+
+def _handle_signal(signum, frame):
+    """Called on Ctrl+C (SIGINT) or SIGTERM. Triggers graceful shutdown."""
+    sig_name = "SIGINT (Ctrl+C)" if signum == signal.SIGINT else "SIGTERM"
+    print(f"\n\n⛔  {sig_name} received — shutting down gracefully...", flush=True)
+    print("   (Workers will stop after their current job. Please wait a moment.)\n", flush=True)
+    logger.warning(f"[main] {sig_name} received \u2014 requesting shutdown")
+    request_shutdown()
+
+
+# Register handlers (works on all platforms for SIGINT; SIGTERM on Unix only)
+signal.signal(signal.SIGINT, _handle_signal)
+try:
+    signal.signal(signal.SIGTERM, _handle_signal)
+except (OSError, AttributeError):
+    pass  # SIGTERM not available on Windows in some environments
+
+
+# ─── Settings ─────────────────────────────────────────────────────────────────
 
 def load_settings() -> dict:
     with open(os.path.join("config", "settings.json"), encoding="utf-8") as f:
         return json.load(f)
 
 
+# ─── Pipeline ─────────────────────────────────────────────────────────────────
+
 def run_pipeline():
-    logger.info("=== Career Bot Pipeline Starting ===")
+    logger.info("=== CareerOS v2 Pipeline Starting ===")
     settings = load_settings()
+
+    from utils.checkpoint import (
+        load_checkpoint, save_after_scrape, mark_complete,
+        clear_checkpoint, checkpoint_summary,
+    )
 
     # Step 1: Load + validate profile
     profile = load_profile()
@@ -48,124 +72,76 @@ def run_pipeline():
         logger.error(f"Profile validation failed: {errors}")
         sys.exit(1)
 
-    # Step 2: Scrape jobs
-    logger.info("Scraping jobs from all sources...")
-    raw_jobs = run_all_scrapers(profile, settings)
-    logger.info(f"Found {len(raw_jobs)} raw jobs")
+    if is_shutdown():
+        logger.info("[main] Shutdown before scraping — exiting")
+        return {}
 
-    # Step 3: Deduplicate
-    jobs = deduplicate(raw_jobs)
-    logger.info(f"After dedup: {len(jobs)} unique jobs")
+    # ── Check for an existing checkpoint (resume from crash) ──────────────────
+    checkpoint = load_checkpoint()
 
-    stats = {"found": len(jobs), "applied": 0, "manual": 0, "skipped": 0}
+    if checkpoint:
+        # Resume: skip scraping, use pending jobs from checkpoint
+        unique_jobs = checkpoint["pending_jobs"]
+        logger.info(
+            f"[main] RESUMING from checkpoint — {len(unique_jobs)} jobs remaining "
+            f"(checkpoint: {checkpoint_summary()})"
+        )
+        print(f"\n♻️  Resuming from checkpoint: {len(unique_jobs)} jobs left to process\n", flush=True)
+    else:
+        # Fresh run: scrape → dedup → save checkpoint
+        if is_shutdown():
+            logger.info("[main] Shutdown before scraping — exiting")
+            return {}
 
-    for job in jobs:
-        try:
-            # Skip if already in DB
-            if job_exists(job.get("title", ""), job.get("company", "")):
-                logger.debug(f"Already exists: {job.get('title')} @ {job.get('company')}")
-                continue
+        # Step 2: Scrape jobs from all sources
+        logger.info("Scraping jobs...")
+        raw_jobs = run_all_scrapers(profile, settings)
+        logger.info(f"Raw: {len(raw_jobs)} jobs")
 
-            # Step 4: Analyze JD with Gemini
-            job_analysis = analyze_job(job)
+        if is_shutdown():
+            logger.info("[main] Shutdown after scraping — exiting")
+            return {}
 
-            # Step 5: Match profile vs job
-            match_result = calculate_match(profile, job_analysis)
-            job_analysis["match_score"] = match_result["match"]
-            job_analysis["match_reason"] = match_result["reason"]
-            job_analysis["missing_skills"] = match_result.get("missing_skills", [])
+        # Step 3: Deduplicate
+        unique_jobs = deduplicate(raw_jobs)
+        logger.info(f"Unique: {len(unique_jobs)} jobs after dedup")
 
-            # Step 6: Decide
-            decision = decide(match_result["match"], settings)
-            job_analysis["decision"] = decision
+        if is_shutdown():
+            logger.info("[main] Shutdown after dedup — exiting")
+            return {}
 
-            # Save to Supabase
-            db_payload = {
-                "title": job_analysis.get("title", ""),
-                "company": job_analysis.get("company", ""),
-                "location": job_analysis.get("location", ""),
-                "remote": job_analysis.get("remote", False),
-                "salary_min": job_analysis.get("salary_min"),
-                "salary_max": job_analysis.get("salary_max"),
-                "experience_required": job_analysis.get("experience_required", ""),
-                "skills_required": job_analysis.get("skills_required", []),
-                "description": job_analysis.get("summary", ""),
-                "apply_url": job_analysis.get("apply_url", ""),
-                "apply_method": job_analysis.get("apply_method", ""),
-                "platform": job_analysis.get("platform", ""),
-                "source_urls": job_analysis.get("source_urls", []),
-                "questions": job_analysis.get("questions", []),
-                "raw_jd": job_analysis.get("raw_jd", "")[:3000],
-                "match_score": match_result["match"],
-                "match_reason": match_result["reason"],
-                "missing_skills": match_result.get("missing_skills", []),
-                "decision": decision,
-                "status": "analyzed",
-            }
-            job_id = insert_job(db_payload)
-            job_analysis["id"] = job_id
+        # ── Save checkpoint immediately after scraping ─────────────────────────
+        # This means if Gemini analysis crashes, next run skips scraping entirely
+        save_after_scrape(unique_jobs)
 
-            if decision == "ignore":
-                update_job_status(job_id, "skipped")
-                stats["skipped"] += 1
-                continue
+    # Step 4: Run queue-based parallel pipeline (analyze + apply)
+    from core.pipeline import CareerPipeline
+    pipeline = CareerPipeline(profile=profile, settings=settings)
+    stats = pipeline.run(raw_jobs=unique_jobs)
 
-            if decision == "manual_review":
-                send_manual_alert(job_analysis, answers={}, reason="manual_review")
-                update_job_status(job_id, "manual")
-                stats["manual"] += 1
-                continue
+    if is_shutdown():
+        logger.warning(f"[main] Pipeline interrupted early. Partial stats: {stats}")
+        print(f"\n⚠️  Interrupted. Partial results: {stats}", flush=True)
+        print("   Next run will resume from where it left off (checkpoint saved).\n", flush=True)
+        return stats
 
-            # Step 7: Prepare application
-            resume_path = select_resume(job_analysis, profile)
-            optimized = optimize_resume(profile, job_analysis, resume_path)
-
-            cover_letter = None
-            if job_analysis.get("cover_letter_required"):
-                cover_letter = generate_cover_letter(
-                    profile, job_analysis,
-                    strong_matches=match_result.get("strong_matches", [])
-                )
-
-            answers = {}
-            if job_analysis.get("questions"):
-                answers = generate_answers(job_analysis["questions"], profile, job_analysis)
-
-            # Step 8: Detect apply platform
-            platform = detect_platform(job_analysis.get("apply_url", ""))
-
-            # Step 9: Apply via plugin
-            plugin = get_plugin(platform)
-            result = plugin.apply(job_analysis, resume_path, cover_letter, answers, profile)
-            logger.info(f"Plugin result: {result} for {job_analysis.get('title')} @ {job_analysis.get('company')}")
-
-            if result == "success":
-                app_id = insert_application({
-                    "job_id": job_id,
-                    "resume_variant": optimized.get("recommended_variant", "fullstack"),
-                    "cover_letter_used": cover_letter is not None,
-                    "apply_method": platform,
-                })
-                update_job_status(job_id, "applied")
-                send_application_update(job_analysis, result)
-                stats["applied"] += 1
-
-            elif result in ("captcha", "human_needed", "partial"):
-                trigger_human_assist(job_analysis, resume_path, answers, reason=result)
-                update_job_status(job_id, "manual")
-                stats["manual"] += 1
-
-        except Exception as e:
-            logger.error(
-                f"Error processing job '{job.get('title')}' @ '{job.get('company')}': {e}",
-                exc_info=True,
-            )
-            continue
-
-    # Step 10: Send summary report
+    # Step 5: Success — mark checkpoint complete (clears it) + send Telegram report
+    mark_complete(stats)
     send_morning_report(stats)
     logger.info(f"=== Pipeline Complete: {stats} ===")
+    return stats
 
 
 if __name__ == "__main__":
-    run_pipeline()
+    try:
+        run_pipeline()
+    except KeyboardInterrupt:
+        # Fallback: in case signal handler wasn't called fast enough
+        print("\n\n⛔  Interrupted — exiting.", flush=True)
+        request_shutdown()
+        sys.exit(0)
+    except SystemExit:
+        raise
+    except Exception as e:
+        logger.exception(f"[main] Fatal error: {e}")
+        sys.exit(1)
