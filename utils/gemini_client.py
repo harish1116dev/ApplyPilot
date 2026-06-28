@@ -1,17 +1,29 @@
 """
-utils/gemini_client.py — Gemini API client using google-genai (new SDK).
+utils/gemini_client.py — Gemini API client with multi-key rotation.
 
-Model:    gemini-3.1-flash-lite  (15 RPM, 250K TPM, 500 RPD) — primary
-Fallback: gemini-2.5-flash-lite  (10 RPM, 250K TPM,  20 RPD) — only used if primary fails
+Supports up to 3 API keys loaded from env:
+  GEMINI_API_KEY      — key 1 (primary)
+  GEMINI_API_KEY_2    — key 2 (fallback when key 1 hits daily limit)
+  GEMINI_API_KEY_3    — key 3 (fallback when key 2 hits daily limit)
 
-Why gemini-3.1-flash-lite as primary?
-  With 100-200 jobs per run, we need 100-200 RPD (1 call per job).
-  gemini-2.5-flash-lite has only 20 RPD — exhausted after 20 jobs.
-  gemini-3.1-flash-lite has 500 RPD — handles a full run comfortably.
+Key rotation strategy:
+  - Each key tracks its own daily call count and per-minute rate.
+  - When a key hits its RPD limit (500/day), it is marked exhausted and
+    the next key takes over automatically.
+  - When all keys are exhausted, raises RuntimeError.
+  - 429 / resource-exhausted errors on a specific key also trigger rotation
+    to the next key (don't waste backoff time — just switch).
+  - Daily counters reset at midnight UTC independently per key.
+
+Model priority per key:
+  Primary:  gemini-3.1-flash-lite  (15 RPM, 500 RPD free tier)
+  Fallback: gemini-2.5-flash-lite  (10 RPM,  20 RPD free tier)
+  The fallback model is tried only when the primary model is unavailable
+  (404 / model-not-found), NOT for rate-limit errors (we rotate keys instead).
 
 Rate limits enforced:
-- 12 RPM effective (safety buffer below 15 RPM limit)
-- 500 RPD — daily counter auto-resets at midnight UTC
+  - 12 RPM effective per key (safety buffer below 15 RPM hard limit)
+  - 500 RPD per key — counter auto-resets at midnight UTC
 """
 from google import genai
 import threading
@@ -25,133 +37,242 @@ from utils.shutdown import interruptible_sleep, is_shutdown
 
 logger = setup_logger("gemini_client")
 
-_API_KEY = os.getenv("GEMINI_API_KEY")
-
-# Lazy-init: only create client when first needed so import doesn't fail without env vars
-_client: genai.Client = None
-
-# Model names — gemini-3.1-flash-lite is primary (500 RPD vs 20 RPD for 2.5-flash-lite)
+# ─── Models ───────────────────────────────────────────────────────────────────
 _PRIMARY_MODEL = "gemini-3.1-flash-lite"
 _FALLBACK_MODEL = "gemini-2.5-flash-lite"
 
-# Rate limits (gemini-3.1-flash-lite free tier: 15 RPM, 500 RPD)
-_RPM_LIMIT = 12          # 12 effective (safety buffer below 15 RPM limit)
-_RPD_LIMIT = 500         # 500 per day
-_MIN_INTERVAL = 60.0 / _RPM_LIMIT  # 5.0 seconds between calls
-
-# Thread-safe state
-_lock = threading.Lock()
-_last_call_time: float = 0.0
-_daily_count: int = 0
-_daily_reset_date: str = ""
+# ─── Rate limit constants ─────────────────────────────────────────────────────
+_RPM_LIMIT    = 12       # effective RPM per key (buffer below 15 hard limit)
+_RPD_LIMIT    = 500      # requests per day per key (free tier)
+_MIN_INTERVAL = 60.0 / _RPM_LIMIT   # seconds between calls on same key
 
 
-def _get_client() -> genai.Client:
-    global _client
-    if _client is None:
-        api_key = os.getenv("GEMINI_API_KEY")
-        if not api_key:
-            raise EnvironmentError("GEMINI_API_KEY not set in environment / .env")
-        _client = genai.Client(api_key=api_key)
-    return _client
+# ─── Per-Key State ────────────────────────────────────────────────────────────
+
+class _KeySlot:
+    """Holds state for a single API key."""
+    def __init__(self, index: int, api_key: str):
+        self.index      = index           # 1-based (for log messages)
+        self.api_key    = api_key
+        self.client     = None            # lazy-init genai.Client
+        self.daily_count: int  = 0
+        self.reset_date: str   = ""
+        self.last_call: float  = 0.0
+        self.exhausted: bool   = False    # True once RPD limit reached
+
+    def get_client(self) -> genai.Client:
+        if self.client is None:
+            self.client = genai.Client(api_key=self.api_key)
+        return self.client
+
+    def check_reset(self, today: str) -> None:
+        if self.reset_date != today:
+            self.daily_count = 0
+            self.reset_date  = today
+            self.exhausted   = False
+            logger.info(f"[gemini] Key {self.index}: daily counter reset for {today}")
+
+    def is_daily_exhausted(self) -> bool:
+        return self.daily_count >= _RPD_LIMIT
+
+    def enforce_rpm(self) -> None:
+        """Block until the per-minute gap has elapsed for this key."""
+        elapsed = time.time() - self.last_call
+        if elapsed < _MIN_INTERVAL:
+            time.sleep(_MIN_INTERVAL - elapsed)
+
+    def __repr__(self) -> str:
+        return (
+            f"<Key {self.index} "
+            f"calls={self.daily_count}/{_RPD_LIMIT} "
+            f"exhausted={self.exhausted}>"
+        )
 
 
-def _check_reset_daily(today: str) -> None:
-    """Reset RPD counter if we're on a new day."""
-    global _daily_count, _daily_reset_date
-    if _daily_reset_date != today:
-        _daily_count = 0
-        _daily_reset_date = today
-        logger.info(f"[gemini] Daily counter reset for {today}")
+# ─── Key Pool ─────────────────────────────────────────────────────────────────
 
+def _load_keys() -> list[_KeySlot]:
+    """Load all configured API keys from environment variables."""
+    raw_keys = []
+    for env_var in ("GEMINI_API_KEY", "GEMINI_API_KEY_2", "GEMINI_API_KEY_3"):
+        val = os.getenv(env_var, "").strip()
+        if val:
+            raw_keys.append(val)
+
+    if not raw_keys:
+        raise EnvironmentError(
+            "No Gemini API keys found. Set GEMINI_API_KEY (and optionally "
+            "GEMINI_API_KEY_2, GEMINI_API_KEY_3) in your .env file."
+        )
+
+    slots = [_KeySlot(i + 1, key) for i, key in enumerate(raw_keys)]
+    logger.info(f"[gemini] Loaded {len(slots)} API key(s)")
+    return slots
+
+
+# Module-level state — initialized lazily on first call
+_lock: threading.Lock = threading.Lock()
+_keys: list[_KeySlot] = []
+_active_key_idx: int = 0    # index into _keys list
+
+
+def _get_keys() -> list[_KeySlot]:
+    global _keys
+    if not _keys:
+        _keys = _load_keys()
+    return _keys
+
+
+def _active_key() -> _KeySlot:
+    return _get_keys()[_active_key_idx]
+
+
+def _rotate_key() -> _KeySlot | None:
+    """
+    Try to advance to the next non-exhausted key.
+    Returns the new active key, or None if all keys are exhausted.
+    """
+    global _active_key_idx
+    keys = _get_keys()
+    for offset in range(1, len(keys)):
+        candidate_idx = (_active_key_idx + offset) % len(keys)
+        candidate = keys[candidate_idx]
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        candidate.check_reset(today)
+        if not candidate.is_daily_exhausted():
+            _active_key_idx = candidate_idx
+            logger.warning(
+                f"[gemini] Rotated to Key {candidate.index} "
+                f"(calls={candidate.daily_count}/{_RPD_LIMIT})"
+            )
+            return candidate
+    return None   # all exhausted
+
+
+# ─── Public API ───────────────────────────────────────────────────────────────
 
 def call_gemini(prompt: str, retries: int = 4) -> str:
     """
-    Call Gemini with full rate-limit enforcement and retry/fallback logic.
+    Call Gemini with multi-key rotation + RPM enforcement + retry logic.
     Thread-safe: only one call goes to the API at a time.
+
+    Key rotation triggers:
+      - Key hits RPD limit (500/day) → switch to next key immediately
+      - 429 / resource-exhausted error → mark key exhausted, switch key
+
+    Model fallback (within a key):
+      - 404 / model-unavailable → try _FALLBACK_MODEL on same key
     """
-    global _last_call_time, _daily_count
+    global _active_key_idx
 
     current_model = _PRIMARY_MODEL
 
     for attempt in range(retries):
         with _lock:
             today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-            _check_reset_daily(today)
+            keys  = _get_keys()
 
-            if _daily_count >= _RPD_LIMIT:
-                logger.error(
-                    f"[gemini] Daily limit of {_RPD_LIMIT} RPD reached. "
-                    "Calls will resume tomorrow."
+            # Reset daily counters if it's a new day
+            for slot in keys:
+                slot.check_reset(today)
+
+            key = keys[_active_key_idx]
+
+            # If active key is exhausted, rotate immediately before trying
+            if key.is_daily_exhausted():
+                key.exhausted = True
+                logger.warning(
+                    f"[gemini] Key {key.index} exhausted "
+                    f"({key.daily_count}/{_RPD_LIMIT} RPD). Rotating..."
                 )
-                raise RuntimeError(
-                    f"Gemini daily limit ({_RPD_LIMIT} RPD) reached. "
-                    "Upgrade plan or wait until midnight UTC."
-                )
+                key = _rotate_key()
+                if key is None:
+                    raise RuntimeError(
+                        f"All {len(keys)} Gemini API key(s) have hit their "
+                        f"{_RPD_LIMIT} RPD daily limit. "
+                        "Run will resume tomorrow at midnight UTC."
+                    )
 
-            # Enforce RPM gap
-            elapsed = time.time() - _last_call_time
-            if elapsed < _MIN_INTERVAL:
-                time.sleep(_MIN_INTERVAL - elapsed)
+            # Enforce per-minute gap for the active key
+            key.enforce_rpm()
 
-            client = _get_client()
+            client = key.get_client()
             try:
                 response = client.models.generate_content(
                     model=current_model,
                     contents=prompt,
                 )
-                _last_call_time = time.time()
-                _daily_count += 1
+                key.last_call    = time.time()
+                key.daily_count += 1
                 text = response.text or ""
                 logger.debug(
-                    f"[gemini] {current_model} → {len(text)} chars "
-                    f"(today: {_daily_count}/{_RPD_LIMIT})"
+                    f"[gemini] Key {key.index} / {current_model} "
+                    f"-> {len(text)} chars "
+                    f"(today: {key.daily_count}/{_RPD_LIMIT})"
                 )
                 return text
 
             except Exception as e:
                 err_str = str(e)
-                _last_call_time = time.time()
+                key.last_call = time.time()
 
-                if "429" in err_str or "quota" in err_str.lower() or "resource exhausted" in err_str.lower():
-                    # Exponential backoff: 10s, 20s, 40s, cap 120s
-                    wait = min((2 ** attempt) * 10, 120)
+                # ── Rate limited / quota exhausted ───────────────────────
+                if (
+                    "429" in err_str
+                    or "quota" in err_str.lower()
+                    or "resource exhausted" in err_str.lower()
+                ):
                     logger.warning(
-                        f"[gemini] Rate limited on {current_model}. "
-                        f"Backing off {wait}s (attempt {attempt + 1}/{retries})"
+                        f"[gemini] Key {key.index} rate-limited / quota hit "
+                        f"(attempt {attempt + 1}/{retries}). Rotating key..."
                     )
-                    # Block other threads during the backoff but wake on Ctrl+C
-                    _last_call_time = time.time() + wait
-                    interruptible_sleep(wait)
-                    if is_shutdown():
-                        raise RuntimeError("Shutdown requested — aborting Gemini call")
+                    key.exhausted   = True
+                    key.daily_count = _RPD_LIMIT  # mark as full so rotation skips it
+                    rotated = _rotate_key()
+                    if rotated is None:
+                        raise RuntimeError(
+                            f"All {len(keys)} Gemini API key(s) are rate-limited. "
+                            "Wait until midnight UTC or add more keys."
+                        )
+                    # Don't sleep — just retry immediately with the new key
+                    continue
 
+                # ── Model unavailable — try fallback model on same key ───
                 elif (
                     "404" in err_str
                     or "not found" in err_str.lower()
                     or "invalid" in err_str.lower()
                     or "unavailable" in err_str.lower()
                 ):
-                    # Model not available — switch to fallback immediately
                     if current_model != _FALLBACK_MODEL:
                         logger.warning(
-                            f"[gemini] {current_model} unavailable ({err_str[:120]}). "
+                            f"[gemini] Key {key.index}: {current_model} unavailable. "
                             f"Switching to {_FALLBACK_MODEL}."
                         )
                         current_model = _FALLBACK_MODEL
                     else:
-                        logger.error(f"[gemini] Fallback model also failed: {err_str[:200]}")
-                        raise RuntimeError(f"Both Gemini models unavailable: {err_str}") from e
+                        logger.error(
+                            f"[gemini] Key {key.index}: fallback model also failed. "
+                            f"Error: {err_str[:200]}"
+                        )
+                        raise RuntimeError(
+                            f"Both Gemini models unavailable on Key {key.index}: {err_str}"
+                        ) from e
 
+                # ── Other transient error — exponential backoff ──────────
                 else:
-                    logger.error(f"[gemini] Unexpected error (attempt {attempt + 1}/{retries}): {e}")
+                    logger.error(
+                        f"[gemini] Key {key.index}: unexpected error "
+                        f"(attempt {attempt + 1}/{retries}): {e}"
+                    )
                     if attempt == retries - 1:
                         raise
-                    interruptible_sleep(5 * (attempt + 1))
+                    wait = 5 * (attempt + 1)
+                    interruptible_sleep(wait)
                     if is_shutdown():
                         raise RuntimeError("Shutdown requested — aborting Gemini call")
 
-    raise RuntimeError(f"Gemini API failed after {retries} retries")
+    raise RuntimeError(f"Gemini API failed after {retries} retries across all keys")
 
 
 def call_gemini_json(prompt: str) -> dict:
@@ -159,7 +280,7 @@ def call_gemini_json(prompt: str) -> dict:
     Call Gemini and robustly parse a JSON response.
     Handles: raw JSON, ```json ... ```, ``` ... ``` fences, JSON embedded in text.
     """
-    raw = call_gemini(prompt)
+    raw   = call_gemini(prompt)
     clean = raw.strip()
 
     # Strip ```json ... ``` or ``` ... ``` fences
@@ -187,14 +308,24 @@ def call_gemini_json(prompt: str) -> dict:
 
 
 def get_daily_usage() -> dict:
-    """Return current Gemini usage stats (thread-safe snapshot)."""
+    """Return current Gemini usage stats for all keys (thread-safe snapshot)."""
     with _lock:
+        keys = _get_keys()
+        key_stats = []
+        for slot in keys:
+            key_stats.append({
+                "key":        slot.index,
+                "calls":      slot.daily_count,
+                "limit":      _RPD_LIMIT,
+                "remaining":  max(0, _RPD_LIMIT - slot.daily_count),
+                "exhausted":  slot.exhausted,
+            })
+        active = keys[_active_key_idx]
         return {
-            "daily_calls": _daily_count,
-            "daily_limit": _RPD_LIMIT,
-            "remaining_today": max(0, _RPD_LIMIT - _daily_count),
-            "rpm_limit": _RPM_LIMIT,
-            "model": _PRIMARY_MODEL,
-            "fallback": _FALLBACK_MODEL,
-            "reset_date": _daily_reset_date,
+            "active_key":     active.index,
+            "total_keys":     len(keys),
+            "keys":           key_stats,
+            "rpm_limit":      _RPM_LIMIT,
+            "model":          _PRIMARY_MODEL,
+            "fallback_model": _FALLBACK_MODEL,
         }
