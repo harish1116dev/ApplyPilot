@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=acd3c2e15ac24dcb",
+  "url_hash": "a150b4701c184b87d986e5a85615821ca214099e437d9ca36cdff581ecc66d68",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:04:55.036979+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description, making it potentially suitable for a fresher intern.",
+    "profile_match": 80,
+    "profile_reason": "The candidate has strong Python and Full Stack skills, and the internship role aligns well with their academic background and project portfolio.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Python",
+      "Full Stack Development",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Python Full Stack Developer Intern",
+    "company": "Zoho It Solution",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Python",
+      "Full Stack Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "An internship role for a Python Full Stack Developer based in Chennai. The role focuses on end-to-end web development using Python-based backend technologies.",
+    "match": 80,
+    "match_reason": "The candidate has strong Python and Full Stack skills, and the internship role aligns well with their academic background and project portfolio.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=acd3c2e15ac24dcb",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=acd3c2e15ac24dcb"
+    ],
+    "raw_jd": "Job Title: Python Full Stack Developer Intern\nCompany: Zoho It Solution\nLocation: Hybrid work in Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:04:55.036979+00:00",
+  "applied": false,
+  "applied_at": null
+}

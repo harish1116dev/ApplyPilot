@@ -1,0 +1,52 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=859c823c3335de3d",
+  "url_hash": "84f0e918c824450c7c6971ab8e53f835a28875f2e16dfac1667f0ade9fae5e65",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:08:35.991036+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, making it potentially open to freshers.",
+    "profile_match": 40,
+    "profile_reason": "The candidate is a Full Stack Developer (MERN) with no specific professional experience in WordPress, which is a content management system rather than a core software development role.",
+    "missing_skills": [
+      "WordPress",
+      "PHP",
+      "CMS Customization",
+      "Elementor",
+      "WooCommerce"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Wordpress Developer",
+    "company": "Dprince Broadcast Network",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Wordpress"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role involves developing and managing websites using the WordPress platform. It requires specific expertise in CMS architecture and PHP-based themes which is outside the candidate's core MERN stack focus.",
+    "match": 40,
+    "match_reason": "The candidate is a Full Stack Developer (MERN) with no specific professional experience in WordPress, which is a content management system rather than a core software development role.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=859c823c3335de3d",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=859c823c3335de3d"
+    ],
+    "raw_jd": "Job Title: Wordpress Developer\nCompany: Dprince Broadcast Network\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:08:35.991036+00:00",
+  "applied": false,
+  "applied_at": null
+}

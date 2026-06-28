@@ -1,0 +1,50 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=556e0e91868be62f",
+  "url_hash": "bc6627a96cdec495e72fcdb200806e1d818ae7e1294943418dc73cac94dd9ec0",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:10:43.982418+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the provided job description.",
+    "profile_match": 45,
+    "profile_reason": "The candidate has strong software engineering skills, but the role specifically requires Network Software Engineering expertise which is not the candidate's core focus.",
+    "missing_skills": [
+      "Network Engineering",
+      "SDN (Software Defined Networking)",
+      "Network Protocols",
+      "Telecom Infrastructure"
+    ],
+    "strong_matches": [
+      "Python",
+      "JavaScript"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Network Software Engineering Specialist",
+    "company": "Telstra Business Technology Centre Perth South",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Network Software Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role focuses on Network Software Engineering within a telecommunications business environment. It likely involves developing software solutions for network infrastructure, automation, or service management.",
+    "match": 45,
+    "match_reason": "The candidate has strong software engineering skills, but the role specifically requires Network Software Engineering expertise which is not the candidate's core focus.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=556e0e91868be62f",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=556e0e91868be62f"
+    ],
+    "raw_jd": "Job Title: Network Software Engineering Specialist\nCompany: Telstra Business Technology Centre Perth South\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:10:43.982418+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,55 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=e5d3b2f63e714a72",
+  "url_hash": "dfb21c60b2ef9c301a48423df56eb1b563a3900ba616fef4de5936c2b796e4d2",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:08:56.195545+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state any specific experience requirement, allowing for freshers.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has strong web development skills, but the role includes Graphic/UI/UX design which is outside the candidate's primary technical focus.",
+    "missing_skills": [
+      "Graphic Design",
+      "UI/UX Design Tools (Figma/Adobe XD)",
+      "Visual Design"
+    ],
+    "strong_matches": [
+      "Web Developer",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "React.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Web Designer,Web Developer,UI/UX Designer,Graphic Designer",
+    "company": "pixel visual design",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Web Design",
+      "Web Development",
+      "UI/UX Design",
+      "Graphic Design"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is a multi-disciplinary position covering web development, web design, and graphic design for a visual design agency in Chennai. The candidate's technical skills align well with the development portion, but the role requires additional creative and design tool expertise.",
+    "match": 65,
+    "match_reason": "The candidate has strong web development skills, but the role includes Graphic/UI/UX design which is outside the candidate's primary technical focus.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=e5d3b2f63e714a72",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=e5d3b2f63e714a72"
+    ],
+    "raw_jd": "Job Title: Web Designer,Web Developer,UI/UX Designer,Graphic Designer\nCompany: pixel visual design\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:08:56.195545+00:00",
+  "applied": false,
+  "applied_at": null
+}

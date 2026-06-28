@@ -1,0 +1,47 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=3d95a3a6b9e9d240",
+  "url_hash": "d38594732e23ea8a52adc1390923eac0e4fe2f27ee46bf8a71752c9249d6ac31",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:06:35.032790+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it is treated as fresher-eligible.",
+    "profile_match": 0,
+    "profile_reason": "The candidate's profile is focused on Software Development and AI, while this role requires CNC programming and manufacturing engineering skills.",
+    "missing_skills": [
+      "CNC Programming",
+      "CAD/CAM Software",
+      "Machine Shop Operations",
+      "Blueprint Reading"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "CNC Programmer",
+    "company": "Sieger Spintech Equipments Private Limited",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "CNC Programming"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a manufacturing role focused on programming CNC machines. It is not aligned with the candidate's background in Artificial Intelligence, Data Science, or Full Stack Development.",
+    "match": 0,
+    "match_reason": "The candidate's profile is focused on Software Development and AI, while this role requires CNC programming and manufacturing engineering skills.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=3d95a3a6b9e9d240",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=3d95a3a6b9e9d240"
+    ],
+    "raw_jd": "Job Title: CNC Programmer\nCompany: Sieger Spintech Equipments Private Limited\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:06:35.032790+00:00",
+  "applied": false,
+  "applied_at": null
+}

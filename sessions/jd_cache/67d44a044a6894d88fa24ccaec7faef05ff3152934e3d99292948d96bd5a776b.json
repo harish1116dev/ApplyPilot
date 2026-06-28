@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=42b91920bf89ab74",
+  "url_hash": "67d44a044a6894d88fa24ccaec7faef05ff3152934e3d99292948d96bd5a776b",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:04:13.927088+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not stated in the job description, allowing for potential fresher eligibility.",
+    "profile_match": 75,
+    "profile_reason": "The candidate has strong React skills and is based in a preferred city, but the JD explicitly requires TypeScript, which the candidate has not listed.",
+    "missing_skills": [
+      "TypeScript"
+    ],
+    "strong_matches": [
+      "React.js",
+      "Frontend Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Front End Developer (React/Typescript)",
+    "company": "Applogiq",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js",
+      "TypeScript"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a frontend development role focusing on React and TypeScript technologies. The position is based in Coimbatore with a hybrid working model.",
+    "match": 75,
+    "match_reason": "The candidate has strong React skills and is based in a preferred city, but the JD explicitly requires TypeScript, which the candidate has not listed.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=42b91920bf89ab74",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=42b91920bf89ab74"
+    ],
+    "raw_jd": "Job Title: Front End Developer (React/Typescript)\nCompany: Applogiq\nLocation: Hybrid work in Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:04:13.927088+00:00",
+  "applied": false,
+  "applied_at": null
+}

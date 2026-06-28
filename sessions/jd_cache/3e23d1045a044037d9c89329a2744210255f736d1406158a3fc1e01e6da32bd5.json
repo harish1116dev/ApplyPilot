@@ -1,0 +1,50 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=c5a5ecd693275950",
+  "url_hash": "3e23d1045a044037d9c89329a2744210255f736d1406158a3fc1e01e6da32bd5",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:02:28.802898+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, making it potentially eligible for a fresher.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has relevant skills for Web Development, but the JD lacks sufficient detail regarding the tech stack or specific requirements to ensure a high-quality match.",
+    "missing_skills": [
+      "not stated"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "HTML",
+      "CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Web Developer",
+    "company": "Red sand group",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "not stated"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Web Developer at Red sand group in Chennai. The job description is extremely brief and provides no specific technical requirements or experience constraints.",
+    "match": 65,
+    "match_reason": "The candidate has relevant skills for Web Development, but the JD lacks sufficient detail regarding the tech stack or specific requirements to ensure a high-quality match.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=c5a5ecd693275950",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=c5a5ecd693275950"
+    ],
+    "raw_jd": "Job Title: Web Developer\nCompany: Red sand group\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:02:28.802898+00:00",
+  "applied": false,
+  "applied_at": null
+}

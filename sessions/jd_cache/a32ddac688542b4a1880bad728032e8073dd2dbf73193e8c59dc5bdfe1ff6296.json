@@ -1,0 +1,53 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=05b7a0be01fabd2c",
+  "url_hash": "a32ddac688542b4a1880bad728032e8073dd2dbf73193e8c59dc5bdfe1ff6296",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:11:04.299713+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not stated in the job description, allowing for entry-level consideration.",
+    "profile_match": 40,
+    "profile_reason": "The candidate has strong general web development skills (React, Node.js), but lacks specific Shopify/Liquid/e-commerce ecosystem experience required for a Shopify Developer role.",
+    "missing_skills": [
+      "Shopify",
+      "Liquid",
+      "E-commerce development",
+      "Shopify API",
+      "Theme development"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "React.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Shopify Developer",
+    "company": "Legit Farms",
+    "location": "Whitefield, Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Shopify"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a Shopify Developer at Legit Farms based in Bengaluru. The position involves building, customizing, and maintaining e-commerce websites on the Shopify platform.",
+    "match": 40,
+    "match_reason": "The candidate has strong general web development skills (React, Node.js), but lacks specific Shopify/Liquid/e-commerce ecosystem experience required for a Shopify Developer role.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=05b7a0be01fabd2c",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=05b7a0be01fabd2c"
+    ],
+    "raw_jd": "Job Title: Shopify Developer\nCompany: Legit Farms\nLocation: Whitefield, Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:11:04.299713+00:00",
+  "applied": false,
+  "applied_at": null
+}

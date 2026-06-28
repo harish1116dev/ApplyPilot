@@ -1,0 +1,52 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=7f82ed045697c5c6",
+  "url_hash": "a1e4dc8ec4c6371ae7bfab9fbd5a0a4e12ccf47b210feb0a8e5af69bcfd35a4d",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:07:07.973875+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state any specific experience requirement, allowing for freshers.",
+    "profile_match": 65,
+    "profile_reason": "Candidate has a strong full-stack and AI background, but the JD lacks detail on the specific platform technology stack to determine a higher fit.",
+    "missing_skills": [
+      "Platform engineering specifics",
+      "Cloud infrastructure",
+      "Scalability tools"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "Node.js",
+      "Python",
+      "Full Stack development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Software Engineer, Platform - Chennai, India",
+    "company": "Speechify",
+    "location": "Chennai, Tamil Nadu",
+    "remote": true,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Platform engineering",
+      "Software development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Software Engineer role focused on platform development at Speechify based in Chennai. The role description is currently incomplete and lacks specific technical requirements.",
+    "match": 65,
+    "match_reason": "Candidate has a strong full-stack and AI background, but the JD lacks detail on the specific platform technology stack to determine a higher fit.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=7f82ed045697c5c6",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=7f82ed045697c5c6"
+    ],
+    "raw_jd": "Job Title: Software Engineer, Platform - Chennai, India\nCompany: Speechify\nLocation: Remote in Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:07:07.973875+00:00",
+  "applied": false,
+  "applied_at": null
+}

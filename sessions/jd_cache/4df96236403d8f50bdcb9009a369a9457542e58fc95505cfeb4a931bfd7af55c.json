@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=61d0addf6439bd9a",
+  "url_hash": "4df96236403d8f50bdcb9009a369a9457542e58fc95505cfeb4a931bfd7af55c",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:09:50.703239+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state any minimum experience requirement, qualifying it for a fresher.",
+    "profile_match": 65,
+    "profile_reason": "The JD is extremely vague with no listed skills or requirements, making it impossible to confirm a high-quality match despite the candidate's relevant background.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "React.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Web Developer",
+    "company": "DM Aurex",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Web Developer at DM Aurex in Chennai. The job description is incomplete and lacks specific technical requirements or responsibilities.",
+    "match": 65,
+    "match_reason": "The JD is extremely vague with no listed skills or requirements, making it impossible to confirm a high-quality match despite the candidate's relevant background.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=61d0addf6439bd9a",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=61d0addf6439bd9a"
+    ],
+    "raw_jd": "Job Title: Web Developer\nCompany: DM Aurex\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:09:50.703239+00:00",
+  "applied": false,
+  "applied_at": null
+}

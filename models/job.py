@@ -148,10 +148,9 @@ class Job:
             "missing_skills": self.missing_skills,
             "decision": self.decision,
             "status": self.status,
-            # Stage 1 + 2 metadata
-            "python_filter_verdict": self.python_filter_verdict,
-            "is_fresher_job": self.is_fresher_job,
-            "confidence": self.confidence,
+            # NOTE: confidence / python_filter_verdict / is_fresher_job are tracked
+            # in-memory only (not in Supabase schema). Add a DB migration before
+            # including them here.
         }
 
     @classmethod

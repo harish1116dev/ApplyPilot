@@ -1,0 +1,44 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=f752eff60d52fc6a",
+  "url_hash": "1f658bc3d1c60c463bf31c8f3937e9bb28dcba941b88cb8db7b948fbe25d0944",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:05:28.472909+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title 'Technical Trainee' implies an entry-level position and no minimum experience is specified.",
+    "profile_match": 70,
+    "profile_reason": "The role aligns with the candidate's target 'Graduate Engineer Trainee' path, but the JD lacks technical specifics to confirm a high-skill match.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "Python",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Technical Trainee",
+    "company": "Eagle-Hi Tech Softclou Pvt Ltd",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a trainee-level technical role based in Chennai. It appears suitable for fresh graduates, though the job description provides no specific technology stack or responsibilities.",
+    "match": 70,
+    "match_reason": "The role aligns with the candidate's target 'Graduate Engineer Trainee' path, but the JD lacks technical specifics to confirm a high-skill match.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=f752eff60d52fc6a",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=f752eff60d52fc6a"
+    ],
+    "raw_jd": "Job Title: Technical Trainee\nCompany: Eagle-Hi Tech Softclou Pvt Ltd\nLocation: Hybrid work in Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:05:28.472909+00:00",
+  "applied": false,
+  "applied_at": null
+}

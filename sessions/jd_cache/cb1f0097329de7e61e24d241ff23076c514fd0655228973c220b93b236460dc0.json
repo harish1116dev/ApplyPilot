@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=3b2a78e498f587e7",
+  "url_hash": "cb1f0097329de7e61e24d241ff23076c514fd0655228973c220b93b236460dc0",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:13:31.660978+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state any minimum experience requirement.",
+    "profile_match": 80,
+    "profile_reason": "The candidate has strong React.js skills and projects, but the JD is critically underspecified regarding role expectations and scope.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "JavaScript"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "React JS",
+    "company": "App Innovation Technologies",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a role specifically focused on React.js development based in Coimbatore. The job description is extremely sparse and lacks details regarding responsibilities, team size, or employment terms.",
+    "match": 80,
+    "match_reason": "The candidate has strong React.js skills and projects, but the JD is critically underspecified regarding role expectations and scope.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=3b2a78e498f587e7",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=3b2a78e498f587e7"
+    ],
+    "raw_jd": "Job Title: React JS\nCompany: App Innovation Technologies\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:13:31.660978+00:00",
+  "applied": false,
+  "applied_at": null
+}

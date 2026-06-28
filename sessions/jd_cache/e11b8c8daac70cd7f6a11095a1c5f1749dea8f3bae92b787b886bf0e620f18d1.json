@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=a555ec39e947f7e6",
+  "url_hash": "e11b8c8daac70cd7f6a11095a1c5f1749dea8f3bae92b787b886bf0e620f18d1",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:07:48.413374+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not explicitly specify an experience requirement, requiring a manual review for confirmation.",
+    "profile_match": 60,
+    "profile_reason": "While the candidate has relevant Full Stack skills, the role is for an Internal Audit department, which likely requires specialized domain knowledge in compliance or auditing not present in the candidate's profile.",
+    "missing_skills": [
+      "Internal Audit",
+      "Compliance Frameworks",
+      "Risk Assessment"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "SQL"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Full Stack Engineer - Internal Audit",
+    "company": "Cloudflare",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is a Full Stack Engineering position situated within the Internal Audit team at Cloudflare. It likely focuses on building internal tools and automation to support audit processes and compliance monitoring.",
+    "match": 60,
+    "match_reason": "While the candidate has relevant Full Stack skills, the role is for an Internal Audit department, which likely requires specialized domain knowledge in compliance or auditing not present in the candidate's profile.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=a555ec39e947f7e6",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=a555ec39e947f7e6"
+    ],
+    "raw_jd": "Job Title: Full Stack Engineer - Internal Audit\nCompany: Cloudflare\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:07:48.413374+00:00",
+  "applied": false,
+  "applied_at": null
+}

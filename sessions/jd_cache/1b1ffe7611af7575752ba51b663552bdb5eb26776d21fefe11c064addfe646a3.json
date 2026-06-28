@@ -1,0 +1,47 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=02c8f32f3e1c5954",
+  "url_hash": "1b1ffe7611af7575752ba51b663552bdb5eb26776d21fefe11c064addfe646a3",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:08:15.465094+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 80,
+    "profile_reason": "The candidate has strong backend project experience with Node.js and Express, which aligns well with a backend internship role in their preferred city.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Node.js",
+      "Express.js",
+      "SQL",
+      "REST APIs"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Backend Developer Intern",
+    "company": "WENTRITE TENCHNOLOGY",
+    "location": "Teynampet, Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Backend Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "WENTRITE TENCHNOLOGY is hiring a Backend Developer Intern based in Teynampet, Chennai. The role focuses on backend development tasks, suitable for a candidate with strong foundational programming and server-side skills.",
+    "match": 80,
+    "match_reason": "The candidate has strong backend project experience with Node.js and Express, which aligns well with a backend internship role in their preferred city.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=02c8f32f3e1c5954",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=02c8f32f3e1c5954"
+    ],
+    "raw_jd": "Job Title: Backend Developer Intern\nCompany: WENTRITE TENCHNOLOGY\nLocation: Teynampet, Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:08:15.465094+00:00",
+  "applied": false,
+  "applied_at": null
+}

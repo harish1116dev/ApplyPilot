@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=8abd38764fd28518",
+  "url_hash": "b8d4f69850e3758bcd20686424589393c47d7c41214b726a0ae4f27f0e01bf6a",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:03:54.235686+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 65,
+    "profile_reason": "Candidate has strong Node.js/Backend experience, but lacks the PHP proficiency explicitly mentioned in the job title.",
+    "missing_skills": [
+      "PHP"
+    ],
+    "strong_matches": [
+      "Node.js",
+      "Backend Development",
+      "JavaScript"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Backend Developer (PHP & Node js)",
+    "company": "Prognova Partners Pvt Ltd",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "PHP",
+      "Node js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Backend Developer at Prognova Partners Pvt Ltd located in Coimbatore. The position requires proficiency in both PHP and Node.js for backend development tasks.",
+    "match": 65,
+    "match_reason": "Candidate has strong Node.js/Backend experience, but lacks the PHP proficiency explicitly mentioned in the job title.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=8abd38764fd28518",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=8abd38764fd28518"
+    ],
+    "raw_jd": "Job Title: Backend Developer (PHP & Node js)\nCompany: Prognova Partners Pvt Ltd\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:03:54.235686+00:00",
+  "applied": false,
+  "applied_at": null
+}

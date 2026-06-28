@@ -1,0 +1,54 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=8a4026f4e526c43b",
+  "url_hash": "92be2e1dc7dd3921917eb3e8b186ff0c29610de2d123145671a26914a3772c66",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:13:58.382836+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state any specific experience requirement, therefore it is treated as potentially fresher-eligible.",
+    "profile_match": 45,
+    "profile_reason": "The candidate has strong development skills but lacks the specific performance testing and SDET-focused background required for this role.",
+    "missing_skills": [
+      "Performance Testing",
+      "Load Testing Tools (e.g., JMeter, Locust, Gatling)",
+      "API Testing",
+      "Automation Frameworks",
+      "Quality Engineering"
+    ],
+    "strong_matches": [
+      "Python",
+      "SQL",
+      "JavaScript"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Software Development Engineer in Test - Performance Focus",
+    "company": "Alteryx",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Performance Testing",
+      "Software Development",
+      "Testing"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role focuses on performance testing within an SDET capacity. The candidate would be responsible for ensuring software scalability and reliability through rigorous performance evaluation and automated testing methodologies.",
+    "match": 45,
+    "match_reason": "The candidate has strong development skills but lacks the specific performance testing and SDET-focused background required for this role.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=8a4026f4e526c43b",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=8a4026f4e526c43b"
+    ],
+    "raw_jd": "Job Title: Software Development Engineer in Test - Performance Focus\nCompany: Alteryx\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:13:58.382836+00:00",
+  "applied": false,
+  "applied_at": null
+}

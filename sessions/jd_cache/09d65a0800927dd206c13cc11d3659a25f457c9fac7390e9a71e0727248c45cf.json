@@ -1,0 +1,46 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=807afff4dbbb9c0c",
+  "url_hash": "09d65a0800927dd206c13cc11d3659a25f457c9fac7390e9a71e0727248c45cf",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:09:22.577069+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 80,
+    "profile_reason": "The candidate's core stack (React.js, Python) aligns perfectly with the role, though the JD lacks details on project scope or team support.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "Python"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Website Developer (React.js + Python)",
+    "company": "Neeraali Digital Pvt Ltd",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js",
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a website developer role focused on React.js and Python. It appears to be a technical role potentially suitable for a developer with full-stack capabilities, though specific job responsibilities are not provided.",
+    "match": 80,
+    "match_reason": "The candidate's core stack (React.js, Python) aligns perfectly with the role, though the JD lacks details on project scope or team support.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=807afff4dbbb9c0c",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=807afff4dbbb9c0c"
+    ],
+    "raw_jd": "Job Title: Website Developer (React.js + Python)\nCompany: Neeraali Digital Pvt Ltd\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:09:22.577069+00:00",
+  "applied": false,
+  "applied_at": null
+}

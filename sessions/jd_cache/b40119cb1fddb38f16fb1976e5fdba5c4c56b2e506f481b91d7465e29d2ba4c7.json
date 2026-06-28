@@ -1,0 +1,50 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=0a385c13e61caec4",
+  "url_hash": "b40119cb1fddb38f16fb1976e5fdba5c4c56b2e506f481b91d7465e29d2ba4c7",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:04:27.682163+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, which is typical for internship roles.",
+    "profile_match": 85,
+    "profile_reason": "The candidate has a strong MERN stack background and project experience relevant to the role, and the location (Coimbatore) is a preferred city.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "JavaScript"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "MERN Stack Developer Intern",
+    "company": "Tamizha Media Pvt Ltd",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Internship role focused on MERN stack development at Tamizha Media. Suitable for entry-level developers looking to build professional experience in React, Node, and Express.",
+    "match": 85,
+    "match_reason": "The candidate has a strong MERN stack background and project experience relevant to the role, and the location (Coimbatore) is a preferred city.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=0a385c13e61caec4",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=0a385c13e61caec4"
+    ],
+    "raw_jd": "Job Title: MERN Stack Developer Intern\nCompany: Tamizha Media Pvt Ltd\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:04:27.682163+00:00",
+  "applied": false,
+  "applied_at": null
+}

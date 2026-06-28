@@ -1,0 +1,53 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=cdca8d6cedbeeb28",
+  "url_hash": "7b5e17a2800f3e8c8baddd2e927a26c10a2ef3447976495f7d6aa0f4df766a28",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:05:21.903485+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job description does not state any minimum experience requirement, making it potentially open to freshers.",
+    "profile_match": 40,
+    "profile_reason": "The candidate has a background in AI/Data Science and Software Development, whereas the role is for a Network Engineer which requires specific networking hardware/protocol expertise not highlighted in the candidate's core projects.",
+    "missing_skills": [
+      "Networking Hardware",
+      "Cisco/Juniper Certification",
+      "Network Protocols (BGP, OSPF, EIGRP)",
+      "Firewall Management",
+      "Network Troubleshooting"
+    ],
+    "strong_matches": [
+      "Network Basics",
+      "SQL",
+      "Python"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Network Engineer",
+    "company": "Heat and control south asia pvt ltd",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Network Engineering",
+      "Network Infrastructure"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Network Engineer based in Chennai. It involves managing and maintaining network infrastructure, though no specific technical requirements or experience levels were provided in the description.",
+    "match": 40,
+    "match_reason": "The candidate has a background in AI/Data Science and Software Development, whereas the role is for a Network Engineer which requires specific networking hardware/protocol expertise not highlighted in the candidate's core projects.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=cdca8d6cedbeeb28",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=cdca8d6cedbeeb28"
+    ],
+    "raw_jd": "Job Title: Network Engineer\nCompany: Heat and control south asia pvt ltd\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:05:21.903485+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=e29bc5f32b33d83e",
+  "url_hash": "9dd523cb1b1a9a1512d3c2b885c4d216792ada7a12501cbabeb1dce9a67759e9",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:07:55.028435+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job description does not state any minimum experience requirement, qualifying it as potentially entry-level/internship.",
+    "profile_match": 70,
+    "profile_reason": "The candidate has relevant technical skills for an internship, but the JD is extremely vague regarding the tech stack and responsibilities.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "Python",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Software Developer Intern",
+    "company": "Lakshagath Enterprises",
+    "location": "Chengalpattu, Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an internship position for a software developer role based in Chengalpattu, Chennai. The job description is incomplete and lacks specific information regarding required technologies or job duties.",
+    "match": 70,
+    "match_reason": "The candidate has relevant technical skills for an internship, but the JD is extremely vague regarding the tech stack and responsibilities.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=e29bc5f32b33d83e",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=e29bc5f32b33d83e"
+    ],
+    "raw_jd": "Job Title: Software Developer Intern\nCompany: Lakshagath Enterprises\nLocation: Chengalpattu, Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:07:55.028435+00:00",
+  "applied": false,
+  "applied_at": null
+}

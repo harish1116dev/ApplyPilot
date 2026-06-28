@@ -171,6 +171,34 @@ def process_single_job(job: Job, profile: dict, settings: dict) -> str:
         insert_application, update_job_status, insert_job, job_exists,
     )
 
+    # ── Manual review: fire Telegram FIRST, then attempt DB ────────────────
+    # Telegram must never be blocked by a DB error.  Send the alert before
+    # any insert so the user always gets the notification regardless of
+    # Supabase schema state.
+    if job.decision == "manual_review":
+        from modules.notification_agent import send_manual_alert
+        logger.info(
+            f"[pipeline] MANUAL REVIEW — sending Telegram for "
+            f"'{job.title}' @ '{job.company}' (match={job.match_score}%)"
+        )
+        send_manual_alert(job.__dict__, {}, reason=f"match={job.match_score}%")
+
+        # Attempt DB save — non-critical, don't crash if it fails
+        try:
+            if not job_exists(job.title, job.company):
+                db_payload = job.to_db_payload()
+                job.db_id = insert_job(db_payload)
+                update_job_status(job.db_id, "manual")
+        except Exception as db_err:
+            logger.warning(
+                f"[pipeline] DB save failed for manual job "
+                f"'{job.title}' (Telegram was already sent): {db_err}"
+            )
+
+        job.status = "manual"
+        return "manual"
+
+    # ── Auto-apply path ─────────────────────────────────────────────────────
     try:
         # Deduplication check against DB
         if job_exists(job.title, job.company):
@@ -180,17 +208,17 @@ def process_single_job(job: Job, profile: dict, settings: dict) -> str:
             job.status = "skipped"
             return "skipped"
 
-        # Save to DB
-        db_payload = job.to_db_payload()
-        job.db_id = insert_job(db_payload)
-        job.log_event("db_saved", f"db_id={job.db_id}")
-
-        if job.decision == "manual_review":
-            from modules.notification_agent import send_manual_alert
-            send_manual_alert(job.__dict__, {}, reason="manual_review")
-            update_job_status(job.db_id, "manual")
-            job.status = "manual"
-            return "manual"
+        # Save to DB first (so we have an ID for the application record)
+        try:
+            db_payload = job.to_db_payload()
+            job.db_id = insert_job(db_payload)
+            job.log_event("db_saved", f"db_id={job.db_id}")
+        except Exception as db_err:
+            logger.error(
+                f"[pipeline] DB insert failed for '{job.title}': {db_err} — skipping apply"
+            )
+            job.status = "failed"
+            return "failed"
 
         # Prepare application
         job.resume_path = select_resume(job.__dict__, profile)

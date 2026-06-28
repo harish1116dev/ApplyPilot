@@ -1,0 +1,44 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=8f631dde4a6678bb",
+  "url_hash": "8527d8b10ea244f76128c12ba68c78a64b4efe9416a5074d13d64137524a5457",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:10:10.707016+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience field in the job description is blank, making it potentially eligible for a fresher.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has relevant backend projects (Node.js/Express/SQLite), but the JD is extremely sparse, providing no specific skill requirements to verify alignment.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Node.js",
+      "Express.js",
+      "SQL"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Backend Developer",
+    "company": "Shyena Solutions Private Limited",
+    "location": "Girinagar, Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Backend Developer role at Shyena Solutions Private Limited based in Bengaluru. The job description provides no specific technical requirements or experience constraints.",
+    "match": 65,
+    "match_reason": "The candidate has relevant backend projects (Node.js/Express/SQLite), but the JD is extremely sparse, providing no specific skill requirements to verify alignment.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=8f631dde4a6678bb",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=8f631dde4a6678bb"
+    ],
+    "raw_jd": "Job Title: Backend Developer\nCompany: Shyena Solutions Private Limited\nLocation: Girinagar, Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:10:10.707016+00:00",
+  "applied": false,
+  "applied_at": null
+}

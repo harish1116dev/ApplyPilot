@@ -1,0 +1,52 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=6286028e20070290",
+  "url_hash": "0927dae851ac67ba7314139d958af4b7cf5b5a3bcc2154cffa65193fcbda8f18",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:12:58.865765+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it is treated as fresher-eligible.",
+    "profile_match": 60,
+    "profile_reason": "While the candidate has strong web development fundamentals, Shopify development requires specific expertise in Liquid templating and the Shopify ecosystem, which the candidate lacks.",
+    "missing_skills": [
+      "Shopify",
+      "Liquid",
+      "Theme Development",
+      "Shopify API"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "HTML",
+      "CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Shopify Developer",
+    "company": "Visko Groups",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Shopify"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Shopify Developer role responsible for building and maintaining e-commerce websites on the Shopify platform. This role involves front-end customization and managing the technical aspects of the online store.",
+    "match": 60,
+    "match_reason": "While the candidate has strong web development fundamentals, Shopify development requires specific expertise in Liquid templating and the Shopify ecosystem, which the candidate lacks.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=6286028e20070290",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=6286028e20070290"
+    ],
+    "raw_jd": "Job Title: Shopify Developer\nCompany: Visko Groups\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:12:58.865765+00:00",
+  "applied": false,
+  "applied_at": null
+}

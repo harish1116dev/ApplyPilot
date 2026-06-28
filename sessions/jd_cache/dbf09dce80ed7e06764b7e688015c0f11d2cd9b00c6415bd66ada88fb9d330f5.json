@@ -1,0 +1,54 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=fc6532842bcbb605",
+  "url_hash": "dbf09dce80ed7e06764b7e688015c0f11d2cd9b00c6415bd66ada88fb9d330f5",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:02:48.621830+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not explicitly mention any minimum years of experience requirement.",
+    "profile_match": 30,
+    "profile_reason": "The candidate has zero experience with Web3 technologies (Blockchain, Smart Contracts, Solidity, Web3.js/Ethers.js) required for this role.",
+    "missing_skills": [
+      "Blockchain",
+      "Smart Contracts",
+      "Solidity",
+      "Web3.js",
+      "Ethers.js",
+      "Distributed Systems"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "Node.js",
+      "React.js"
+    ],
+    "recommendation": "ignore",
+    "confidence": 70,
+    "title": "Web3 Engineer",
+    "company": "Marketnode Pte. Ltd.",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Web3",
+      "Blockchain"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role focuses on Web3 engineering, which involves blockchain infrastructure and decentralized application development. The candidate lacks the specialized domain expertise in blockchain required for this position.",
+    "match": 30,
+    "match_reason": "The candidate has zero experience with Web3 technologies (Blockchain, Smart Contracts, Solidity, Web3.js/Ethers.js) required for this role.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=fc6532842bcbb605",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=fc6532842bcbb605"
+    ],
+    "raw_jd": "Job Title: Web3 Engineer\nCompany: Marketnode Pte. Ltd.\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:02:48.621830+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=c12d741659f3fcc6",
+  "url_hash": "9513a13ee3c8e46bce158a11889658497ae60c9e4c9f292bce0d0fa3cdf2eb15",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:09:09.265884+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 70,
+    "profile_reason": "The candidate has strong React.js and CSS skills relevant to frontend development, but the JD lacks detail to confirm fit.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Front End Developer",
+    "company": "Shyena Solutions Private Limited",
+    "location": "Girinagar, Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Front End Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Front End Developer at Shyena Solutions in Bengaluru. The job description is extremely brief and does not provide specific technical requirements or experience levels.",
+    "match": 70,
+    "match_reason": "The candidate has strong React.js and CSS skills relevant to frontend development, but the JD lacks detail to confirm fit.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=c12d741659f3fcc6",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=c12d741659f3fcc6"
+    ],
+    "raw_jd": "Job Title: Front End Developer\nCompany: Shyena Solutions Private Limited\nLocation: Girinagar, Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:09:09.265884+00:00",
+  "applied": false,
+  "applied_at": null
+}

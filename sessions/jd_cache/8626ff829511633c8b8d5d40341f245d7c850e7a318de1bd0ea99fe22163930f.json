@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=3375cadd380c4086",
+  "url_hash": "8626ff829511633c8b8d5d40341f245d7c850e7a318de1bd0ea99fe22163930f",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:13:12.080181+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, making it potentially eligible for a fresher.",
+    "profile_match": 30,
+    "profile_reason": "The candidate's tech stack (MERN) does not align with the core requirements (PHP and Wordpress).",
+    "missing_skills": [
+      "PHP",
+      "Wordpress",
+      "CMS Development"
+    ],
+    "strong_matches": [
+      "JavaScript"
+    ],
+    "recommendation": "ignore",
+    "confidence": 60,
+    "title": "PHP & Wordpress Developer",
+    "company": "Exdera",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "PHP",
+      "Wordpress"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role involves developing and maintaining websites using PHP and the Wordpress content management system. It is a specialized role focused on CMS development rather than the Full Stack JavaScript development path of the candidate.",
+    "match": 30,
+    "match_reason": "The candidate's tech stack (MERN) does not align with the core requirements (PHP and Wordpress).",
+    "apply_url": "https://in.indeed.com/viewjob?jk=3375cadd380c4086",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=3375cadd380c4086"
+    ],
+    "raw_jd": "Job Title: PHP & Wordpress Developer\nCompany: Exdera\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:13:12.080181+00:00",
+  "applied": false,
+  "applied_at": null
+}

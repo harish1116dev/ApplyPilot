@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=d6bffdf5eddeeaa1",
+  "url_hash": "de1c180cafadf7c596425b17f23c6d800c7822f087e4a562a018978fdd71f8cb",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:10:23.989260+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 80,
+    "profile_reason": "The candidate has strong project experience with Node.js and Express.js, aligning well with the junior developer role.",
+    "missing_skills": [
+      "Professional work experience"
+    ],
+    "strong_matches": [
+      "Node.js",
+      "Express.js",
+      "JavaScript",
+      "REST APIs"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Junior Node.js Developer",
+    "company": "Keel Info Solution",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Node.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Junior Node.js Developer position at Keel Info Solution in Chennai. The role focuses on backend development using Node.js, which aligns with the candidate's technical training and project background.",
+    "match": 80,
+    "match_reason": "The candidate has strong project experience with Node.js and Express.js, aligning well with the junior developer role.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=d6bffdf5eddeeaa1",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=d6bffdf5eddeeaa1"
+    ],
+    "raw_jd": "Job Title: Junior Node.js Developer\nCompany: Keel Info Solution\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:10:23.989260+00:00",
+  "applied": false,
+  "applied_at": null
+}

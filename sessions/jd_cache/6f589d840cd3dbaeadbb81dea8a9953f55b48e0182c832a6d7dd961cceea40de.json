@@ -1,0 +1,47 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=15510118636dc7e6",
+  "url_hash": "6f589d840cd3dbaeadbb81dea8a9953f55b48e0182c832a6d7dd961cceea40de",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:09:37.518643+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, making it potentially eligible for a fresher.",
+    "profile_match": 25,
+    "profile_reason": "The candidate is a Full Stack/AI developer, while this role is strictly focused on WordPress content management, which is outside the candidate's core technical profile.",
+    "missing_skills": [
+      "WordPress",
+      "Content Management Systems",
+      "SEO"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 70,
+    "title": "Wordpress Content Management",
+    "company": "CloudThat Technologies",
+    "location": "Bangalore City, Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Wordpress",
+      "Content Management"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role focuses on WordPress Content Management at CloudThat Technologies. It requires expertise in managing website content using the WordPress platform, which does not align with the candidate's development-heavy background.",
+    "match": 25,
+    "match_reason": "The candidate is a Full Stack/AI developer, while this role is strictly focused on WordPress content management, which is outside the candidate's core technical profile.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=15510118636dc7e6",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=15510118636dc7e6"
+    ],
+    "raw_jd": "Job Title: Wordpress Content Management\nCompany: CloudThat Technologies\nLocation: Bangalore City, Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:09:37.518643+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,53 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=6cc48d50c7a4d3fd",
+  "url_hash": "cb1fdba4dca5d7a1a99ed8230cb05706999c180a5a107f85fa98cc4079f1e16a",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:03:01.725526+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state any specific experience requirement, allowing for a fresher application.",
+    "profile_match": 40,
+    "profile_reason": "The candidate has strong general backend and automation skills (Node.js, REST APIs), but lacks specific commercial experience or projects involving n8n or low-code automation workflows.",
+    "missing_skills": [
+      "n8n",
+      "Workflow Automation",
+      "API Integration Platforms"
+    ],
+    "strong_matches": [
+      "Node.js",
+      "REST APIs",
+      "JavaScript",
+      "Python"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "n8n Automation Developer",
+    "company": "Cloud4Green Technologies",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "n8n",
+      "Automation",
+      "API integration"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role focuses on building automated workflows using the n8n low-code platform. It requires integration capabilities and backend logic implementation to streamline business processes.",
+    "match": 40,
+    "match_reason": "The candidate has strong general backend and automation skills (Node.js, REST APIs), but lacks specific commercial experience or projects involving n8n or low-code automation workflows.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=6cc48d50c7a4d3fd",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=6cc48d50c7a4d3fd"
+    ],
+    "raw_jd": "Job Title: n8n Automation Developer\nCompany: Cloud4Green Technologies\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:03:01.725526+00:00",
+  "applied": false,
+  "applied_at": null
+}

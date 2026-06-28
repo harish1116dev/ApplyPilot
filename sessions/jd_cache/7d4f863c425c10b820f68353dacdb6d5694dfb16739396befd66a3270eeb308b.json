@@ -1,0 +1,47 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=bfcb85e57d151082",
+  "url_hash": "7d4f863c425c10b820f68353dacdb6d5694dfb16739396befd66a3270eeb308b",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:02:09.063767+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, which is typical for internship roles.",
+    "profile_match": 85,
+    "profile_reason": "Candidate has strong relevant skills in React.js, HTML, and CSS, and projects that demonstrate frontend proficiency.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Front End Developer Intern",
+    "company": "WENTRITE TENCHNOLOGY",
+    "location": "Teynampet, Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Front End Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Internship role focused on front-end development tasks within a technology company in Chennai. Suitable for a candidate looking to gain hands-on experience in building user interfaces.",
+    "match": 85,
+    "match_reason": "Candidate has strong relevant skills in React.js, HTML, and CSS, and projects that demonstrate frontend proficiency.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=bfcb85e57d151082",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=bfcb85e57d151082"
+    ],
+    "raw_jd": "Job Title: Front End Developer Intern\nCompany: WENTRITE TENCHNOLOGY\nLocation: Teynampet, Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:02:09.063767+00:00",
+  "applied": false,
+  "applied_at": null
+}

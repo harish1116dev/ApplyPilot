@@ -1,0 +1,44 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=e71f13387f648aa9",
+  "url_hash": "0bcb69d20f00281a951298bc89372c9ebea5abac0ec480a7f908d4a5b84a6219",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:03:21.431119+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state any specific experience requirement, allowing for a fresher entry.",
+    "profile_match": 70,
+    "profile_reason": "Strong skill alignment with the stack (React, Node), but the JD is extremely sparse, making it impossible to assess specific requirements or company standards.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "Node.js",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Full Stack Developer",
+    "company": "Pegasus Consulting",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Full Stack Developer role at Pegasus Consulting based in Bengaluru. The job description is incomplete, providing no information on required technical skills or years of experience.",
+    "match": 70,
+    "match_reason": "Strong skill alignment with the stack (React, Node), but the JD is extremely sparse, making it impossible to assess specific requirements or company standards.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=e71f13387f648aa9",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=e71f13387f648aa9"
+    ],
+    "raw_jd": "Job Title: Full Stack Developer\nCompany: Pegasus Consulting\nLocation: Hybrid work in Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:03:21.431119+00:00",
+  "applied": false,
+  "applied_at": null
+}

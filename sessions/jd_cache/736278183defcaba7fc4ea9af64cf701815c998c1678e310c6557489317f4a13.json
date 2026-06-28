@@ -1,0 +1,44 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=a697f61520d0f5c0",
+  "url_hash": "736278183defcaba7fc4ea9af64cf701815c998c1678e310c6557489317f4a13",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:04:20.680009+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not stated, making it implicitly open to freshers as an intern role.",
+    "profile_match": 80,
+    "profile_reason": "Candidate has strong Python proficiency and relevant project experience, matching the intern role perfectly, though the JD is extremely sparse.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Python"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Python Developer Intern",
+    "company": "Tamizha Media Pvt Ltd",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Internship opportunity for a Python Developer at Tamizha Media Pvt Ltd based in Coimbatore. The job description provides no specific details on responsibilities or technical stack beyond the Python requirement.",
+    "match": 80,
+    "match_reason": "Candidate has strong Python proficiency and relevant project experience, matching the intern role perfectly, though the JD is extremely sparse.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=a697f61520d0f5c0",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=a697f61520d0f5c0"
+    ],
+    "raw_jd": "Job Title: Python Developer Intern\nCompany: Tamizha Media Pvt Ltd\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:04:20.680009+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=b449ac167d7eeb44",
+  "url_hash": "c4552257aa1302db735ecee4a5d51d999e5b439f0c96f0732d3a8204c74b670f",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:11:44.140271+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description, making it potentially eligible for a fresher.",
+    "profile_match": 70,
+    "profile_reason": "The candidate has strong React.js and Full Stack projects, but the JD lacks detail to confirm if they accept freshers or require specific production experience.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Full Stack Developer (React.js)",
+    "company": "SRM Technologies",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Full Stack Developer role focusing on React.js at SRM Technologies in Bengaluru. The job description is sparse, requiring manual verification of entry-level suitability.",
+    "match": 70,
+    "match_reason": "The candidate has strong React.js and Full Stack projects, but the JD lacks detail to confirm if they accept freshers or require specific production experience.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=b449ac167d7eeb44",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=b449ac167d7eeb44"
+    ],
+    "raw_jd": "Job Title: Full Stack Developer (React.js)\nCompany: SRM Technologies\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:11:44.140271+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,47 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=ba4e24c59cae15f1",
+  "url_hash": "2b3b459eb76b1614efe80fe8e0d2fcab342004e427f15601ca721a744a3f3fa3",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:09:44.107999+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state any minimum experience requirement, which is typical for internships.",
+    "profile_match": 80,
+    "profile_reason": "Candidate has strong proficiency in React.js and relevant full-stack projects, matching the core requirements for an intern role.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "ReactJS Developer Intern",
+    "company": "TCP International Incl Chennai",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "ReactJS"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a ReactJS Developer Intern based in Coimbatore. The position focuses on frontend development using ReactJS for an unspecified duration or project scope.",
+    "match": 80,
+    "match_reason": "Candidate has strong proficiency in React.js and relevant full-stack projects, matching the core requirements for an intern role.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=ba4e24c59cae15f1",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=ba4e24c59cae15f1"
+    ],
+    "raw_jd": "Job Title: ReactJS Developer Intern\nCompany: TCP International Incl Chennai\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:09:44.107999+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -72,24 +72,31 @@ def send_application_update(job: dict, result: str) -> None:
         pass
 
 
-def send_manual_alert(job: dict, answers: dict, reason: str = "unknown") -> None:
+def send_manual_alert(job: dict, answers: dict, reason: str = "manual_review") -> None:
     apply_url = job.get('apply_url', '')
-    answers_text = "\n".join(f"Q: {q}\nA: {a}" for q, a in (answers or {}).items())
+    match_score = job.get('match_score', '?')
+    confidence = job.get('confidence', '?')
+    missing = job.get('missing_skills', [])
+    strong = job.get('strong_matches', [])
+
+    missing_text = (", ".join(missing[:5]) if missing else "None identified")
+    strong_text = (", ".join(strong[:5]) if strong else "None identified")
+
     alert_text = (
-        f"\U0001f7e1 <b>Apply Manually</b>\n"
-        f"━━━━━━━━━━━━━━━━━━━━\n"
+        f"\U0001f7e1 <b>Manual Apply Needed</b>\n"
+        f"\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n"
         f"\U0001f3e2 <b>{job.get('company')}</b>\n"
         f"\U0001f4bc Role: {job.get('title')}\n"
         f"\U0001f4cd Location: {job.get('location', 'N/A')}\n"
-        f"\U0001f3af Match: <b>{job.get('match_score', '?')}%</b>\n"
-        f"\u26a0\ufe0f Reason: {reason}\n"
-        f"━━━━━━━━━━━━━━━━━━━━\n"
-        f"\U0001f517 <a href=\"{apply_url}\">👆 TAP HERE TO APPLY</a>\n\n"
-        f"Resume variant: <code>{job.get('resume_variant', 'master')}</code>\n"
-        f"I've prepared all answers below \u2193"
+        f"\U0001f3af Match: <b>{match_score}%</b>  |  Confidence: {confidence}%\n"
+        f"\u2705 Strong: <i>{strong_text}</i>\n"
+        f"\u274c Missing: <i>{missing_text}</i>\n"
+        f"\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\n"
+        f"\U0001f517 <a href=\"{apply_url}\">\U0001f446 TAP HERE TO APPLY</a>\n"
     )
     _send(alert_text)
 
+    answers_text = "\n".join(f"Q: {q}\nA: {a}" for q, a in (answers or {}).items())
     if answers_text:
         _send(f"\U0001f4cb <b>Prepared Answers:</b>\n\n{answers_text[:3000]}")
 

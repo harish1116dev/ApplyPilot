@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=7edfcd9ab7b21601",
+  "url_hash": "d009d972b1434e948fdd80b1946d21cc36a53ddd6afa95e8718f675f5fef1e97",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:03:14.878904+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 75,
+    "profile_reason": "The candidate has strong React.js and CSS skills relevant to a Front End role, but the JD lacks specific technical requirements to confirm a higher alignment.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Front End Developer",
+    "company": "Noesis IT",
+    "location": "Bangalore City, Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Front End Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Noesis IT is seeking a Front End Developer to be based in Bengaluru. The job description is extremely brief and provides no specific details regarding required years of experience or specific technical stacks.",
+    "match": 75,
+    "match_reason": "The candidate has strong React.js and CSS skills relevant to a Front End role, but the JD lacks specific technical requirements to confirm a higher alignment.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=7edfcd9ab7b21601",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=7edfcd9ab7b21601"
+    ],
+    "raw_jd": "Job Title: Front End Developer\nCompany: Noesis IT\nLocation: Bangalore City, Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:03:14.878904+00:00",
+  "applied": false,
+  "applied_at": null
+}

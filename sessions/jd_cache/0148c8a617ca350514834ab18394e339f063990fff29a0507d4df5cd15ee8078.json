@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=a2dabe0278d3e428",
+  "url_hash": "0148c8a617ca350514834ab18394e339f063990fff29a0507d4df5cd15ee8078",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:11:17.416726+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 75,
+    "profile_reason": "The candidate has strong full-stack skills matching the title, but the JD lacks specific tech stack requirements to confirm a higher alignment.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Full Stack Web Developer",
+    "company": "Guires Solutions Pvt Ltd",
+    "location": "Nungambakkam High Road, Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Full Stack Web Developer role based in Chennai. As the JD provides minimal details, manual verification is required to ensure it aligns with entry-level expectations and specific technology needs.",
+    "match": 75,
+    "match_reason": "The candidate has strong full-stack skills matching the title, but the JD lacks specific tech stack requirements to confirm a higher alignment.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=a2dabe0278d3e428",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=a2dabe0278d3e428"
+    ],
+    "raw_jd": "Job Title: Full Stack Web Developer\nCompany: Guires Solutions Pvt Ltd\nLocation: Nungambakkam High Road, Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:11:17.416726+00:00",
+  "applied": false,
+  "applied_at": null
+}

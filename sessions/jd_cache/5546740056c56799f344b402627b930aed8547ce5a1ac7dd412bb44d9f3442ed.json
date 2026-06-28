@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=f24de36b4c2ae28c",
+  "url_hash": "5546740056c56799f344b402627b930aed8547ce5a1ac7dd412bb44d9f3442ed",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:10:50.390213+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title 'Lead Software Engineer' implies a senior-level position which is not suitable for a fresher.",
+    "profile_match": 0,
+    "profile_reason": "The role requires significant leadership and professional experience, which the candidate lacks.",
+    "missing_skills": [
+      "Leadership",
+      "System Architecture",
+      "Advanced Software Engineering",
+      "Professional Experience"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "Lead Software Engineer P4",
+    "company": "Wells Fargo",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Leadership",
+      "Software Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The Lead Software Engineer P4 role at Wells Fargo is a senior-level position involving technical leadership and architectural oversight, incompatible with an entry-level candidate.",
+    "match": 0,
+    "match_reason": "The role requires significant leadership and professional experience, which the candidate lacks.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=f24de36b4c2ae28c",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=f24de36b4c2ae28c"
+    ],
+    "raw_jd": "Job Title: Lead Software Engineer P4\nCompany: Wells Fargo\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:10:50.390213+00:00",
+  "applied": false,
+  "applied_at": null
+}

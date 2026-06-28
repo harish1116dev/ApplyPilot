@@ -1,0 +1,47 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=4d5876e129ab9538",
+  "url_hash": "2a61b4dece1cba226ac4f027ca4eb27368a03ef864b3b59eb232a1bedb461b2d",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:02:35.391431+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title 'SME' (Subject Matter Expert) inherently implies a senior-level position requiring professional expertise beyond the fresher level.",
+    "profile_match": 0,
+    "profile_reason": "SME roles require significant domain expertise and professional work experience which a fresh graduate does not possess.",
+    "missing_skills": [
+      "ServiceNow"
+    ],
+    "strong_matches": [
+      "JavaScript"
+    ],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "SME - ServiceNow,JavaScript",
+    "company": "HCLTech",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "ServiceNow",
+      "JavaScript"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Subject Matter Expert (SME) role focused on ServiceNow development and administration. The position requires specialized professional experience in the ServiceNow ecosystem which is not suitable for a fresh graduate.",
+    "match": 0,
+    "match_reason": "SME roles require significant domain expertise and professional work experience which a fresh graduate does not possess.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=4d5876e129ab9538",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=4d5876e129ab9538"
+    ],
+    "raw_jd": "Job Title: SME - ServiceNow,JavaScript\nCompany: HCLTech\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:02:35.391431+00:00",
+  "applied": false,
+  "applied_at": null
+}

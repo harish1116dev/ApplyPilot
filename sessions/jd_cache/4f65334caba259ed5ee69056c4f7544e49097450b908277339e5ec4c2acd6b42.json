@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=b03e00b7180d31a5",
+  "url_hash": "4f65334caba259ed5ee69056c4f7544e49097450b908277339e5ec4c2acd6b42",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:02:22.244807+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify an experience requirement, which is typical for internship roles.",
+    "profile_match": 80,
+    "profile_reason": "The candidate has strong Python and Full Stack skills, and the role is an internship located in their preferred city.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Python",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Python Full Stack Developer Intern",
+    "company": "BTree Systems OPC LIMITIED",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Python",
+      "Full Stack Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "BTree Systems is seeking a Python Full Stack Developer Intern in Chennai. The role focuses on end-to-end web application development using Python and supporting web technologies.",
+    "match": 80,
+    "match_reason": "The candidate has strong Python and Full Stack skills, and the role is an internship located in their preferred city.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=b03e00b7180d31a5",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=b03e00b7180d31a5"
+    ],
+    "raw_jd": "Job Title: Python Full Stack Developer Intern\nCompany: BTree Systems OPC LIMITIED\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:02:22.244807+00:00",
+  "applied": false,
+  "applied_at": null
+}

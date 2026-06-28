@@ -1,0 +1,50 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=1e0840ce17a5aee2",
+  "url_hash": "a9562565731bfd6c347acc697382887712d470333abfd757129b01922027d351",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:08:49.320759+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify any minimum experience requirement, making it potentially open to freshers.",
+    "profile_match": 65,
+    "profile_reason": "Strong match in React and frontend development; however, the candidate lacks the required WordPress experience mentioned in the title.",
+    "missing_skills": [
+      "WordPress"
+    ],
+    "strong_matches": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "UI Developer (React + WordPress)",
+    "company": "Innoblitz Technologies & Systems Pvt. Ltd.",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React",
+      "WordPress"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role involves UI development with a specific focus on React and WordPress. It is based in Chennai and requires front-end proficiency.",
+    "match": 65,
+    "match_reason": "Strong match in React and frontend development; however, the candidate lacks the required WordPress experience mentioned in the title.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=1e0840ce17a5aee2",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=1e0840ce17a5aee2"
+    ],
+    "raw_jd": "Job Title: UI Developer (React + WordPress)\nCompany: Innoblitz Technologies & Systems Pvt. Ltd.\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:08:49.320759+00:00",
+  "applied": false,
+  "applied_at": null
+}

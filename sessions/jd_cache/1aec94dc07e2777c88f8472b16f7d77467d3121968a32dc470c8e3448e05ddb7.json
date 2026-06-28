@@ -1,0 +1,57 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=8f6c91635c609c6a",
+  "url_hash": "1aec94dc07e2777c88f8472b16f7d77467d3121968a32dc470c8e3448e05ddb7",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:13:25.206413+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify any minimum experience requirement.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has strong front-end skills (React.js, Tailwind, CSS) suitable for UI development, but lacks specific UI/UX design tool experience (Figma, Adobe XD) mentioned in standard UI/UX roles.",
+    "missing_skills": [
+      "Figma",
+      "Adobe XD",
+      "Sketch",
+      "Prototyping tools",
+      "User research"
+    ],
+    "strong_matches": [
+      "React.js",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "JavaScript"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "UI/UX Developer",
+    "company": "Exaltt Core Solutions Pvt Ltd",
+    "location": "Kalapatti, Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "UI design",
+      "UX design",
+      "Front-end development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role involves UI/UX development, requiring a blend of design sensibility and front-end implementation skills. It is located in Coimbatore and is potentially suitable for a fresher given the lack of listed experience prerequisites.",
+    "match": 65,
+    "match_reason": "The candidate has strong front-end skills (React.js, Tailwind, CSS) suitable for UI development, but lacks specific UI/UX design tool experience (Figma, Adobe XD) mentioned in standard UI/UX roles.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=8f6c91635c609c6a",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=8f6c91635c609c6a",
+      "https://in.indeed.com/viewjob?jk=66320a1099c5d40a"
+    ],
+    "raw_jd": "Job Title: UI/UX Developer\nCompany: Exaltt Core Solutions Pvt Ltd\nLocation: Kalapatti, Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:13:25.206413+00:00",
+  "applied": false,
+  "applied_at": null
+}

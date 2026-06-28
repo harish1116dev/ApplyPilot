@@ -17,11 +17,20 @@ def decide_from_gemini(result: dict) -> str:
     """
     Rule-based decision using Gemini's structured verdict.
 
+    Thresholds:
+      profile_match >= 70  →  auto_apply   (bot applies automatically)
+      profile_match >= 50  →  manual_review (send to Telegram for Harish to apply)
+      profile_match <  50  →  ignore
+
     Rules (evaluated in order — first match wins):
-      1. is_fresher_job == False  →  ignore   (experience requirement too high)
-      2. profile_match < 80       →  ignore   (profile doesn't fit)
-      3. confidence < 80          →  manual_review  (Gemini is unsure)
-      4. else                     →  auto_apply
+      1. is_fresher_job == False  →  ignore (experience req too high, skip entirely)
+      2. Gemini rec == ignore     →  ignore (Gemini explicitly rejected)
+      3. profile_match >= 70      →  auto_apply
+      4. profile_match >= 50      →  manual_review
+      5. else                     →  ignore
+
+    Note: confidence is no longer a hard gate — low-confidence jobs in the
+    50-69 range still go to manual_review so Harish can decide.
 
     Parameters
     ----------
@@ -34,11 +43,9 @@ def decide_from_gemini(result: dict) -> str:
     """
     is_fresher_job = result.get("is_fresher_job", False)
     profile_match = result.get("profile_match", 0)
-    confidence = result.get("confidence", 0)
-    # Also respect Gemini's own recommendation if it explicitly said IGNORE
     gemini_rec = result.get("recommendation", "ignore")
 
-    # Rule 1 — Not a fresher role
+    # Rule 1 — Not a fresher role at all
     if not is_fresher_job:
         logger.debug(
             f"[decision] IGNORE — not a fresher job "
@@ -46,31 +53,31 @@ def decide_from_gemini(result: dict) -> str:
         )
         return "ignore"
 
-    # Rule 2 — Gemini explicitly recommended ignore (e.g. profile mismatch it detected)
+    # Rule 2 — Gemini explicitly recommended ignore
     if gemini_rec == "ignore":
-        logger.debug(f"[decision] IGNORE — Gemini recommended IGNORE "
-                     f"(profile_match={profile_match}%)")
-        return "ignore"
-
-    # Rule 3 — Profile match too low
-    if profile_match < 80:
-        logger.debug(f"[decision] IGNORE — profile_match={profile_match}% < 80%")
-        return "ignore"
-
-    # Rule 4 — Confidence too low → surface for human review
-    if confidence < 80:
         logger.debug(
-            f"[decision] MANUAL_REVIEW — confidence={confidence}% < 80% "
+            f"[decision] IGNORE — Gemini recommended IGNORE "
             f"(profile_match={profile_match}%)"
+        )
+        return "ignore"
+
+    # Rule 3 — Strong match → auto apply
+    if profile_match >= 70:
+        logger.debug(
+            f"[decision] AUTO_APPLY — fresher_job=True, profile_match={profile_match}%"
+        )
+        return "auto_apply"
+
+    # Rule 4 — Decent match → send to Telegram for manual review
+    if profile_match >= 50:
+        logger.debug(
+            f"[decision] MANUAL_REVIEW — profile_match={profile_match}% (50-69 range)"
         )
         return "manual_review"
 
-    # Rule 5 — All checks passed
-    logger.debug(
-        f"[decision] AUTO_APPLY — fresher_job=True, "
-        f"profile_match={profile_match}%, confidence={confidence}%"
-    )
-    return "auto_apply"
+    # Rule 5 — Too low → ignore
+    logger.debug(f"[decision] IGNORE — profile_match={profile_match}% < 50%")
+    return "ignore"
 
 
 def decide(match_score: int, settings: dict) -> str:
@@ -78,17 +85,13 @@ def decide(match_score: int, settings: dict) -> str:
     Legacy threshold-based decision.  Kept for backward compatibility.
     New code should use decide_from_gemini() instead.
 
-    Returns 'auto_apply' | 'apply' | 'manual_review' | 'ignore'.
+    Returns 'auto_apply' | 'manual_review' | 'ignore'.
     """
     thresholds = settings.get("match_thresholds", {})
-    if match_score >= thresholds.get("auto_apply", 85):
+    if match_score >= thresholds.get("auto_apply", 70):
         decision = "auto_apply"
-    elif match_score >= thresholds.get("apply", 80):
-        decision = "apply"
-    elif match_score >= thresholds.get("manual_review", 70):
+    elif match_score >= thresholds.get("manual_review", 50):
         decision = "manual_review"
-    elif match_score >= thresholds.get("ignore_below", 60):
-        decision = "manual_review"  # borderline — still surface it
     else:
         decision = "ignore"
     logger.debug(f"[decision] (legacy) score={match_score} → {decision}")

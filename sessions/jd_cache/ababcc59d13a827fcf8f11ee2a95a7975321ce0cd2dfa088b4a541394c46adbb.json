@@ -1,0 +1,53 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=b7bb3a77c170e6d4",
+  "url_hash": "ababcc59d13a827fcf8f11ee2a95a7975321ce0cd2dfa088b4a541394c46adbb",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:08:08.627603+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD is for an Intern role with no minimum experience requirement specified.",
+    "profile_match": 20,
+    "profile_reason": "The candidate's profile is focused on Software Engineering/Full Stack development, whereas the role is for UI/UX Design, a different domain.",
+    "missing_skills": [
+      "UI/UX Design",
+      "Figma",
+      "Adobe XD",
+      "Wireframing",
+      "Prototyping",
+      "User Research"
+    ],
+    "strong_matches": [
+      "HTML",
+      "CSS",
+      "React.js"
+    ],
+    "recommendation": "ignore",
+    "confidence": 90,
+    "title": "UI/UX Designer Intern",
+    "company": "WENTRITE TENCHNOLOGY",
+    "location": "Teynampet, Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "UI/UX Design"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "WENTRITE TENCHNOLOGY is looking for a UI/UX Designer Intern to work in Teynampet, Chennai. This role focuses on user interface and user experience design tasks.",
+    "match": 20,
+    "match_reason": "The candidate's profile is focused on Software Engineering/Full Stack development, whereas the role is for UI/UX Design, a different domain.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=b7bb3a77c170e6d4",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=b7bb3a77c170e6d4"
+    ],
+    "raw_jd": "Job Title: UI/UX Designer Intern\nCompany: WENTRITE TENCHNOLOGY\nLocation: Teynampet, Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:08:08.627603+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,51 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=78e35beea661ea86",
+  "url_hash": "7854cc1cd20649da46835cb5077f256928ef660ac3816c7dab938816cdf315d2",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:02:15.522168+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, which is typical for an internship position.",
+    "profile_match": 65,
+    "profile_reason": "While the candidate is a strong MERN stack developer, the role specifically demands Java, which is missing from the candidate's core skill set.",
+    "missing_skills": [
+      "Java",
+      "Spring Boot",
+      "Hibernate"
+    ],
+    "strong_matches": [
+      "React.js",
+      "Full Stack Development",
+      "SQL"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Java Full Stack Developer Intern",
+    "company": "Zoho It Solution",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Java",
+      "Full Stack Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "An internship role based in Chennai focusing on Java-based full stack development. The role likely involves building web applications using Java ecosystem technologies.",
+    "match": 65,
+    "match_reason": "While the candidate is a strong MERN stack developer, the role specifically demands Java, which is missing from the candidate's core skill set.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=78e35beea661ea86",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=78e35beea661ea86"
+    ],
+    "raw_jd": "Job Title: Java Full Stack Developer Intern\nCompany: Zoho It Solution\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:02:15.522168+00:00",
+  "applied": false,
+  "applied_at": null
+}

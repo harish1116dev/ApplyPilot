@@ -1,0 +1,50 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=0b20e3a4ca1d9d47",
+  "url_hash": "863b8d33a1a0e81a95588716ba68505e0ef44692eff447ede79b0a25bede0d15",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:12:18.093549+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it is treated as fresher-eligible.",
+    "profile_match": 40,
+    "profile_reason": "The candidate has zero professional experience and lacks the teaching/mentoring expertise required for a Trainer role, despite technical overlap.",
+    "missing_skills": [
+      "Java",
+      "Training/Teaching experience",
+      "Curriculum Development"
+    ],
+    "strong_matches": [
+      "Python",
+      "Full Stack Development"
+    ],
+    "recommendation": "ignore",
+    "confidence": 70,
+    "title": "Full Stack Trainer (Java + Python)",
+    "company": "Peopleclick Learning",
+    "location": "R.S.Puram South, Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Java",
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Full Stack Trainer position focused on instructing students in Java and Python. The candidate lacks the prerequisite Java skills and pedagogical experience required for a training role.",
+    "match": 40,
+    "match_reason": "The candidate has zero professional experience and lacks the teaching/mentoring expertise required for a Trainer role, despite technical overlap.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=0b20e3a4ca1d9d47",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=0b20e3a4ca1d9d47"
+    ],
+    "raw_jd": "Job Title: Full Stack Trainer (Java + Python)\nCompany: Peopleclick Learning\nLocation: R.S.Puram South, Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:12:18.093549+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=6ce83880c4669e33",
+  "url_hash": "e25146284bf77e041afab13c747c85d47770276649366f5fcb5cd1ea06093619",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:13:51.496134+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title includes 'Staff Software Engineer', which is a senior-level designation.",
+    "profile_match": 0,
+    "profile_reason": "The role is for a Staff Engineer, requiring extensive professional experience far beyond a fresher profile.",
+    "missing_skills": [
+      "MySQL Database Internals",
+      "Distributed Systems",
+      "Senior System Design",
+      "Large-scale database architecture"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "Staff Software Engineer - MySQL",
+    "company": "DigitalOcean",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "MySQL",
+      "Database Engineering",
+      "Systems Programming"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a highly senior Staff Software Engineer role focused on MySQL database internals and management. It is unsuitable for a fresher as it requires deep expertise in database architecture and significant industry experience.",
+    "match": 0,
+    "match_reason": "The role is for a Staff Engineer, requiring extensive professional experience far beyond a fresher profile.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=6ce83880c4669e33",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=6ce83880c4669e33"
+    ],
+    "raw_jd": "Job Title: Staff Software Engineer - MySQL\nCompany: DigitalOcean\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:13:51.496134+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=c8f8508c2c3887a1",
+  "url_hash": "a26adb5d8b78e2435937af806f09a2dd1e1d0ce745715beda18cfc68d7f8a7ba",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:05:41.871979+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job description does not state any experience requirement, implying it is suitable for interns/freshers.",
+    "profile_match": 60,
+    "profile_reason": "While the candidate is qualified for an IT internship, the JD is extremely sparse, providing no specific technical stack requirements to measure against.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "Python",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "IT App Intern",
+    "company": "Rashtriya Sanskrit Sansthan",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an internship role at Rashtriya Sanskrit Sansthan in Bengaluru. The provided job description lacks specific technical requirements or responsibilities, necessitating further research before applying.",
+    "match": 60,
+    "match_reason": "While the candidate is qualified for an IT internship, the JD is extremely sparse, providing no specific technical stack requirements to measure against.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=c8f8508c2c3887a1",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=c8f8508c2c3887a1"
+    ],
+    "raw_jd": "Job Title: IT App Intern\nCompany: Rashtriya Sanskrit Sansthan\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:05:41.871979+00:00",
+  "applied": false,
+  "applied_at": null
+}

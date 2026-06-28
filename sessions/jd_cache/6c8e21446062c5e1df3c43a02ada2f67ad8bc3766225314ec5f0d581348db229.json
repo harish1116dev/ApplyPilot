@@ -1,0 +1,51 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=4555253ec5de5467",
+  "url_hash": "6c8e21446062c5e1df3c43a02ada2f67ad8bc3766225314ec5f0d581348db229",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:02:02.241880+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job is an internship role with no minimum experience specified, making it suitable for a fresher.",
+    "profile_match": 45,
+    "profile_reason": "The candidate has strong web development skills (React, Node.js), but the job is for Mobile Development, a domain not covered in the candidate's core projects or skill set.",
+    "missing_skills": [
+      "Mobile Development",
+      "React Native",
+      "Flutter",
+      "Swift",
+      "Kotlin"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "React.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Mobile developer intern",
+    "company": "WENTRITE TENCHNOLOGY",
+    "location": "Teynampet, Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Mobile development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "WENTRITE TENCHNOLOGY is seeking an intern for mobile development based in Teynampet, Chennai. The role focuses on mobile application creation, which is outside the candidate's current project portfolio.",
+    "match": 45,
+    "match_reason": "The candidate has strong web development skills (React, Node.js), but the job is for Mobile Development, a domain not covered in the candidate's core projects or skill set.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=4555253ec5de5467",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=4555253ec5de5467"
+    ],
+    "raw_jd": "Job Title: Mobile developer intern\nCompany: WENTRITE TENCHNOLOGY\nLocation: Teynampet, Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:02:02.241880+00:00",
+  "applied": false,
+  "applied_at": null
+}

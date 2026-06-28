@@ -1,0 +1,50 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=624639d935682254",
+  "url_hash": "8ebce797744331fb585e74ced258b21fd89d06450f639c26abbe6243f7bfacf3",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:04:34.393181+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, which classifies it as potentially fresher-eligible.",
+    "profile_match": 75,
+    "profile_reason": "The candidate has strong Node.js experience through projects and training, but the JD lacks detail to confirm fit beyond the job title.",
+    "missing_skills": [
+      "Professional work experience",
+      "Company-specific tech stack details"
+    ],
+    "strong_matches": [
+      "Node.js",
+      "Express.js",
+      "JavaScript",
+      "REST APIs"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Node js developer",
+    "company": "Praxio IT Consulting Private Limited",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Node.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a Node.js developer based in Coimbatore. As the job description provides no further requirements, a manual review is necessary to determine if they are hiring at the entry level.",
+    "match": 75,
+    "match_reason": "The candidate has strong Node.js experience through projects and training, but the JD lacks detail to confirm fit beyond the job title.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=624639d935682254",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=624639d935682254"
+    ],
+    "raw_jd": "Job Title: Node js developer\nCompany: Praxio IT Consulting Private Limited\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:04:34.393181+00:00",
+  "applied": false,
+  "applied_at": null
+}

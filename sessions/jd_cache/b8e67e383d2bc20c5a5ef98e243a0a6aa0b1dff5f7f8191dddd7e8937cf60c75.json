@@ -1,0 +1,44 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=7bc01127af17bd0d",
+  "url_hash": "b8e67e383d2bc20c5a5ef98e243a0a6aa0b1dff5f7f8191dddd7e8937cf60c75",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:13:44.777655+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 40,
+    "profile_reason": "The JD lacks technical details or stack requirements, making it impossible to assess alignment beyond the generic title.",
+    "missing_skills": [
+      "Not specified in JD"
+    ],
+    "strong_matches": [
+      "Software Engineering fundamentals"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Software engineer",
+    "company": "WEBASTO ROOF SYSTEMS PVT LTD",
+    "location": "Chengalpattu, Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Software engineer position at Webasto Roof Systems. The job description provides no specific technical requirements, stack information, or experience expectations.",
+    "match": 40,
+    "match_reason": "The JD lacks technical details or stack requirements, making it impossible to assess alignment beyond the generic title.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=7bc01127af17bd0d",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=7bc01127af17bd0d"
+    ],
+    "raw_jd": "Job Title: Software engineer\nCompany: WEBASTO ROOF SYSTEMS PVT LTD\nLocation: Chengalpattu, Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:13:44.777655+00:00",
+  "applied": false,
+  "applied_at": null
+}

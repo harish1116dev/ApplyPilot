@@ -1,0 +1,46 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=c2ab0f81f892eeec",
+  "url_hash": "831817f58d7411bebd009b68dbedb48ff9c32dfc5542405f0098c27ba5fea9d1",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:07:28.419812+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 70,
+    "profile_reason": "Candidate has strong Full Stack development skills (React, Node, Express), but the JD is extremely sparse, making it impossible to confirm specific stack requirements.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "Node.js",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Full Stack Developer",
+    "company": "Diginik Solutions Software and Digital Marketing...",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Full Stack Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Full Stack Developer role at Diginik Solutions located in Bengaluru. The job description provides no specific technical requirements or experience constraints.",
+    "match": 70,
+    "match_reason": "Candidate has strong Full Stack development skills (React, Node, Express), but the JD is extremely sparse, making it impossible to confirm specific stack requirements.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=c2ab0f81f892eeec",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=c2ab0f81f892eeec"
+    ],
+    "raw_jd": "Job Title: Full Stack Developer\nCompany: Diginik Solutions Software and Digital Marketing...\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:07:28.419812+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=09785f48d093e062",
+  "url_hash": "241186b37fd6bc64dcd91f7e75d5017de9fe00fef01ca10847116831b7817e83",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:13:38.346624+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify a minimum experience requirement, making it eligible for freshers.",
+    "profile_match": 60,
+    "profile_reason": "The role is for an Implementation Engineer, whereas the candidate's core profile is in software/web development; skills overlap is minimal for this specific title.",
+    "missing_skills": [
+      "Technical Implementation",
+      "Customer Support",
+      "System Integration",
+      "Deployment troubleshooting"
+    ],
+    "strong_matches": [
+      "Python",
+      "SQL",
+      "Network Basics"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Implementation Engineer intern",
+    "company": "Hectae Analytics and Software Solutions",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for an Implementation Engineer intern based in Chennai. It involves assisting with the deployment and integration of software solutions for clients.",
+    "match": 60,
+    "match_reason": "The role is for an Implementation Engineer, whereas the candidate's core profile is in software/web development; skills overlap is minimal for this specific title.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=09785f48d093e062",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=09785f48d093e062"
+    ],
+    "raw_jd": "Job Title: Implementation Engineer intern\nCompany: Hectae Analytics and Software Solutions\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:13:38.346624+00:00",
+  "applied": false,
+  "applied_at": null
+}
