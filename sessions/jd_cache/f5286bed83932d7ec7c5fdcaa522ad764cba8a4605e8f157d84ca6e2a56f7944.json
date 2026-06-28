@@ -1,0 +1,47 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/infobeans-technologies-mern-stack-developer-react-js-node-js-at-infobeans-4415598064",
+  "url_hash": "f5286bed83932d7ec7c5fdcaa522ad764cba8a4605e8f157d84ca6e2a56f7944",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:47:18.918848+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify a minimum experience requirement, making it potentially open to freshers.",
+    "profile_match": 80,
+    "profile_reason": "The candidate has a strong MERN stack portfolio and relevant degree, but the absence of explicit fresher mention requires verification.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "Node.js",
+      "JavaScript"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "InfoBeans Technologies - MERN Stack Developer - React.js/Node.js",
+    "company": "InfoBeans",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js",
+      "Node.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "A MERN Stack Developer role focusing on React.js and Node.js technologies. The role involves full-stack development, though specific experience requirements are not listed in the provided text.",
+    "match": 80,
+    "match_reason": "The candidate has a strong MERN stack portfolio and relevant degree, but the absence of explicit fresher mention requires verification.",
+    "apply_url": "https://in.linkedin.com/jobs/view/infobeans-technologies-mern-stack-developer-react-js-node-js-at-infobeans-4415598064",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/infobeans-technologies-mern-stack-developer-react-js-node-js-at-infobeans-4415598064"
+    ],
+    "raw_jd": "Job Title: InfoBeans Technologies - MERN Stack Developer - React.js/Node.js\nCompany: InfoBeans\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:47:18.918848+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/back-end-developer-at-kassavirtanen-oy-4432829789",
+  "url_hash": "96bffa34322cee1b4c7ec7652f21fbdd8eaaf3363f85fcc174b9cf8c54bd1820",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:45:40.040542+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 60,
+    "profile_reason": "The candidate has relevant backend skills (Node.js, Express, SQL) but the JD lacks sufficient detail to confirm if the role is suitable for a fresher or requires industry tenure.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Node.js",
+      "Express.js",
+      "SQL"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "back end developer",
+    "company": "Kassavirtanen Oy",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Back End Developer position at Kassavirtanen Oy based in Chennai. No specific technical requirements, years of experience, or application instructions were provided in the description.",
+    "match": 60,
+    "match_reason": "The candidate has relevant backend skills (Node.js, Express, SQL) but the JD lacks sufficient detail to confirm if the role is suitable for a fresher or requires industry tenure.",
+    "apply_url": "https://in.linkedin.com/jobs/view/back-end-developer-at-kassavirtanen-oy-4432829789",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/back-end-developer-at-kassavirtanen-oy-4432829789",
+      "https://in.indeed.com/viewjob?jk=331bda7b003bb218"
+    ],
+    "raw_jd": "Job Title: back end developer\nCompany: Kassavirtanen Oy\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:45:40.040542+00:00",
+  "applied": false,
+  "applied_at": null
+}

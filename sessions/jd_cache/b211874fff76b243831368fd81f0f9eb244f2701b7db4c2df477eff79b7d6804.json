@@ -1,0 +1,44 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=384eec77b64a74cb",
+  "url_hash": "b211874fff76b243831368fd81f0f9eb244f2701b7db4c2df477eff79b7d6804",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:52:50.075620+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 70,
+    "profile_reason": "The candidate has strong Python skills and relevant academic background, but the JD lacks specific skill requirements or context to ensure a high-confidence match.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Python"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Junior Python Developer",
+    "company": "Clastek Engineering Pvt Ltd",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Junior Python Developer role based in Chennai. The job description is extremely brief and provides no details regarding specific technical stack or experience requirements beyond the title.",
+    "match": 70,
+    "match_reason": "The candidate has strong Python skills and relevant academic background, but the JD lacks specific skill requirements or context to ensure a high-confidence match.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=384eec77b64a74cb",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=384eec77b64a74cb"
+    ],
+    "raw_jd": "Job Title: Junior Python Developer\nCompany: Clastek Engineering Pvt Ltd\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:52:50.075620+00:00",
+  "applied": false,
+  "applied_at": null
+}

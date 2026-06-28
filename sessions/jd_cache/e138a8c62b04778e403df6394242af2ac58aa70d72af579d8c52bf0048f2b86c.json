@@ -1,0 +1,46 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=10514b942bbba97e",
+  "url_hash": "e138a8c62b04778e403df6394242af2ac58aa70d72af579d8c52bf0048f2b86c",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:53:43.381429+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title includes 'Lead Software Engineer', which inherently requires significant professional experience, disqualifying it for a fresher.",
+    "profile_match": 0,
+    "profile_reason": "The role is for a Lead position, which is incompatible with the candidate's fresher status regardless of skill alignment.",
+    "missing_skills": [
+      "Leadership",
+      "System Architecture",
+      "Advanced Machine Learning Engineering"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "Lead Software Engineer - Machine Learning",
+    "company": "Freshworks",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Machine Learning"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Lead-level engineering role focused on Machine Learning within Freshworks. It requires expert-level professional experience in architectural design and team leadership, which is not suitable for a fresh graduate.",
+    "match": 0,
+    "match_reason": "The role is for a Lead position, which is incompatible with the candidate's fresher status regardless of skill alignment.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=10514b942bbba97e",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=10514b942bbba97e"
+    ],
+    "raw_jd": "Job Title: Lead Software Engineer - Machine Learning\nCompany: Freshworks\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:53:43.381429+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,46 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=b671aa0e7abf663c",
+  "url_hash": "5655133affd98a33edf2860e0c19fd29126b73ab7475dbae6acda9cb4282e649",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:01:35.686853+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The title explicitly mentions 'Fresher', meeting the eligibility criteria.",
+    "profile_match": 10,
+    "profile_reason": "The candidate has a B.Tech in AI/Data Science, whereas the role specifically requires a Diploma in Electrical Engineering.",
+    "missing_skills": [
+      "Electrical Engineering",
+      "Circuit Design",
+      "Power Systems"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Diploma Fresher – Electrical",
+    "company": "Wattwerks",
+    "location": "Pattanam, Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Electrical Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an entry-level position for an Electrical Diploma holder. The role is fundamentally mismatched with the candidate's degree in Artificial Intelligence and Data Science.",
+    "match": 10,
+    "match_reason": "The candidate has a B.Tech in AI/Data Science, whereas the role specifically requires a Diploma in Electrical Engineering.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=b671aa0e7abf663c",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=b671aa0e7abf663c"
+    ],
+    "raw_jd": "Job Title: Diploma Fresher – Electrical\nCompany: Wattwerks\nLocation: Pattanam, Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:01:35.686853+00:00",
+  "applied": false,
+  "applied_at": null
+}

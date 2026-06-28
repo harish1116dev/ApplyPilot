@@ -1,0 +1,49 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/nodejs-developers-at-synechron-4431833266",
+  "url_hash": "cd9f44d8af7a5297f170932b95ed89fa7cf57de2f7d26e47cdc3f92853330492",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:46:58.757215+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify a minimum experience requirement.",
+    "profile_match": 70,
+    "profile_reason": "Candidate has relevant skills in Node.js and projects, but lack of explicit fresher mention in a corporate role typically implies a need for professional experience.",
+    "missing_skills": [
+      "Professional enterprise experience",
+      "System design"
+    ],
+    "strong_matches": [
+      "Node.js",
+      "JavaScript",
+      "Express.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "NodeJS developers",
+    "company": "Synechron",
+    "location": "Greater Chennai Area",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "NodeJS"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Synechron is hiring NodeJS developers in the Greater Chennai area. The role focuses on backend development using the Node.js ecosystem.",
+    "match": 70,
+    "match_reason": "Candidate has relevant skills in Node.js and projects, but lack of explicit fresher mention in a corporate role typically implies a need for professional experience.",
+    "apply_url": "https://in.linkedin.com/jobs/view/nodejs-developers-at-synechron-4431833266",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/nodejs-developers-at-synechron-4431833266"
+    ],
+    "raw_jd": "Job Title: NodeJS developers\nCompany: Synechron\nLocation: Greater Chennai Area\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:46:58.757215+00:00",
+  "applied": false,
+  "applied_at": null
+}

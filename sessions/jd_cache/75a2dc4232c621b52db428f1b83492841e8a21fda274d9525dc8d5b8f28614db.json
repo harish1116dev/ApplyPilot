@@ -1,0 +1,14 @@
+{
+  "url": "https://example.com/job/test123",
+  "url_hash": "75a2dc4232c621b52db428f1b83492841e8a21fda274d9525dc8d5b8f28614db",
+  "raw_jd": "This is a fresher job for 2025 batch graduates",
+  "jd_hash": "dd67faf244514896bfe570990d787072e18285aa88505d1f20924c3f3bc95ae3",
+  "fetched_at": "2026-06-28T07:53:07.075143+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "profile_match": 88
+  },
+  "verdict_at": "2026-06-28T07:53:07.091077+00:00",
+  "applied": false,
+  "applied_at": null
+}

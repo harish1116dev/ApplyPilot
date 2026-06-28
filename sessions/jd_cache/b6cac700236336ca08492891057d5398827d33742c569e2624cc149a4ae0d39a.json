@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=08bb304e72160412",
+  "url_hash": "b6cac700236336ca08492891057d5398827d33742c569e2624cc149a4ae0d39a",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:57:43.289179+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, which classifies it as potentially open to freshers.",
+    "profile_match": 10,
+    "profile_reason": "The role is for CAE (Computer-Aided Engineering) software training, which is outside the candidate's software development and AI/Data Science background.",
+    "missing_skills": [
+      "CAE Software",
+      "Engineering Simulation",
+      "Mechanical Design"
+    ],
+    "strong_matches": [
+      "None"
+    ],
+    "recommendation": "ignore",
+    "confidence": 90,
+    "title": "CAE Software Training with Live Projects & Placement",
+    "company": "FEMLOGIC TECHNOLOGIES INDIA PVT. LTD.",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "CAE Software"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a training program for CAE software targeting mechanical or structural engineering domains. It is not aligned with the candidate's software engineering and AI/ML profile.",
+    "match": 10,
+    "match_reason": "The role is for CAE (Computer-Aided Engineering) software training, which is outside the candidate's software development and AI/Data Science background.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=08bb304e72160412",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=08bb304e72160412"
+    ],
+    "raw_jd": "Job Title: CAE Software Training with Live Projects & Placement\nCompany: FEMLOGIC TECHNOLOGIES INDIA PVT. LTD.\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:57:43.289179+00:00",
+  "applied": false,
+  "applied_at": null
+}

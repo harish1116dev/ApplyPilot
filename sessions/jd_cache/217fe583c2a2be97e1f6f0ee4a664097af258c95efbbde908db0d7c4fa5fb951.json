@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=9ab212c9e145d9ca",
+  "url_hash": "217fe583c2a2be97e1f6f0ee4a664097af258c95efbbde908db0d7c4fa5fb951",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:53:49.760875+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has a strong full-stack project portfolio and relevant degree, but the JD is extremely sparse, making it risky to assume alignment.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Full Stack Developer",
+    "company": "BLACK AND RED ANTS",
+    "location": "Malleswaram, Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Full Stack Developer position based in Bengaluru. The job description provides no specific details regarding technology stack, years of experience, or responsibilities.",
+    "match": 65,
+    "match_reason": "The candidate has a strong full-stack project portfolio and relevant degree, but the JD is extremely sparse, making it risky to assume alignment.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=9ab212c9e145d9ca",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=9ab212c9e145d9ca"
+    ],
+    "raw_jd": "Job Title: Full Stack Developer\nCompany: BLACK AND RED ANTS\nLocation: Hybrid work in Malleswaram, Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:53:49.760875+00:00",
+  "applied": false,
+  "applied_at": null
+}

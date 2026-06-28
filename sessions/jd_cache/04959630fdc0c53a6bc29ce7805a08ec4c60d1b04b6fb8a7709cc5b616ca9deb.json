@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=d7fd5f01647929db",
+  "url_hash": "04959630fdc0c53a6bc29ce7805a08ec4c60d1b04b6fb8a7709cc5b616ca9deb",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:55:29.297596+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it is treated as fresher-eligible.",
+    "profile_match": 80,
+    "profile_reason": "The candidate's project portfolio and skill set in Node.js, Python, and SQL align perfectly with the role requirements.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Node.js",
+      "Python",
+      "SQL",
+      "REST APIs"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Back End Engineer (Node.js/Python)",
+    "company": "Applogiq",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Node.js",
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Backend Engineer role focusing on Node.js and Python development. The position is based in Coimbatore and requires a strong foundation in server-side technologies.",
+    "match": 80,
+    "match_reason": "The candidate's project portfolio and skill set in Node.js, Python, and SQL align perfectly with the role requirements.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=d7fd5f01647929db",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=d7fd5f01647929db"
+    ],
+    "raw_jd": "Job Title: Back End Engineer (Node.js/Python)\nCompany: Applogiq\nLocation: Hybrid work in Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:55:29.297596+00:00",
+  "applied": false,
+  "applied_at": null
+}

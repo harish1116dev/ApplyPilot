@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/custom-software-engineer-at-accenture-in-india-4393507934",
+  "url_hash": "5170cf235deabc55f76c28f7db35dfeb7c60d0290b0bce3c3d948b5c44c97e4f",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:47:45.465242+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the provided job description.",
+    "profile_match": 70,
+    "profile_reason": "While the candidate is a fresh graduate in AI/DS and fits the Chennai location, the JD is too vague regarding technical expectations to provide a higher confidence score.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Custom Software Engineer",
+    "company": "Accenture in India",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an entry-level software engineering role at Accenture in Chennai. The job description provided lacks specific technical requirements or experience mandates, necessitating further research before application.",
+    "match": 70,
+    "match_reason": "While the candidate is a fresh graduate in AI/DS and fits the Chennai location, the JD is too vague regarding technical expectations to provide a higher confidence score.",
+    "apply_url": "https://in.linkedin.com/jobs/view/custom-software-engineer-at-accenture-in-india-4393507934",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/custom-software-engineer-at-accenture-in-india-4393507934"
+    ],
+    "raw_jd": "Job Title: Custom Software Engineer\nCompany: Accenture in India\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:47:45.465242+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://internshala.com/job/detail/sap-mm-cpe-functional-consultant-job-in-chennai-at-tekwissen-india1782520372",
+  "url_hash": "530e95a98665cef2a0a14dad90ac613d4e247029fdfdd08a87b6ce19880612dd",
+  "raw_jd": "Overview: TekWissen is a global workforce management provider throughout India and many other countries in the world. The below client is a global company with shared ideals and a deep sense of family. From our earliest days as a pioneer of modern transportation, we have sought to make the world a better place  one that benefits lives, communities and the planetJob Title: Software Engineer (IV) - Premium Engineer IILocation: ChennaiWork Type: Hybrid (4 Days work From Office)Position Description:We are seeking a highly skilled and experienced SAP MM-CPE Functional Consultant to design, configure, and implement robust procurement and commodity pricing solutions.In this role, you will bridge the gap between complex commodity market purchasing requirements and SAP technology. You will be responsible for the end-to-end delivery of SAP Materials Management (MM) processes integrated with the SAP Commodity Pricing Engine (CPE).The ideal candidate possesses deep functional knowledge of SAP ERP/S/4HANA MM, hands-on expertise in configuring complex commodity pricing formulas based on market indexes (e.g., LME, Platts, CBOT), and a strong understanding of commodity procurement business processes.Skills Required:SAP S4 HANASkills Preferred:Functional consulting experience in SAP Materials Management (MM) and CPE module.Hands-on experience in SAP S/4HANA, including implementation, rollout, or support environments.Strong configuration knowledge in purchasing, pricing, release procedures, mo",
+  "jd_hash": "72b82c5f7906e52abd3ff7517cb661d69744eb68d0c8c6f44978d1632cda0e97",
+  "fetched_at": "2026-06-28T08:49:18.805090+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "highly skilled and experienced",
+    "experience_reason": "The JD explicitly requires a 'highly skilled and experienced' SAP functional consultant, which is incompatible with a fresh graduate profile.",
+    "profile_match": 0,
+    "profile_reason": "The candidate has zero professional experience and no SAP functional expertise, which is a mandatory requirement for this role.",
+    "missing_skills": [
+      "SAP MM",
+      "SAP CPE",
+      "SAP S/4HANA",
+      "Functional Consulting"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "SAP MM-CPE Functional Consultant",
+    "company": "TekWissen India",
+    "location": "Chennai",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "SAP S4 HANA",
+      "SAP Materials Management",
+      "CPE module"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a specialized functional consulting role focused on SAP Materials Management and Commodity Pricing Engines. It requires deep domain expertise in procurement processes and SAP configuration, which is not suitable for a software engineering fresher.",
+    "match": 0,
+    "match_reason": "The candidate has zero professional experience and no SAP functional expertise, which is a mandatory requirement for this role.",
+    "apply_url": "https://internshala.com/job/detail/sap-mm-cpe-functional-consultant-job-in-chennai-at-tekwissen-india1782520372",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/sap-mm-cpe-functional-consultant-job-in-chennai-at-tekwissen-india1782520372"
+    ],
+    "raw_jd": "Overview: TekWissen is a global workforce management provider throughout India and many other countries in the world. The below client is a global company with shared ideals and a deep sense of family. From our earliest days as a pioneer of modern transportation, we have sought to make the world a better place  one that benefits lives, communities and the planetJob Title: Software Engineer (IV) - Premium Engineer IILocation: ChennaiWork Type: Hybrid (4 Days work From Office)Position Description:We are seeking a highly skilled and experienced SAP MM-CPE Functional Consultant to design, configure, and implement robust procurement and commodity pricing solutions.In this role, you will bridge the gap between complex commodity market purchasing requirements and SAP technology. You will be responsible for the end-to-end delivery of SAP Materials Management (MM) processes integrated with the SAP Commodity Pricing Engine (CPE).The ideal candidate possesses deep functional knowledge of SAP ERP/S/4HANA MM, hands-on expertise in configuring complex commodity pricing formulas based on market indexes (e.g., LME, Platts, CBOT), and a strong understanding of commodity procurement business processes.Skills Required:SAP S4 HANASkills Preferred:Functional consulting experience in SAP Materials Management (MM) and CPE module.Hands-on experience in SAP S/4HANA, including implementation, rollout, or support environments.Strong configuration knowledge in purchasing, pricing, release procedures, mo"
+  },
+  "verdict_at": "2026-06-28T08:49:25.216645+00:00",
+  "applied": false,
+  "applied_at": null
+}

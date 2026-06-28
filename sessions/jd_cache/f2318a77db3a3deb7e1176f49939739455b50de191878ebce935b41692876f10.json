@@ -1,0 +1,40 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=f4870cc7f1335435",
+  "url_hash": "f2318a77db3a3deb7e1176f49939739455b50de191878ebce935b41692876f10",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:57:22.573546+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title explicitly mentions 'Fresher' and no specific experience range is provided, allowing it to be treated as entry-level.",
+    "profile_match": 60,
+    "profile_reason": "The JD is extremely sparse, making it impossible to confirm technical alignment; however, the location matches the candidate's preference.",
+    "missing_skills": [],
+    "strong_matches": [],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Fresher Trainee",
+    "company": "Coral Engineering",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a generic Fresher Trainee role at Coral Engineering based in Chennai. The job description lacks technical requirements, duties, or specific technology stacks.",
+    "match": 60,
+    "match_reason": "The JD is extremely sparse, making it impossible to confirm technical alignment; however, the location matches the candidate's preference.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=f4870cc7f1335435",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=f4870cc7f1335435"
+    ],
+    "raw_jd": "Job Title: Fresher Trainee\nCompany: Coral Engineering\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:57:22.573546+00:00",
+  "applied": false,
+  "applied_at": null
+}

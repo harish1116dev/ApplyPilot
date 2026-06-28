@@ -1,0 +1,58 @@
+{
+  "url": "https://internshala.com/job/detail/aiml3d-deep-learning-engineer-job-in-chennai-at-actalent1780300883",
+  "url_hash": "5c12d62d970a49098dcd82dfbcb7c783634604434e0bd050710a6f1cba5ea914",
+  "raw_jd": "As a Deep Learning Engineer specialized in 3D Computer Vision and Reinforcement Learning, you will work on developing, implementing, and optimizing state-of-the-art models that tackle complex challenges in spatial AI and geometric processing. You will be part of a multidisciplinary team pushing the frontiers of 3D representation, algorithmic generation, and autonomous agents, contributing to the research, development, and deployment of large-scale AI systems capable of interpreting, manipulating, and generating complex 3D structures.Requisite Abilities and Skills:Relevant Experience 1 to 4 years Desired Education QualificationDegree in Computer Science, Applied Mathematics, Artificial Intelligence, or a related discipline. Specialized coursework or research in 3D deep learning, reinforcement learning, and advanced algorithmic design. Strong mathematical foundation.Tools/Skillset if applicableExpertise in deep learning and machine learning algorithms, particularly in the context of 3D vision, reinforcement learning, and generative geometric models. Strong proficiency in programming languages like Python and C++. Familiarity with ML frameworks (PyTorch, TensorFlow) and specialized 3D/geometric processing libraries (e.g., PyTorch3D, Open3D, Trimesh, or similar). Exceptional problem-solving skills with a focus on building algorithmic solutions from the ground up. Familiarity with cloud-based solutions and tools (AWS, GCP, or Azure) for scalable model training and distributed comp",
+  "jd_hash": "1d1455141b1765d8d4449c5ca3730b8cdda537a741c8fbc048bbe79c734ce92e",
+  "fetched_at": "2026-06-28T08:50:05.967942+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "1 to 4 years",
+    "experience_reason": "The JD explicitly states a minimum experience requirement of 1 year.",
+    "profile_match": 0,
+    "profile_reason": "Candidate is a fresher and does not meet the minimum 1-year professional experience requirement stated in the JD.",
+    "missing_skills": [
+      "C++",
+      "3D Computer Vision",
+      "Reinforcement Learning",
+      "PyTorch",
+      "PyTorch3D",
+      "Open3D"
+    ],
+    "strong_matches": [
+      "Python",
+      "TensorFlow"
+    ],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "AIML_3D Deep Learning Engineer",
+    "company": "Actalent",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Python",
+      "C++",
+      "3D Computer Vision",
+      "Reinforcement Learning",
+      "PyTorch",
+      "TensorFlow",
+      "Geometric Processing"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a specialized Deep Learning Engineering role focused on 3D computer vision and reinforcement learning. It requires 1-4 years of professional experience in developing spatial AI models and geometric processing algorithms.",
+    "match": 0,
+    "match_reason": "Candidate is a fresher and does not meet the minimum 1-year professional experience requirement stated in the JD.",
+    "apply_url": "https://internshala.com/job/detail/aiml3d-deep-learning-engineer-job-in-chennai-at-actalent1780300883",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/aiml3d-deep-learning-engineer-job-in-chennai-at-actalent1780300883"
+    ],
+    "raw_jd": "As a Deep Learning Engineer specialized in 3D Computer Vision and Reinforcement Learning, you will work on developing, implementing, and optimizing state-of-the-art models that tackle complex challenges in spatial AI and geometric processing. You will be part of a multidisciplinary team pushing the frontiers of 3D representation, algorithmic generation, and autonomous agents, contributing to the research, development, and deployment of large-scale AI systems capable of interpreting, manipulating, and generating complex 3D structures.Requisite Abilities and Skills:Relevant Experience 1 to 4 years Desired Education QualificationDegree in Computer Science, Applied Mathematics, Artificial Intelligence, or a related discipline. Specialized coursework or research in 3D deep learning, reinforcement learning, and advanced algorithmic design. Strong mathematical foundation.Tools/Skillset if applicableExpertise in deep learning and machine learning algorithms, particularly in the context of 3D vision, reinforcement learning, and generative geometric models. Strong proficiency in programming languages like Python and C++. Familiarity with ML frameworks (PyTorch, TensorFlow) and specialized 3D/geometric processing libraries (e.g., PyTorch3D, Open3D, Trimesh, or similar). Exceptional problem-solving skills with a focus on building algorithmic solutions from the ground up. Familiarity with cloud-based solutions and tools (AWS, GCP, or Azure) for scalable model training and distributed comp"
+  },
+  "verdict_at": "2026-06-28T08:50:12.678782+00:00",
+  "applied": false,
+  "applied_at": null
+}

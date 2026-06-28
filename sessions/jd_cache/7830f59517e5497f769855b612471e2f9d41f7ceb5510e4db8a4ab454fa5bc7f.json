@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/web-developer-at-let-s-goo-social-4418203016",
+  "url_hash": "7830f59517e5497f769855b612471e2f9d41f7ceb5510e4db8a4ab454fa5bc7f",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:45:07.563037+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it is treated as fresher-eligible per instructions.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has strong full-stack skills matching a web developer role, but the job description is extremely vague, making it difficult to assess specific technical alignment.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "HTML",
+      "CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "WEB DEVELOPER",
+    "company": "Let's Goo Social",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Web Developer at Let's Goo Social in Chennai. The job description provides no details regarding specific technical requirements, salary, or responsibilities.",
+    "match": 65,
+    "match_reason": "The candidate has strong full-stack skills matching a web developer role, but the job description is extremely vague, making it difficult to assess specific technical alignment.",
+    "apply_url": "https://in.linkedin.com/jobs/view/web-developer-at-let-s-goo-social-4418203016",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/web-developer-at-let-s-goo-social-4418203016"
+    ],
+    "raw_jd": "Job Title: WEB DEVELOPER\nCompany: Let's Goo Social\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:45:07.563037+00:00",
+  "applied": false,
+  "applied_at": null
+}

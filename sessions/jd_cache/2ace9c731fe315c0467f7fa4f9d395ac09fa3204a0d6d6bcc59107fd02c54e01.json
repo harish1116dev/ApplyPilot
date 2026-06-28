@@ -1,0 +1,44 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-engineer-at-bitmovin-4420980324",
+  "url_hash": "2ace9c731fe315c0467f7fa4f9d395ac09fa3204a0d6d6bcc59107fd02c54e01",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:39:17.766986+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the provided job description.",
+    "profile_match": 65,
+    "profile_reason": "While the role title is a match, the job description is empty, making it impossible to verify specific skill requirements or verify if the role is truly junior-level.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "Python",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 50,
+    "title": "Software Engineer",
+    "company": "Bitmovin",
+    "location": "Greater Chennai Area",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Software Engineer position at Bitmovin located in the Greater Chennai Area. No further details regarding the specific tech stack or seniority requirements were provided.",
+    "match": 65,
+    "match_reason": "While the role title is a match, the job description is empty, making it impossible to verify specific skill requirements or verify if the role is truly junior-level.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-at-bitmovin-4420980324",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-engineer-at-bitmovin-4420980324"
+    ],
+    "raw_jd": "Job Title: Software Engineer\nCompany: Bitmovin\nLocation: Greater Chennai Area\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:39:17.766986+00:00",
+  "applied": false,
+  "applied_at": null
+}

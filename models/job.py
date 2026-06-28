@@ -55,7 +55,17 @@ class Job:
     hiring_manager: Optional[str] = None
     summary: str = ""
 
-    # ── Match (set by match_engine) ──────────────────────────────────────────
+    # ── Stage 1: Python Fresher Filter (set by fresher_filter) ────────────────
+    python_filter_verdict: str = ""  # 'pass' | 'reject' | 'uncertain'
+    python_filter_reason: str = ""   # matched signal explanation
+    python_filter_signal: str = ""   # exact keyword / regex that triggered
+
+    # ── Stage 2: Gemini Verdict (set by job_analyzer) ────────────────────────
+    is_fresher_job: bool = False      # Gemini confirmed fresher-eligible
+    confidence: int = 0               # Gemini confidence 0-100
+    jd_cached: bool = False           # True if JD was served from jd_cache
+
+    # ── Match (set by job_analyzer via Gemini) ───────────────────────────────
     match_score: int = 0
     match_reason: str = ""
     missing_skills: list = field(default_factory=list)
@@ -138,6 +148,10 @@ class Job:
             "missing_skills": self.missing_skills,
             "decision": self.decision,
             "status": self.status,
+            # Stage 1 + 2 metadata
+            "python_filter_verdict": self.python_filter_verdict,
+            "is_fresher_job": self.is_fresher_job,
+            "confidence": self.confidence,
         }
 
     @classmethod

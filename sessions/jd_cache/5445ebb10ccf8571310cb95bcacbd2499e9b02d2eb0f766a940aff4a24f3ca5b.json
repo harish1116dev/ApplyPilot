@@ -1,0 +1,42 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/associate-at-pwc-india-4409115502",
+  "url_hash": "5445ebb10ccf8571310cb95bcacbd2499e9b02d2eb0f766a940aff4a24f3ca5b",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:41:31.600000+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job description does not specify a minimum experience requirement.",
+    "profile_match": 50,
+    "profile_reason": "The job title 'Associate' at PwC is generic; without a description of the technical stack or functional area, it is impossible to determine if this aligns with the candidate's software development skills.",
+    "missing_skills": [
+      "not stated"
+    ],
+    "strong_matches": [],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Associate",
+    "company": "PwC India",
+    "location": "Bengaluru, Karnataka, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a generic Associate position at PwC India. The job description lacks specific technical requirements, functional domain information, or responsibilities, making it impossible to verify alignment with a software development profile.",
+    "match": 50,
+    "match_reason": "The job title 'Associate' at PwC is generic; without a description of the technical stack or functional area, it is impossible to determine if this aligns with the candidate's software development skills.",
+    "apply_url": "https://in.linkedin.com/jobs/view/associate-at-pwc-india-4409115502",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/associate-at-pwc-india-4409115502"
+    ],
+    "raw_jd": "Job Title: Associate\nCompany: PwC India\nLocation: Bengaluru, Karnataka, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:41:31.600000+00:00",
+  "applied": false,
+  "applied_at": null
+}

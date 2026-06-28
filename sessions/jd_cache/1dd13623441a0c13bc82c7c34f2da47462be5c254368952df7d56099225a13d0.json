@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=9ed07906274027f5",
+  "url_hash": "1dd13623441a0c13bc82c7c34f2da47462be5c254368952df7d56099225a13d0",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:56:09.092935+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job description does not specify an experience requirement, which defaults to fresher eligibility.",
+    "profile_match": 75,
+    "profile_reason": "The candidate has strong AI/ML and full-stack skills relevant to an 'AI-enabled developer' role, though the JD lacks sufficient detail to confirm specific tech stack alignment.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Python",
+      "Machine Learning",
+      "AI/LLM Tools",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "AI-enabled developer",
+    "company": "Infario Technologies",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "AI/ML development",
+      "Software development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role appears to be a software development position focused on integrating AI capabilities into applications. It is based in Coimbatore and requires a combination of AI/ML knowledge and standard software development practices.",
+    "match": 75,
+    "match_reason": "The candidate has strong AI/ML and full-stack skills relevant to an 'AI-enabled developer' role, though the JD lacks sufficient detail to confirm specific tech stack alignment.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=9ed07906274027f5",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=9ed07906274027f5"
+    ],
+    "raw_jd": "Job Title: AI-enabled developer\nCompany: Infario Technologies\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:56:09.092935+00:00",
+  "applied": false,
+  "applied_at": null
+}

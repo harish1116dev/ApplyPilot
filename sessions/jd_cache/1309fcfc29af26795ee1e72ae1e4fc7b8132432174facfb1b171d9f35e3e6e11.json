@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/application-developer-at-accenture-in-india-4344705902",
+  "url_hash": "1309fcfc29af26795ee1e72ae1e4fc7b8132432174facfb1b171d9f35e3e6e11",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:47:38.754396+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify any minimum years of experience requirement.",
+    "profile_match": 70,
+    "profile_reason": "The candidate's technical stack aligns with general application development, but the JD is extremely sparse, providing no specific skill requirements to verify.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Application Developer",
+    "company": "Accenture in India",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for an Application Developer at Accenture in Chennai. The job description provided is incomplete and lacks specific technical requirements or experience parameters.",
+    "match": 70,
+    "match_reason": "The candidate's technical stack aligns with general application development, but the JD is extremely sparse, providing no specific skill requirements to verify.",
+    "apply_url": "https://in.linkedin.com/jobs/view/application-developer-at-accenture-in-india-4344705902",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/application-developer-at-accenture-in-india-4344705902"
+    ],
+    "raw_jd": "Job Title: Application Developer\nCompany: Accenture in India\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:47:38.754396+00:00",
+  "applied": false,
+  "applied_at": null
+}

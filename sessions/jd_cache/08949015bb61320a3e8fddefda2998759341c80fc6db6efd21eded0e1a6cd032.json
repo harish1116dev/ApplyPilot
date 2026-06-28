@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/web-developer-at-accenture-in-india-4397159767",
+  "url_hash": "08949015bb61320a3e8fddefda2998759341c80fc6db6efd21eded0e1a6cd032",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:42:46.466883+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 70,
+    "profile_reason": "The candidate has strong React.js and web development project experience, but the JD is extremely generic and lacks specific technical requirements to confirm a high-confidence match.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Web Developer",
+    "company": "Accenture in India",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Web Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Accenture is hiring for a Web Developer in Chennai. The JD provides no specific experience or technical stack requirements, necessitating further investigation to determine project fit.",
+    "match": 70,
+    "match_reason": "The candidate has strong React.js and web development project experience, but the JD is extremely generic and lacks specific technical requirements to confirm a high-confidence match.",
+    "apply_url": "https://in.linkedin.com/jobs/view/web-developer-at-accenture-in-india-4397159767",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/web-developer-at-accenture-in-india-4397159767"
+    ],
+    "raw_jd": "Job Title: Web Developer\nCompany: Accenture in India\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:42:46.466883+00:00",
+  "applied": false,
+  "applied_at": null
+}

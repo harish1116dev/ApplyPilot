@@ -1,0 +1,45 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/full-stack-developer-%E2%80%93-chennai-at-letzbizz-4410371131",
+  "url_hash": "1d22de0bf746d1cb7483d18e57bf3fc451ab286c8f3b30c6fab0de5b6a035918",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:48:12.059740+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job description does not specify an experience requirement, making it potentially eligible for a fresher.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has the relevant technical stack (Full Stack), but the JD is extremely sparse, providing no specific skill requirements to verify a stronger match.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Full Stack Developer – Chennai",
+    "company": "LetzBizz",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Full Stack Developer position based in Chennai. The job description is incomplete and lacks specific technical requirements or experience mandates.",
+    "match": 65,
+    "match_reason": "The candidate has the relevant technical stack (Full Stack), but the JD is extremely sparse, providing no specific skill requirements to verify a stronger match.",
+    "apply_url": "https://in.linkedin.com/jobs/view/full-stack-developer-%E2%80%93-chennai-at-letzbizz-4410371131",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/full-stack-developer-%E2%80%93-chennai-at-letzbizz-4410371131"
+    ],
+    "raw_jd": "Job Title: Full Stack Developer – Chennai\nCompany: LetzBizz\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:48:12.059740+00:00",
+  "applied": false,
+  "applied_at": null
+}

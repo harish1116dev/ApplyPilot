@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=2e7262c839e5b55d",
+  "url_hash": "b1f84e489ffa6203a7279d17ec2212a828e99ec0a8d17fa301bf3ca4b298aa11",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:55:35.918195+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it is treated as fresher-eligible.",
+    "profile_match": 80,
+    "profile_reason": "Candidate has strong React, JavaScript, and Full Stack project experience which aligns well with the React Developer role, but the JD lacks specific technical details.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "React Developer",
+    "company": "App Innovation Technologies",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a React Developer based in Coimbatore. As the job description is extremely brief and lacks specific requirements, a manual review is necessary to determine the scope of responsibilities.",
+    "match": 80,
+    "match_reason": "Candidate has strong React, JavaScript, and Full Stack project experience which aligns well with the React Developer role, but the JD lacks specific technical details.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=2e7262c839e5b55d",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=2e7262c839e5b55d",
+      "https://in.indeed.com/viewjob?jk=dbe7768b1dc85dcb"
+    ],
+    "raw_jd": "Job Title: React Developer\nCompany: App Innovation Technologies\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:55:35.918195+00:00",
+  "applied": false,
+  "applied_at": null
+}

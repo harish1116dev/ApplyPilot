@@ -1,0 +1,48 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/back-end-developer-at-twixor-4418208443",
+  "url_hash": "208aeaf221a38ecbdb51a2991919091dd0f7ddb4d066867865dfec5dc2d7912b",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:45:46.758602+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience field is empty in the job description, making it potentially eligible for a fresher.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has relevant backend projects (Node.js, Express, SQL), but the JD is too sparse to confirm role expectations or seniority requirements.",
+    "missing_skills": [
+      "not stated"
+    ],
+    "strong_matches": [
+      "Node.js",
+      "Express.js",
+      "SQL",
+      "REST APIs"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Back End Developer",
+    "company": "Twixor",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Back End Developer at Twixor based in Chennai. The job description provides no specific details regarding required experience, tech stack, or responsibilities.",
+    "match": 65,
+    "match_reason": "The candidate has relevant backend projects (Node.js, Express, SQL), but the JD is too sparse to confirm role expectations or seniority requirements.",
+    "apply_url": "https://in.linkedin.com/jobs/view/back-end-developer-at-twixor-4418208443",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/back-end-developer-at-twixor-4418208443",
+      "https://in.linkedin.com/jobs/view/backend-developer-at-twixor-4418220406"
+    ],
+    "raw_jd": "Job Title: Back End Developer\nCompany: Twixor\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:45:46.758602+00:00",
+  "applied": false,
+  "applied_at": null
+}

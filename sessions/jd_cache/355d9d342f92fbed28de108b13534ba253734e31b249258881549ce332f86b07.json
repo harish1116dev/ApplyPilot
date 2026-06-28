@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=aefe2ea3a812c8c1",
+  "url_hash": "355d9d342f92fbed28de108b13534ba253734e31b249258881549ce332f86b07",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:59:09.929461+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description, making it potentially open to freshers.",
+    "profile_match": 10,
+    "profile_reason": "The candidate has a software/AI profile, while the role requires electrical engineering skills which are outside the candidate's core domain.",
+    "missing_skills": [
+      "Electrical Engineering",
+      "Circuit Design",
+      "PCB Design",
+      "Electrical Schematics",
+      "Power Systems"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 90,
+    "title": "Junior Electrical Design Engineer",
+    "company": "Unidos Technology",
+    "location": "Bangalore City, Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Electrical Design"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for an Electrical Design Engineer at Unidos Technology. It focuses on electrical systems and design, which does not align with the candidate's B.Tech in Artificial Intelligence and Data Science or their software development skill set.",
+    "match": 10,
+    "match_reason": "The candidate has a software/AI profile, while the role requires electrical engineering skills which are outside the candidate's core domain.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=aefe2ea3a812c8c1",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=aefe2ea3a812c8c1"
+    ],
+    "raw_jd": "Job Title: Junior Electrical Design Engineer\nCompany: Unidos Technology\nLocation: Bangalore City, Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:59:09.929461+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,40 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=209e7c09e7f2de20",
+  "url_hash": "9338625cf1db973e0c09ca1a42715ee85a1e7354fc49c1dcc5d9537665578567",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:54:09.778539+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title 'Software Engineer II' typically denotes a mid-level role requiring professional experience, making it unsuitable for a fresh graduate.",
+    "profile_match": 0,
+    "profile_reason": "The role title 'Software Engineer II' indicates a level of professional experience Harish S does not possess as a 2024 fresher.",
+    "missing_skills": [],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Software Engineer II",
+    "company": "Five9",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Software Engineer II position at Five9. The role is a mid-level engineering position that does not align with the candidate's fresher profile.",
+    "match": 0,
+    "match_reason": "The role title 'Software Engineer II' indicates a level of professional experience Harish S does not possess as a 2024 fresher.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=209e7c09e7f2de20",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=209e7c09e7f2de20"
+    ],
+    "raw_jd": "Job Title: Software Engineer II\nCompany: Five9\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:54:09.778539+00:00",
+  "applied": false,
+  "applied_at": null
+}

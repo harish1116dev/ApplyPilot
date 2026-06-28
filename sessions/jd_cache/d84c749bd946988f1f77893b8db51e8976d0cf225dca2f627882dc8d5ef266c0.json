@@ -1,0 +1,51 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-engineer-i-ii-backend-at-youtrip-4431699757",
+  "url_hash": "d84c749bd946988f1f77893b8db51e8976d0cf225dca2f627882dc8d5ef266c0",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:16:41.061127+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has strong backend project experience, but the role title 'Software Engineer I / II' often implies a need for professional experience despite the lack of explicit stating.",
+    "missing_skills": [
+      "Professional experience"
+    ],
+    "strong_matches": [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "SQL",
+      "PostgreSQL"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Software Engineer I / II (Backend)",
+    "company": "YouTrip",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Backend development",
+      "Software Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Backend Software Engineering role based in Chennai. It involves building and maintaining backend systems for the company's platform.",
+    "match": 65,
+    "match_reason": "The candidate has strong backend project experience, but the role title 'Software Engineer I / II' often implies a need for professional experience despite the lack of explicit stating.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-i-ii-backend-at-youtrip-4431699757",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-engineer-i-ii-backend-at-youtrip-4431699757"
+    ],
+    "raw_jd": "Job Title: Software Engineer I / II (Backend)\nCompany: YouTrip\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:16:41.061127+00:00",
+  "applied": false,
+  "applied_at": null
+}

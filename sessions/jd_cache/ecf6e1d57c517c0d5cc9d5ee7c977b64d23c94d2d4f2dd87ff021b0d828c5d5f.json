@@ -1,0 +1,53 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/sde-1-at-amazon-4421269320",
+  "url_hash": "ecf6e1d57c517c0d5cc9d5ee7c977b64d23c94d2d4f2dd87ff021b0d828c5d5f",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:40:31.565990+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the provided job description.",
+    "profile_match": 65,
+    "profile_reason": "While the candidate's technical skills align with the SDE-1 role, Amazon's SDE-1 hiring for freshers is highly competitive and typically requires rigorous LeetCode-style DSA and system design mastery not fully validated here.",
+    "missing_skills": [
+      "Data Structures and Algorithms (DSA)",
+      "System Design"
+    ],
+    "strong_matches": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "SDE-1",
+    "company": "Amazon",
+    "location": "Bengaluru, Karnataka, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Software Development",
+      "Problem Solving",
+      "Coding"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an SDE-1 role at Amazon in Bengaluru. It involves core software development tasks, typically requiring strong foundations in data structures, algorithms, and system design.",
+    "match": 65,
+    "match_reason": "While the candidate's technical skills align with the SDE-1 role, Amazon's SDE-1 hiring for freshers is highly competitive and typically requires rigorous LeetCode-style DSA and system design mastery not fully validated here.",
+    "apply_url": "https://in.linkedin.com/jobs/view/sde-1-at-amazon-4421269320",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/sde-1-at-amazon-4421269320"
+    ],
+    "raw_jd": "Job Title: SDE-1\nCompany: Amazon\nLocation: Bengaluru, Karnataka, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:40:31.565990+00:00",
+  "applied": false,
+  "applied_at": null
+}

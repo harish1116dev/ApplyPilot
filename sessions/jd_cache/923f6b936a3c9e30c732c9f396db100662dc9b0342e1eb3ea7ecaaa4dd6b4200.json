@@ -1,0 +1,56 @@
+{
+  "url": "https://internshala.com/job/detail/middleware-administrator-was-tomcat-jboss-job-in-bangalore-at-infosys1781607831",
+  "url_hash": "923f6b936a3c9e30c732c9f396db100662dc9b0342e1eb3ea7ecaaa4dd6b4200",
+  "raw_jd": "Key responsibilities: \r\n\r\n1. Provide Level 2 (L2) support for middleware platforms, including WebSphere (WAS), Tomcat, and JBoss.\r\n2. Install, configure, and administer middleware environments across Development, QA, and Production systems.\r\n3. Manage and support application deployments, including WAR and EAR files, across application servers.\r\n4. Monitor server health, performance, and availability to ensure compliance with SLA requirements.\r\n5. Troubleshoot issues related to application deployments, server failures, memory leaks, and performance bottlenecks.\r\n6. Perform log analysis, JVM tuning, garbage collection optimization, and debugging activities.\r\n7. Support clustering, load balancing, and high-availability configurations.\r\n8. Handle incident management, root cause analysis, and problem resolution activities.\r\n9. Perform patching, upgrades, migrations, and routine environment maintenance.\r\n10. Collaborate with application, database, operating system, and infrastructure teams to resolve technical issues.\r\n11. Support release management processes and ensure successful production deployments.",
+  "jd_hash": "04df1a4c678cce31d483c85d8146510bbfe73d6fc981142e1c14c94c35fb0ebe",
+  "fetched_at": "2026-06-28T08:50:46.769815+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The role requires advanced expertise in Middleware Administration (WAS, Tomcat, JBoss) which is inherently a specialized infrastructure role, not aligned with entry-level software development tracks.",
+    "profile_match": 10,
+    "profile_reason": "The candidate is a Full Stack/AI developer, whereas this role is exclusively for Middleware Infrastructure Administration (L2 support, server patching, JVM tuning), which is outside the candidate's core competency.",
+    "missing_skills": [
+      "WebSphere",
+      "Tomcat",
+      "JBoss",
+      "Middleware Administration",
+      "JVM Tuning",
+      "Garbage Collection Optimization",
+      "Load Balancing"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Middleware Administrator (WAS, Tomcat, JBoss)",
+    "company": "Infosys",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "WebSphere",
+      "Tomcat",
+      "JBoss",
+      "Middleware Administration",
+      "JVM tuning",
+      "Log analysis",
+      "Performance monitoring"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Middleware Administrator responsible for maintaining application server environments like WebSphere and JBoss. It involves server patching, incident management, performance tuning, and infrastructure support rather than software application development.",
+    "match": 10,
+    "match_reason": "The candidate is a Full Stack/AI developer, whereas this role is exclusively for Middleware Infrastructure Administration (L2 support, server patching, JVM tuning), which is outside the candidate's core competency.",
+    "apply_url": "https://internshala.com/job/detail/middleware-administrator-was-tomcat-jboss-job-in-bangalore-at-infosys1781607831",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/middleware-administrator-was-tomcat-jboss-job-in-bangalore-at-infosys1781607831"
+    ],
+    "raw_jd": "Key responsibilities: \r\n\r\n1. Provide Level 2 (L2) support for middleware platforms, including WebSphere (WAS), Tomcat, and JBoss.\r\n2. Install, configure, and administer middleware environments across Development, QA, and Production systems.\r\n3. Manage and support application deployments, including WAR and EAR files, across application servers.\r\n4. Monitor server health, performance, and availability to ensure compliance with SLA requirements.\r\n5. Troubleshoot issues related to application deployments, server failures, memory leaks, and performance bottlenecks.\r\n6. Perform log analysis, JVM tuning, garbage collection optimization, and debugging activities.\r\n7. Support clustering, load balancing, and high-availability configurations.\r\n8. Handle incident management, root cause analysis, and problem resolution activities.\r\n9. Perform patching, upgrades, migrations, and routine environment maintenance.\r\n10. Collaborate with application, database, operating system, and infrastructure teams to resolve technical issues.\r\n11. Support release management processes and ensure successful production deployments."
+  },
+  "verdict_at": "2026-06-28T08:50:53.316176+00:00",
+  "applied": false,
+  "applied_at": null
+}

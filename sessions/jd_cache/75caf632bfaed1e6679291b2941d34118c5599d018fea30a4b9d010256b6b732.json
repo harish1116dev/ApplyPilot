@@ -1,0 +1,50 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=f08264767b867ed1",
+  "url_hash": "75caf632bfaed1e6679291b2941d34118c5599d018fea30a4b9d010256b6b732",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:53:03.486037+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title explicitly includes '(fresher)' and no minimum experience is stated.",
+    "profile_match": 40,
+    "profile_reason": "The candidate has a B.Tech in AI/DS, but the job title specifies 'ECE' (Electronics and Communication Engineering), which may indicate a preference for a different engineering discipline.",
+    "missing_skills": [
+      "Electronics Engineering",
+      "Circuit Design",
+      "Embedded Systems"
+    ],
+    "strong_matches": [
+      "IoT",
+      "Python"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "ECE (fresher)",
+    "company": "VJSP INNOVATIVE VENTURES PRIVATE LIMITED",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Electronics and Communication Engineering knowledge"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Entry-level position for an ECE graduate at VJSP Innovative Ventures. The role appears to target Electronics and Communication Engineering backgrounds, which does not align with the candidate's AI and Data Science degree.",
+    "match": 40,
+    "match_reason": "The candidate has a B.Tech in AI/DS, but the job title specifies 'ECE' (Electronics and Communication Engineering), which may indicate a preference for a different engineering discipline.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=f08264767b867ed1",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=f08264767b867ed1",
+      "https://in.indeed.com/viewjob?jk=890abcdef0123456"
+    ],
+    "raw_jd": "Job Title: ECE (fresher)\nCompany: VJSP INNOVATIVE VENTURES PRIVATE LIMITED\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:53:03.486037+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,47 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/full-stack-developer-node-js-python-software-engineer-iii-at-deloitte-4428053666",
+  "url_hash": "a2a7ed6b24ceace73d69e9a30d3018d96875cfb24b84e14ea1420ac568ff40fb",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:46:52.197523+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "Software Engineer III",
+    "experience_reason": "The job title includes 'Software Engineer III', which typically denotes a senior-level position requiring several years of professional experience.",
+    "profile_match": 0,
+    "profile_reason": "The role is clearly an experienced-level position (Level III) unsuitable for a fresh graduate.",
+    "missing_skills": [
+      "Professional industry experience",
+      "System design for enterprise scale",
+      "Lead/Senior software development experience"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "Full Stack Developer (Node.js/Python) - Software Engineer III",
+    "company": "Deloitte",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Node.js",
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "A full-stack development role at Deloitte designated as Software Engineer III. This position requires an experienced professional capable of operating at a senior technical level.",
+    "match": 0,
+    "match_reason": "The role is clearly an experienced-level position (Level III) unsuitable for a fresh graduate.",
+    "apply_url": "https://in.linkedin.com/jobs/view/full-stack-developer-node-js-python-software-engineer-iii-at-deloitte-4428053666",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/full-stack-developer-node-js-python-software-engineer-iii-at-deloitte-4428053666"
+    ],
+    "raw_jd": "Job Title: Full Stack Developer (Node.js/Python) - Software Engineer III\nCompany: Deloitte\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:46:52.197523+00:00",
+  "applied": false,
+  "applied_at": null
+}

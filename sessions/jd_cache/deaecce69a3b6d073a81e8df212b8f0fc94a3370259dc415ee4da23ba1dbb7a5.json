@@ -1,0 +1,47 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/consultant-at-deloitte-4423106403",
+  "url_hash": "deaecce69a3b6d073a81e8df212b8f0fc94a3370259dc415ee4da23ba1dbb7a5",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:41:11.559188+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not explicitly specify an experience requirement.",
+    "profile_match": 60,
+    "profile_reason": "While the candidate has relevant technical skills, 'Consultant' roles at Deloitte typically require specific domain expertise or experience levels not clearly defined in this vague description.",
+    "missing_skills": [
+      "Domain-specific consulting knowledge",
+      "Professional client-facing experience"
+    ],
+    "strong_matches": [
+      "Python",
+      "SQL",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Consultant",
+    "company": "Deloitte",
+    "location": "Bangalore Urban, Karnataka, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Consultant position at Deloitte located in Bangalore. The job description is incomplete and lacks specific skill requirements, experience levels, or role responsibilities.",
+    "match": 60,
+    "match_reason": "While the candidate has relevant technical skills, 'Consultant' roles at Deloitte typically require specific domain expertise or experience levels not clearly defined in this vague description.",
+    "apply_url": "https://in.linkedin.com/jobs/view/consultant-at-deloitte-4423106403",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/consultant-at-deloitte-4423106403"
+    ],
+    "raw_jd": "Job Title: Consultant\nCompany: Deloitte\nLocation: Bangalore Urban, Karnataka, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:41:11.559188+00:00",
+  "applied": false,
+  "applied_at": null
+}

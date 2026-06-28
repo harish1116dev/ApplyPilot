@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=28937d48ee7887b3",
+  "url_hash": "671303ef3a91c98ce339b5748f31475c9d5203fea1c21662b6f9ae2fecc2d286",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:53:16.834942+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description, making it potentially eligible for a fresher.",
+    "profile_match": 70,
+    "profile_reason": "The candidate has strong technical alignment with Full Stack roles, but the JD lacks specific tech stack requirements, requiring manual verification.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Express.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Full Stack Developer",
+    "company": "Fourth Dimension Technologies Pvt. Ltd",
+    "location": "Guindy, Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Full Stack Developer position based in Guindy, Chennai. The job description is extremely brief and does not provide technical requirements, salary, or experience constraints.",
+    "match": 70,
+    "match_reason": "The candidate has strong technical alignment with Full Stack roles, but the JD lacks specific tech stack requirements, requiring manual verification.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=28937d48ee7887b3",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=28937d48ee7887b3"
+    ],
+    "raw_jd": "Job Title: Full Stack Developer\nCompany: Fourth Dimension Technologies Pvt. Ltd\nLocation: Guindy, Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:53:16.834942+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,47 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/reactjs-developer-at-bnp-paribas-4429590805",
+  "url_hash": "58f9dbe209d24e42dd689314a98b848b55eaf1ae1e545805129fd94bb30d0c0b",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:43:06.601607+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify any minimum years of experience requirement.",
+    "profile_match": 75,
+    "profile_reason": "The candidate has strong React.js and frontend skills, but the lack of explicit entry-level status at a firm like BNP Paribas suggests this may be an experienced role.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "ReactJS Developer",
+    "company": "BNP Paribas",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "ReactJS"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a ReactJS developer position at BNP Paribas in Chennai. The JD is minimal and does not specify experience requirements or responsibilities, requiring manual verification before application.",
+    "match": 75,
+    "match_reason": "The candidate has strong React.js and frontend skills, but the lack of explicit entry-level status at a firm like BNP Paribas suggests this may be an experienced role.",
+    "apply_url": "https://in.linkedin.com/jobs/view/reactjs-developer-at-bnp-paribas-4429590805",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/reactjs-developer-at-bnp-paribas-4429590805"
+    ],
+    "raw_jd": "Job Title: ReactJS Developer\nCompany: BNP Paribas\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:43:06.601607+00:00",
+  "applied": false,
+  "applied_at": null
+}

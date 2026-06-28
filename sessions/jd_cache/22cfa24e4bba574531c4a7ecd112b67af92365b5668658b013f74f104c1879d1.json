@@ -1,0 +1,50 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/php-developer-at-mdaedge-4431710286",
+  "url_hash": "22cfa24e4bba574531c4a7ecd112b67af92365b5668658b013f74f104c1879d1",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:48:38.466737+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, making it eligible for a fresher under our criteria.",
+    "profile_match": 45,
+    "profile_reason": "The candidate has a strong background in MERN stack development but lacks the specific requirement for PHP, which is a different server-side language.",
+    "missing_skills": [
+      "PHP",
+      "Laravel",
+      "MySQL"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "SQL",
+      "REST APIs"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "PHP Developer",
+    "company": "MDAEdge",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "PHP"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a PHP Developer at MDAEdge based in Chennai. The job description provides no specific requirements, suggesting a generic entry-level opening that requires proficiency in PHP.",
+    "match": 45,
+    "match_reason": "The candidate has a strong background in MERN stack development but lacks the specific requirement for PHP, which is a different server-side language.",
+    "apply_url": "https://in.linkedin.com/jobs/view/php-developer-at-mdaedge-4431710286",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/php-developer-at-mdaedge-4431710286"
+    ],
+    "raw_jd": "Job Title: PHP Developer\nCompany: MDAEdge\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:48:38.466737+00:00",
+  "applied": false,
+  "applied_at": null
+}

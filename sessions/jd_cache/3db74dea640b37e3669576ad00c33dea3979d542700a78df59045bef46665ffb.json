@@ -1,0 +1,61 @@
+{
+  "url": "https://internshala.com/job/detail/fresher-software-developer-job-in-bangalore-at-harshad-enterprises1781152508",
+  "url_hash": "3db74dea640b37e3669576ad00c33dea3979d542700a78df59045bef46665ffb",
+  "raw_jd": "We are looking for a talented and experienced software developer to join our team at Harshad Enterprises. As a software developer with expertise in Java, MySQL, HTML, CSS, JavaScript, Python, .NET, Node.js, C++ programming, and React, you will play a crucial role in developing innovative software solutions for our clients.\r\n\r\nKey Responsibilities:\r\n\r\n1. Collaborate with the team to design and develop software applications using Java, Python, .NET, and other programming languages.\r\n2. Write clean, efficient, and maintainable code while adhering to coding standards and best practices.\r\n3. Utilize MySQL databases to store and retrieve data for various applications.\r\n4. Develop responsive web applications using HTML, CSS, and JavaScript frameworks like React and Node.js.\r\n5. Troubleshoot and debug software issues to ensure optimal performance and functionality.\r\n6. Stay updated on the latest technologies and trends in software development to continuously improve our products.\r\n7. Work closely with project managers and stakeholders to deliver projects on time and within budget.\r\n\r\nIf you are a passionate software developer with a strong background in a variety of programming languages and a desire to work on cutting-edge projects, we would love to hear from you. Join us at Harshad Enterprises and be a part of our dynamic and innovative team.",
+  "jd_hash": "ce2ac7755c94100df1680b9e656845018528cd4955ee30e759038f24c2898b4c",
+  "fetched_at": "2026-06-28T08:51:20.983487+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "experienced",
+    "experience_reason": "The JD explicitly states they are looking for an 'experienced software developer' and does not mention freshers, entry-level, or 0 years of experience.",
+    "profile_match": 0,
+    "profile_reason": "The job explicitly requires an experienced developer, disqualifying the candidate as a fresher.",
+    "missing_skills": [
+      "Java",
+      ".NET",
+      "C++"
+    ],
+    "strong_matches": [
+      "Python",
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "MySQL"
+    ],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Software Developer",
+    "company": "Harshad Enterprises",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Java",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python",
+      ".NET",
+      "Node.js",
+      "C++",
+      "React"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Harshad Enterprises is seeking an experienced software developer proficient in multiple languages including Java, .NET, and C++ to build software solutions. The role focuses on full-stack web application development and database management.",
+    "match": 0,
+    "match_reason": "The job explicitly requires an experienced developer, disqualifying the candidate as a fresher.",
+    "apply_url": "https://internshala.com/job/detail/fresher-software-developer-job-in-bangalore-at-harshad-enterprises1781152508",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/fresher-software-developer-job-in-bangalore-at-harshad-enterprises1781152508"
+    ],
+    "raw_jd": "We are looking for a talented and experienced software developer to join our team at Harshad Enterprises. As a software developer with expertise in Java, MySQL, HTML, CSS, JavaScript, Python, .NET, Node.js, C++ programming, and React, you will play a crucial role in developing innovative software solutions for our clients.\r\n\r\nKey Responsibilities:\r\n\r\n1. Collaborate with the team to design and develop software applications using Java, Python, .NET, and other programming languages.\r\n2. Write clean, efficient, and maintainable code while adhering to coding standards and best practices.\r\n3. Utilize MySQL databases to store and retrieve data for various applications.\r\n4. Develop responsive web applications using HTML, CSS, and JavaScript frameworks like React and Node.js.\r\n5. Troubleshoot and debug software issues to ensure optimal performance and functionality.\r\n6. Stay updated on the latest technologies and trends in software development to continuously improve our products.\r\n7. Work closely with project managers and stakeholders to deliver projects on time and within budget.\r\n\r\nIf you are a passionate software developer with a strong background in a variety of programming languages and a desire to work on cutting-edge projects, we would love to hear from you. Join us at Harshad Enterprises and be a part of our dynamic and innovative team."
+  },
+  "verdict_at": "2026-06-28T08:51:27.555763+00:00",
+  "applied": false,
+  "applied_at": null
+}

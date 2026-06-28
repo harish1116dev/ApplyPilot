@@ -1,0 +1,49 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/junior-backend-developer-at-enan-tech-private-ltd-4422721114",
+  "url_hash": "9e8dabfec496c3fca6d0ccf64cf5579114da1ba03e2e32180b757bf08d450878",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:41:38.284881+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not stated in the job description.",
+    "profile_match": 70,
+    "profile_reason": "Candidate has relevant projects and skills in Node.js and REST APIs, but the JD is extremely sparse, creating high uncertainty.",
+    "missing_skills": [
+      "not specified"
+    ],
+    "strong_matches": [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "SQL"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Junior Backend Developer",
+    "company": "Enan Tech Private Ltd",
+    "location": "Bengaluru, Karnataka, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "not specified"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Junior Backend Developer role at Enan Tech Private Ltd. The job description provides no specific details regarding technical stack requirements or experience levels beyond the job title.",
+    "match": 70,
+    "match_reason": "Candidate has relevant projects and skills in Node.js and REST APIs, but the JD is extremely sparse, creating high uncertainty.",
+    "apply_url": "https://in.linkedin.com/jobs/view/junior-backend-developer-at-enan-tech-private-ltd-4422721114",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/junior-backend-developer-at-enan-tech-private-ltd-4422721114"
+    ],
+    "raw_jd": "Job Title: Junior Backend Developer\nCompany: Enan Tech Private Ltd\nLocation: Bengaluru, Karnataka, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:41:38.284881+00:00",
+  "applied": false,
+  "applied_at": null
+}

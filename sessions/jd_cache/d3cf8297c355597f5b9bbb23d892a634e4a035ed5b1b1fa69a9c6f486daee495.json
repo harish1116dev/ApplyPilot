@@ -1,0 +1,47 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/full-stack-developer-at-bnp-paribas-4181183500",
+  "url_hash": "d3cf8297c355597f5b9bbb23d892a634e4a035ed5b1b1fa69a9c6f486daee495",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:43:20.035222+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description provided.",
+    "profile_match": 65,
+    "profile_reason": "While the candidate has relevant full-stack skills, the job description is critically underspecified, lacking required tech stacks or specific scope, making a high confidence match impossible.",
+    "missing_skills": [
+      "not stated"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "SQL"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Full Stack Developer",
+    "company": "BNP Paribas",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Full Stack Developer role at BNP Paribas in Chennai. The job description lacks necessary details regarding specific technology stacks and experience requirements.",
+    "match": 65,
+    "match_reason": "While the candidate has relevant full-stack skills, the job description is critically underspecified, lacking required tech stacks or specific scope, making a high confidence match impossible.",
+    "apply_url": "https://in.linkedin.com/jobs/view/full-stack-developer-at-bnp-paribas-4181183500",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/full-stack-developer-at-bnp-paribas-4181183500"
+    ],
+    "raw_jd": "Job Title: Full Stack Developer\nCompany: BNP Paribas\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:43:20.035222+00:00",
+  "applied": false,
+  "applied_at": null
+}

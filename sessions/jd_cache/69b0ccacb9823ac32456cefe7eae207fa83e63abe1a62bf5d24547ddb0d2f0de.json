@@ -1,0 +1,40 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-engineer-at-capgemini-4410007701",
+  "url_hash": "69b0ccacb9823ac32456cefe7eae207fa83e63abe1a62bf5d24547ddb0d2f0de",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:17:06.981671+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it defaults to fresher-eligible.",
+    "profile_match": 65,
+    "profile_reason": "The JD is extremely vague with no specific skill requirements listed, making it impossible to determine a high-confidence technical fit.",
+    "missing_skills": [],
+    "strong_matches": [],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Software Engineer",
+    "company": "Capgemini",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a generic Software Engineer position at Capgemini located in Chennai. The job description lacks necessary details regarding specific technical stack or experience levels, requiring further investigation before application.",
+    "match": 65,
+    "match_reason": "The JD is extremely vague with no specific skill requirements listed, making it impossible to determine a high-confidence technical fit.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-at-capgemini-4410007701",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-engineer-at-capgemini-4410007701"
+    ],
+    "raw_jd": "Job Title: Software Engineer\nCompany: Capgemini\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:17:06.981671+00:00",
+  "applied": false,
+  "applied_at": null
+}

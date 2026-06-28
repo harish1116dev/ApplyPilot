@@ -1,0 +1,44 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=f869cbed86f4f04b",
+  "url_hash": "e78a58c666e5dc3da30538d2f96e2207d70a1bc1e3f213d8be14e864bd39c84e",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:01:48.788605+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is unstated, allowing for fresher eligibility.",
+    "profile_match": 75,
+    "profile_reason": "The candidate has strong Python skills and relevant project experience, fitting an internship role, but the JD lacks specific technical requirements to confirm a perfect match.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Python"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Python Developer Intern",
+    "company": "Rapid Accelaration Partners",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "An internship role focused on Python development based in Chennai. The JD is sparse on details, requiring verification of specific project technologies and internship duration.",
+    "match": 75,
+    "match_reason": "The candidate has strong Python skills and relevant project experience, fitting an internship role, but the JD lacks specific technical requirements to confirm a perfect match.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=f869cbed86f4f04b",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=f869cbed86f4f04b"
+    ],
+    "raw_jd": "Job Title: Python Developer Intern\nCompany: Rapid Accelaration Partners\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:01:48.788605+00:00",
+  "applied": false,
+  "applied_at": null
+}

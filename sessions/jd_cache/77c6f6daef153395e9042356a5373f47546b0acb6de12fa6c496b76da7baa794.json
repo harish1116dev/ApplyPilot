@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=b0e6bdcf0811e675",
+  "url_hash": "77c6f6daef153395e9042356a5373f47546b0acb6de12fa6c496b76da7baa794",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:59:36.323872+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 10,
+    "profile_reason": "The role is for a Service Engineer, which typically focuses on hardware maintenance, installation, or customer support, whereas the candidate's profile is focused on software development and AI.",
+    "missing_skills": [
+      "Hardware maintenance",
+      "Field service experience",
+      "Technical support",
+      "Equipment troubleshooting"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 70,
+    "title": "Service Engineer",
+    "company": "BHARAT TECHNOLOGIES",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a Service Engineer, which involves technical support and onsite services. It is not aligned with the candidate's background in software development, full-stack engineering, or data science.",
+    "match": 10,
+    "match_reason": "The role is for a Service Engineer, which typically focuses on hardware maintenance, installation, or customer support, whereas the candidate's profile is focused on software development and AI.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=b0e6bdcf0811e675",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=b0e6bdcf0811e675"
+    ],
+    "raw_jd": "Job Title: Service Engineer\nCompany: BHARAT TECHNOLOGIES\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:59:36.323872+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=b2fd773c0491d2cc",
+  "url_hash": "48e264cdadd4b205929e621edc36950e11fc69348d982900466d0c67a162914f",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:52:56.738379+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title explicitly includes '(Freshers)' and 'Trainee', indicating eligibility for entry-level candidates.",
+    "profile_match": 80,
+    "profile_reason": "The candidate has a degree in AI/DS and training in full-stack development, which aligns well with a trainee software engineering role in Chennai.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "React.js",
+      "Node.js",
+      "Express.js"
+    ],
+    "recommendation": "auto_apply",
+    "confidence": 85,
+    "title": "Trainee Software Engineer (Freshers)",
+    "company": "ARKMINDS INFOTECH PRIVATE LIMITED",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Software Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "ARKMINDS INFOTECH is hiring a Trainee Software Engineer in Chennai. This is an entry-level role designed for fresh graduates to start their software development career.",
+    "match": 80,
+    "match_reason": "The candidate has a degree in AI/DS and training in full-stack development, which aligns well with a trainee software engineering role in Chennai.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=b2fd773c0491d2cc",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=b2fd773c0491d2cc"
+    ],
+    "raw_jd": "Job Title: Trainee Software Engineer (Freshers)\nCompany: ARKMINDS INFOTECH PRIVATE LIMITED\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:52:56.738379+00:00",
+  "applied": false,
+  "applied_at": null
+}

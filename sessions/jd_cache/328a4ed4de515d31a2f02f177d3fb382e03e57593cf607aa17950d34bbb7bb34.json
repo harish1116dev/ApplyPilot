@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/custom-software-engineer-at-accenture-in-india-4414289913",
+  "url_hash": "328a4ed4de515d31a2f02f177d3fb382e03e57593cf607aa17950d34bbb7bb34",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:17:48.108207+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 70,
+    "profile_reason": "Accenture 'Custom Software Engineer' roles are frequently targeted at entry-level talent, but the lack of explicit detail makes the exact scope and skill requirements ambiguous.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "SQL",
+      "Python",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Custom Software Engineer",
+    "company": "Accenture in India",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role at Accenture appears to be a standard software engineering position. Without specific technical requirements provided in the JD, it is unclear if this aligns with specific stack specializations or generalist development.",
+    "match": 70,
+    "match_reason": "Accenture 'Custom Software Engineer' roles are frequently targeted at entry-level talent, but the lack of explicit detail makes the exact scope and skill requirements ambiguous.",
+    "apply_url": "https://in.linkedin.com/jobs/view/custom-software-engineer-at-accenture-in-india-4414289913",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/custom-software-engineer-at-accenture-in-india-4414289913"
+    ],
+    "raw_jd": "Job Title: Custom Software Engineer\nCompany: Accenture in India\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:17:48.108207+00:00",
+  "applied": false,
+  "applied_at": null
+}

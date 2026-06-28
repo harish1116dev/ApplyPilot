@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=357b86be52183f6c",
+  "url_hash": "249c9e1ef15a806f76f416d1652fec361d9a043d7e71a52c5fd183a07df2fda5",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:01:42.191331+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, making it eligible for a fresher.",
+    "profile_match": 80,
+    "profile_reason": "The candidate has strong Python proficiency and ML projects, which align well with a Python Developer Internship role, and the location matches the preferred city.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Python",
+      "Machine Learning"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Python Developer Intern",
+    "company": "Superfans",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Superfans is looking for a Python Developer Intern based in Chennai. The role focuses on Python development, which aligns with the candidate's technical background in AI and Data Science.",
+    "match": 80,
+    "match_reason": "The candidate has strong Python proficiency and ML projects, which align well with a Python Developer Internship role, and the location matches the preferred city.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=357b86be52183f6c",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=357b86be52183f6c"
+    ],
+    "raw_jd": "Job Title: Python Developer Intern\nCompany: Superfans\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:01:42.191331+00:00",
+  "applied": false,
+  "applied_at": null
+}

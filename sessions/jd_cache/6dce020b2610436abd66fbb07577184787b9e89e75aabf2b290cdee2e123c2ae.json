@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=9096e7319f567e73",
+  "url_hash": "6dce020b2610436abd66fbb07577184787b9e89e75aabf2b290cdee2e123c2ae",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:00:03.373461+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The title includes 'Trainee', which is indicative of an entry-level or fresher role.",
+    "profile_match": 0,
+    "profile_reason": "The candidate's profile is focused on Software Engineering and AI/ML, while the role is for an Interior Designer using Infurnia software.",
+    "missing_skills": [
+      "Interior Design",
+      "Infurnia",
+      "Space Planning",
+      "AutoCAD",
+      "3D Rendering"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Interior Designer Trainee (Infurnia)",
+    "company": "D Hatcher Interio",
+    "location": "Sulur, Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Interior Design",
+      "Infurnia"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an Interior Designer Trainee role focused on interior design projects using Infurnia software. It is completely misaligned with the candidate's technical software development and AI/ML background.",
+    "match": 0,
+    "match_reason": "The candidate's profile is focused on Software Engineering and AI/ML, while the role is for an Interior Designer using Infurnia software.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=9096e7319f567e73",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=9096e7319f567e73"
+    ],
+    "raw_jd": "Job Title: Interior Designer Trainee (Infurnia)\nCompany: D Hatcher Interio\nLocation: Sulur, Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:00:03.373461+00:00",
+  "applied": false,
+  "applied_at": null
+}

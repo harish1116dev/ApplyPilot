@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-developer-at-infosys-4391195721",
+  "url_hash": "e01750c17608767db834db6765910deab919a47208366638283d4966bd4e5e61",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:40:05.015642+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify any minimum years of experience requirement.",
+    "profile_match": 70,
+    "profile_reason": "The candidate's full-stack and AI skillset aligns with general entry-level software developer roles, but the JD is extremely vague regarding specific technology stacks.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "Python",
+      "SQL",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Software Developer",
+    "company": "Infosys",
+    "location": "Bengaluru East, Karnataka, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "An entry-level software developer role at Infosys. The JD lacks sufficient detail regarding specific technical requirements or project expectations.",
+    "match": 70,
+    "match_reason": "The candidate's full-stack and AI skillset aligns with general entry-level software developer roles, but the JD is extremely vague regarding specific technology stacks.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-developer-at-infosys-4391195721",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-developer-at-infosys-4391195721"
+    ],
+    "raw_jd": "Job Title: Software Developer\nCompany: Infosys\nLocation: Bengaluru East, Karnataka, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:40:05.015642+00:00",
+  "applied": false,
+  "applied_at": null
+}

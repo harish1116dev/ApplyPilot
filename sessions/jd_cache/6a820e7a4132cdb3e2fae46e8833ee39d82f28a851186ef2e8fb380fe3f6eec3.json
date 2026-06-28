@@ -1,0 +1,41 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=db517cb10235158a",
+  "url_hash": "6a820e7a4132cdb3e2fae46e8833ee39d82f28a851186ef2e8fb380fe3f6eec3",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:52:23.767592+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title includes 'Trainee' and there is no specified minimum experience requirement.",
+    "profile_match": 10,
+    "profile_reason": "The JD indicates this is a 'Fee Applicable' program, which is a significant red flag for a professional software engineering career path.",
+    "missing_skills": [],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Technical Trainee Program (Fee Applicable)",
+    "company": "EagleHiTech PVt LtD",
+    "location": "Remote in Chennai, Tamil Nadu",
+    "remote": true,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Technical Trainee Program that requires a fee from the applicant. It does not appear to be a standard employment opportunity for a software developer or engineer.",
+    "match": 10,
+    "match_reason": "The JD indicates this is a 'Fee Applicable' program, which is a significant red flag for a professional software engineering career path.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=db517cb10235158a",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=db517cb10235158a",
+      "https://in.indeed.com/viewjob?jk=123456789abcdef0"
+    ],
+    "raw_jd": "Job Title: Technical Trainee Program (Fee Applicable)\nCompany: EagleHiTech PVt LtD\nLocation: Remote in Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:52:23.767592+00:00",
+  "applied": false,
+  "applied_at": null
+}

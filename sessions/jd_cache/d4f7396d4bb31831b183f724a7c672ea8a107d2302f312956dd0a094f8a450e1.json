@@ -1,0 +1,50 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/java-developer-at-bnp-paribas-4431658202",
+  "url_hash": "d4f7396d4bb31831b183f724a7c672ea8a107d2302f312956dd0a094f8a450e1",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:17:34.515926+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it is treated as fresher-eligible.",
+    "profile_match": 40,
+    "profile_reason": "The candidate has strong Full Stack and AI skills but lacks Java/J2EE expertise, which is the primary requirement for the role.",
+    "missing_skills": [
+      "Java",
+      "J2EE",
+      "Spring Boot",
+      "Microservices"
+    ],
+    "strong_matches": [
+      "SQL",
+      "Git"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Java Developer",
+    "company": "BNP Paribas",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Java"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a Java Developer at BNP Paribas in Chennai. As the JD lacks specific experience requirements and skill details, it is unclear if this is an entry-level position suitable for a fresh graduate.",
+    "match": 40,
+    "match_reason": "The candidate has strong Full Stack and AI skills but lacks Java/J2EE expertise, which is the primary requirement for the role.",
+    "apply_url": "https://in.linkedin.com/jobs/view/java-developer-at-bnp-paribas-4431658202",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/java-developer-at-bnp-paribas-4431658202"
+    ],
+    "raw_jd": "Job Title: Java Developer\nCompany: BNP Paribas\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:17:34.515926+00:00",
+  "applied": false,
+  "applied_at": null
+}

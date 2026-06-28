@@ -1,0 +1,40 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-engineer-at-infinite-computer-solutions-4410769154",
+  "url_hash": "2ff640ab01ff065167158d5f61a62e47f151cbf8360f4166097e143f08692448",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:16:47.781764+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 60,
+    "profile_reason": "The JD is extremely vague with no specific skills or requirements listed, making it difficult to assess the actual role requirements.",
+    "missing_skills": [],
+    "strong_matches": [],
+    "recommendation": "manual_review",
+    "confidence": 50,
+    "title": "Software Engineer",
+    "company": "Infinite Computer Solutions",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Software Engineer role at Infinite Computer Solutions located in Chennai. The job description provides no specific details regarding required technologies, years of experience, or responsibilities.",
+    "match": 60,
+    "match_reason": "The JD is extremely vague with no specific skills or requirements listed, making it difficult to assess the actual role requirements.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-at-infinite-computer-solutions-4410769154",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-engineer-at-infinite-computer-solutions-4410769154"
+    ],
+    "raw_jd": "Job Title: Software Engineer\nCompany: Infinite Computer Solutions\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:16:47.781764+00:00",
+  "applied": false,
+  "applied_at": null
+}

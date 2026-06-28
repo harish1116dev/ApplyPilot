@@ -1,0 +1,53 @@
+{
+  "url": "https://internshala.com/job/detail/stibo-mdm-developer-job-in-chennai-at-nvizion-solutions1772152223",
+  "url_hash": "3ffd426fa333fa12dde2b1f22cc3e1acef95dadcbc928ea9c555775c1874707c",
+  "raw_jd": "Overview:We are seeking a highly experienced STIBO STEP Developer with strong expertise in implementing and supporting Stibo Systems STEP MDMPIM solutions within the Hospitality industry.Ideal candidate will have deep experience in managing and governing master data across hospitality ecosystems including:Hotel properties and locationsRooms and amenitiesFood and beverage catalogsService offeringsVendor and supplier dataDigital assets (images, menus, promotional content)Customer and loyalty-related product dataRequires strong technical STIBO skills and clear understanding of hospitality business processes.\r\nKey ResponsibilitiesSTIBO STEP DevelopmentDesign and implement STEP data models tailored for hospitality master dataConfigure object types such as:Hotel propertiesRoom categoriesService packagesF&B productsAmenitiesSeasonal promotionsDevelop and maintain:Business rules (JavaScript-based)Workflow processes for product/service approvalsData validation and quality rulesMatching and deduplication logicHospitality-Focused ResponsibilitiesEnable centralized product/service data for:Booking platformsProperty Management Systems (PMS)Revenue Management Systems (RMS)POS systemsWebsite and mobile appsSupport multi-property and multi-brand data hierarchiesManage localization (multi-language, multi-currency support)Support seasonal and promotional catalog updatesEnable syndication to OTAs (Online Travel Agencies)Maintain regulatory compliance data (food labeling, regional regulations)In",
+  "jd_hash": "b3d02ebca25dcadbeb29521a51f37897bb12e1fb66ded626206b6640ffaffe8e",
+  "fetched_at": "2026-06-28T08:49:52.678910+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "highly experienced",
+    "experience_reason": "The JD explicitly seeks a 'highly experienced' professional, which excludes freshers.",
+    "profile_match": 0,
+    "profile_reason": "The candidate is a fresher, and this role requires specialized, senior-level expertise in Stibo Systems STEP MDM solutions.",
+    "missing_skills": [
+      "Stibo Systems STEP",
+      "MDM/PIM solutions",
+      "Hospitality industry data governance",
+      "Property Management Systems (PMS)"
+    ],
+    "strong_matches": [
+      "JavaScript"
+    ],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "Stibo MDM Developer",
+    "company": "Nvizion Solutions",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Stibo Systems STEP",
+      "MDM/PIM",
+      "JavaScript",
+      "Data modeling",
+      "Workflow processes"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role involves designing and implementing Stibo Systems STEP MDM solutions specifically for the hospitality industry. It requires deep experience in managing master data for properties, amenities, and vendor services.",
+    "match": 0,
+    "match_reason": "The candidate is a fresher, and this role requires specialized, senior-level expertise in Stibo Systems STEP MDM solutions.",
+    "apply_url": "https://internshala.com/job/detail/stibo-mdm-developer-job-in-chennai-at-nvizion-solutions1772152223",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/stibo-mdm-developer-job-in-chennai-at-nvizion-solutions1772152223"
+    ],
+    "raw_jd": "Overview:We are seeking a highly experienced STIBO STEP Developer with strong expertise in implementing and supporting Stibo Systems STEP MDMPIM solutions within the Hospitality industry.Ideal candidate will have deep experience in managing and governing master data across hospitality ecosystems including:Hotel properties and locationsRooms and amenitiesFood and beverage catalogsService offeringsVendor and supplier dataDigital assets (images, menus, promotional content)Customer and loyalty-related product dataRequires strong technical STIBO skills and clear understanding of hospitality business processes.\r\nKey ResponsibilitiesSTIBO STEP DevelopmentDesign and implement STEP data models tailored for hospitality master dataConfigure object types such as:Hotel propertiesRoom categoriesService packagesF&B productsAmenitiesSeasonal promotionsDevelop and maintain:Business rules (JavaScript-based)Workflow processes for product/service approvalsData validation and quality rulesMatching and deduplication logicHospitality-Focused ResponsibilitiesEnable centralized product/service data for:Booking platformsProperty Management Systems (PMS)Revenue Management Systems (RMS)POS systemsWebsite and mobile appsSupport multi-property and multi-brand data hierarchiesManage localization (multi-language, multi-currency support)Support seasonal and promotional catalog updatesEnable syndication to OTAs (Online Travel Agencies)Maintain regulatory compliance data (food labeling, regional regulations)In"
+  },
+  "verdict_at": "2026-06-28T08:49:58.911835+00:00",
+  "applied": false,
+  "applied_at": null
+}

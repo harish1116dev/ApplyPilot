@@ -1,0 +1,53 @@
+{
+  "url": "https://internshala.com/job/detail/fresher-student-mentor-job-in-bangalore-at-mufasoft-verify1780636706",
+  "url_hash": "deddaff3f552e13e08d4058eed848befbc4c1a47403a51355ee42ffa156f94a9",
+  "raw_jd": "Key Responsibilities:\r\n\r\n1. Guide students on manual & automation testing concepts.\r\n2. Help with interview preparation & mock interviews.\r\n3. Resolve doubts and improve problem-solving skills.\r\n4. Support resume and placement readiness.",
+  "jd_hash": "c468e96368e8e8771dba31bacecbdcb20ea4bec89e948b399e703294d18b00bb",
+  "fetched_at": "2026-06-28T08:51:34.904192+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job description does not specify an experience requirement, which defaults to fresher eligibility under the provided instructions.",
+    "profile_match": 40,
+    "profile_reason": "The candidate has a background in AI/ML and software development, but the role requires specific expertise in manual and automation testing which the candidate lacks.",
+    "missing_skills": [
+      "Manual Testing",
+      "Automation Testing",
+      "Mentoring/Teaching Experience"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "Python",
+      "Problem-solving"
+    ],
+    "recommendation": "ignore",
+    "confidence": 70,
+    "title": "Student Mentor",
+    "company": "MufaSoft Verify",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Manual Testing",
+      "Automation Testing",
+      "Interview Preparation",
+      "Problem Solving"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is a Student Mentor position focused on guiding students through testing methodologies and interview preparation. The candidate's profile is oriented toward software development and AI engineering rather than testing instruction.",
+    "match": 40,
+    "match_reason": "The candidate has a background in AI/ML and software development, but the role requires specific expertise in manual and automation testing which the candidate lacks.",
+    "apply_url": "https://internshala.com/job/detail/fresher-student-mentor-job-in-bangalore-at-mufasoft-verify1780636706",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/fresher-student-mentor-job-in-bangalore-at-mufasoft-verify1780636706"
+    ],
+    "raw_jd": "Key Responsibilities:\r\n\r\n1. Guide students on manual & automation testing concepts.\r\n2. Help with interview preparation & mock interviews.\r\n3. Resolve doubts and improve problem-solving skills.\r\n4. Support resume and placement readiness."
+  },
+  "verdict_at": "2026-06-28T08:51:41.535324+00:00",
+  "applied": false,
+  "applied_at": null
+}

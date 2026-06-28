@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=f2ff553d8176802b",
+  "url_hash": "48258d31b2d63c9ef7ad3c16fc0a41eae81e23f02764ad4b82bf2f057c60ba9e",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:54:23.384027+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 70,
+    "profile_reason": "Candidate has strong React.js and Full Stack skills, but the lack of explicit entry-level criteria in the JD makes it a potential risk for a fresher.",
+    "missing_skills": [
+      "Professional experience"
+    ],
+    "strong_matches": [
+      "React.js",
+      "JavaScript",
+      "Frontend Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "React JS Engr.",
+    "company": "NTT Ltd",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a React JS Engineer position at NTT Ltd based in Bengaluru. The role focuses on frontend development using React.js, aligning with the candidate's core skill set.",
+    "match": 70,
+    "match_reason": "Candidate has strong React.js and Full Stack skills, but the lack of explicit entry-level criteria in the JD makes it a potential risk for a fresher.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=f2ff553d8176802b",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=f2ff553d8176802b"
+    ],
+    "raw_jd": "Job Title: React JS Engr.\nCompany: NTT Ltd\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:54:23.384027+00:00",
+  "applied": false,
+  "applied_at": null
+}

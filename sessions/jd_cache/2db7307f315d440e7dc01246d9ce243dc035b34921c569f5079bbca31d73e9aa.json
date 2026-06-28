@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-r-d-at-wika-group-4427833804",
+  "url_hash": "2db7307f315d440e7dc01246d9ce243dc035b34921c569f5079bbca31d73e9aa",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:42:19.087511+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title includes 'Graduate Engineer Trainee', which is explicitly designed for freshers.",
+    "profile_match": 40,
+    "profile_reason": "The JD lacks sufficient technical details to confirm alignment; R&D roles at WIKA typically focus on mechanical/instrumentation engineering rather than the candidate's software/AI stack.",
+    "missing_skills": [
+      "Mechanical Engineering",
+      "Instrumentation",
+      "Hardware design"
+    ],
+    "strong_matches": [
+      "Python"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Graduate Engineer Trainee - R&D",
+    "company": "WIKA Group",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an R&D role at WIKA Group, a company primarily focused on industrial pressure and temperature measurement instrumentation. The JD provides no specific skill requirements, necessitating manual verification to determine if the role involves software/data science or is purely mechanical.",
+    "match": 40,
+    "match_reason": "The JD lacks sufficient technical details to confirm alignment; R&D roles at WIKA typically focus on mechanical/instrumentation engineering rather than the candidate's software/AI stack.",
+    "apply_url": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-r-d-at-wika-group-4427833804",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-r-d-at-wika-group-4427833804"
+    ],
+    "raw_jd": "Job Title: Graduate Engineer Trainee - R&D\nCompany: WIKA Group\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:42:19.087511+00:00",
+  "applied": false,
+  "applied_at": null
+}

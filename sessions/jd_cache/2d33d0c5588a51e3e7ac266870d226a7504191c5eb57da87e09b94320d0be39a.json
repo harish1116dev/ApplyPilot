@@ -1,0 +1,47 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=971baecbefac6eb2",
+  "url_hash": "2d33d0c5588a51e3e7ac266870d226a7504191c5eb57da87e09b94320d0be39a",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:52:43.711494+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has strong React.js and JavaScript skills, but lacks professional experience specifically in React Native, which is a mobile-specific framework.",
+    "missing_skills": [
+      "React Native"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "React.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "React Native Developer",
+    "company": "INUAID Solutions Pvt ltd",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React Native"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a React Native Developer based in Chennai. The candidate will be responsible for building mobile applications using the React Native framework.",
+    "match": 65,
+    "match_reason": "The candidate has strong React.js and JavaScript skills, but lacks professional experience specifically in React Native, which is a mobile-specific framework.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=971baecbefac6eb2",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=971baecbefac6eb2"
+    ],
+    "raw_jd": "Job Title: React Native Developer\nCompany: INUAID Solutions Pvt ltd\nLocation: Hybrid work in Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:52:43.711494+00:00",
+  "applied": false,
+  "applied_at": null
+}

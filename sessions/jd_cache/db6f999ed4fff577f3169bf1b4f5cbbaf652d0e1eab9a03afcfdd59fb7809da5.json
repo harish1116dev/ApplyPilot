@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/python-backend-engineer-2%E2%80%934-yrs-at-efficienza-business-solutions-pvt-ltd-4431744064",
+  "url_hash": "db6f999ed4fff577f3169bf1b4f5cbbaf652d0e1eab9a03afcfdd59fb7809da5",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:45:53.371407+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "2–4 Yrs",
+    "experience_reason": "The job explicitly requires 2–4 years of experience, exceeding the fresher status of the candidate.",
+    "profile_match": 0,
+    "profile_reason": "The candidate is a fresher, and the role requires a minimum of 2 years of professional experience.",
+    "missing_skills": [
+      "2+ years of professional backend experience"
+    ],
+    "strong_matches": [
+      "Python"
+    ],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "Python Backend Engineer (2–4 Yrs)",
+    "company": "Efficienza Business Solutions Pvt. Ltd",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Python Backend Engineer role requiring 2-4 years of experience. As the role specifically targets experienced professionals, it is not suitable for a fresh graduate.",
+    "match": 0,
+    "match_reason": "The candidate is a fresher, and the role requires a minimum of 2 years of professional experience.",
+    "apply_url": "https://in.linkedin.com/jobs/view/python-backend-engineer-2%E2%80%934-yrs-at-efficienza-business-solutions-pvt-ltd-4431744064",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/python-backend-engineer-2%E2%80%934-yrs-at-efficienza-business-solutions-pvt-ltd-4431744064"
+    ],
+    "raw_jd": "Job Title: Python Backend Engineer (2–4 Yrs)\nCompany: Efficienza Business Solutions Pvt. Ltd\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:45:53.371407+00:00",
+  "applied": false,
+  "applied_at": null
+}

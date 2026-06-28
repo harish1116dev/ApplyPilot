@@ -1,0 +1,44 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/react-js-consultant-at-infosys-4395948670",
+  "url_hash": "5cc8fa3972f4272af3ccc960eeae3b6d2542956d4cdb0d5e25ab212efbe57cf0",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:40:44.687027+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The role 'Consultant' at major IT firms like Infosys is a professional-level designation that inherently implies prior industry experience, not a fresher/entry-level position.",
+    "profile_match": 0,
+    "profile_reason": "The 'Consultant' title at Infosys typically requires professional experience and is not suitable for a 2024 fresh graduate.",
+    "missing_skills": [
+      "Professional Industry Experience"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 90,
+    "title": "React JS Consultant",
+    "company": "Infosys",
+    "location": "Bengaluru East, Karnataka, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a React JS Consultant at Infosys based in Bengaluru. Consultant-level positions are typically intended for experienced professionals rather than entry-level graduates.",
+    "match": 0,
+    "match_reason": "The 'Consultant' title at Infosys typically requires professional experience and is not suitable for a 2024 fresh graduate.",
+    "apply_url": "https://in.linkedin.com/jobs/view/react-js-consultant-at-infosys-4395948670",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/react-js-consultant-at-infosys-4395948670"
+    ],
+    "raw_jd": "Job Title: React JS Consultant\nCompany: Infosys\nLocation: Bengaluru East, Karnataka, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:40:44.687027+00:00",
+  "applied": false,
+  "applied_at": null
+}

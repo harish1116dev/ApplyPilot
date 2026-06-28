@@ -1,0 +1,59 @@
+{
+  "url": "https://internshala.com/job/detail/backend-developer-job-in-bangalore-at-cliktalk-by-connexhive-technologies-private-limited1781163414",
+  "url_hash": "e56285a4f5ec47a85473930b0e6152ea5fa50651aac4265059405cf12756bccb",
+  "raw_jd": "We are looking for a passionate backend developer to join our team at Cliktalk, a cutting-edge communication platform developed by ConnexHive Technologies Private Limited. As a backend developer, you will be responsible for building and maintaining the server-side of our application, ensuring seamless functionality and optimal user experience. \r\n\r\nKey Responsibilities:\r\n\r\n1. Develop, maintain, and enhance backend applications using Laravel and PHP\r\n2. Design, build, test, and optimize RESTful APIs for mobile and web applications\r\n3. Create and manage database structures using MySQL and optimize queries for performance and scalability\r\n4. Develop CRUD modules, business workflows, and admin panel functionalities\r\n5. Implement and maintain API authentication, authorization, and security best practices\r\n6. Integrate third-party services such as payment gateways, SMS providers, push notifications, analytics, and social login platforms\r\n7. Assist in building and supporting real-time communication features including chat, messaging, notifications, and calling services\r\n8. Collaborate with Flutter developers to ensure seamless API integration and application performance\r\n9. Participate in code reviews, debugging, testing, and deployment activities\r\n10. Work with Git/Bitbucket repositories and follow version control best practices\r\n\r\nRequired skills:\r\n\r\n1. Laravel framework\r\n2. PHP\r\n3. MySQL\r\n4. RESTful API development\r\n5. Eloquent ORM\r\n6. Composer\r\n7. Blade templating\r\n8. Git/Bitbuck",
+  "jd_hash": "22336f3bbab938aeb1e0f5bdef50fad9a30b0ffa15a558c739da0af34c444521",
+  "fetched_at": "2026-06-28T08:51:07.057871+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not mention fresher, trainee, or 0 years, and it requires specific professional expertise in PHP/Laravel not possessed by the candidate.",
+    "profile_match": 20,
+    "profile_reason": "The candidate has zero experience with the core required stack (PHP/Laravel/MySQL), which is mandatory for this specific role.",
+    "missing_skills": [
+      "Laravel",
+      "PHP",
+      "MySQL",
+      "Eloquent ORM",
+      "Composer",
+      "Blade templating"
+    ],
+    "strong_matches": [
+      "RESTful API development",
+      "Git"
+    ],
+    "recommendation": "ignore",
+    "confidence": 90,
+    "title": "Backend Developer",
+    "company": "Cliktalk By ConnexHive Technologies Private Limited",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Laravel framework",
+      "PHP",
+      "MySQL",
+      "RESTful API development",
+      "Eloquent ORM",
+      "Composer",
+      "Blade templating",
+      "Git/Bitbucket"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "A backend developer role focused on building and maintaining communication platform features using the PHP/Laravel stack. The role involves API development, database management, and collaboration with mobile developers.",
+    "match": 20,
+    "match_reason": "The candidate has zero experience with the core required stack (PHP/Laravel/MySQL), which is mandatory for this specific role.",
+    "apply_url": "https://internshala.com/job/detail/backend-developer-job-in-bangalore-at-cliktalk-by-connexhive-technologies-private-limited1781163414",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/backend-developer-job-in-bangalore-at-cliktalk-by-connexhive-technologies-private-limited1781163414"
+    ],
+    "raw_jd": "We are looking for a passionate backend developer to join our team at Cliktalk, a cutting-edge communication platform developed by ConnexHive Technologies Private Limited. As a backend developer, you will be responsible for building and maintaining the server-side of our application, ensuring seamless functionality and optimal user experience. \r\n\r\nKey Responsibilities:\r\n\r\n1. Develop, maintain, and enhance backend applications using Laravel and PHP\r\n2. Design, build, test, and optimize RESTful APIs for mobile and web applications\r\n3. Create and manage database structures using MySQL and optimize queries for performance and scalability\r\n4. Develop CRUD modules, business workflows, and admin panel functionalities\r\n5. Implement and maintain API authentication, authorization, and security best practices\r\n6. Integrate third-party services such as payment gateways, SMS providers, push notifications, analytics, and social login platforms\r\n7. Assist in building and supporting real-time communication features including chat, messaging, notifications, and calling services\r\n8. Collaborate with Flutter developers to ensure seamless API integration and application performance\r\n9. Participate in code reviews, debugging, testing, and deployment activities\r\n10. Work with Git/Bitbucket repositories and follow version control best practices\r\n\r\nRequired skills:\r\n\r\n1. Laravel framework\r\n2. PHP\r\n3. MySQL\r\n4. RESTful API development\r\n5. Eloquent ORM\r\n6. Composer\r\n7. Blade templating\r\n8. Git/Bitbuck"
+  },
+  "verdict_at": "2026-06-28T08:51:13.666585+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,53 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=effb38b5c4fd0fcf",
+  "url_hash": "bbd81e615a1cace86b93f05dfeccb88d593b26dee002336df13efe7fa1f7666c",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:56:29.453134+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title explicitly includes '(Fresher)' and no minimum experience threshold is provided.",
+    "profile_match": 45,
+    "profile_reason": "The candidate has zero experience with the core requirement (.NET stack), despite strong general full-stack knowledge.",
+    "missing_skills": [
+      ".NET",
+      "C#",
+      "ASP.NET",
+      "Entity Framework"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "SQL",
+      "REST APIs"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Junior .NET Developer (Fresher)",
+    "company": "Toverto Solutions Private Limited",
+    "location": "Chinniyampalayam, Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      ".NET",
+      "C#"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Junior .NET Developer role based in Coimbatore for a fresher. Focuses on Microsoft technology stack development, which is outside the candidate's current primary skillset of MERN stack.",
+    "match": 45,
+    "match_reason": "The candidate has zero experience with the core requirement (.NET stack), despite strong general full-stack knowledge.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=effb38b5c4fd0fcf",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=effb38b5c4fd0fcf",
+      "https://in.indeed.com/viewjob?jk=0f1e2d3c4b5a6978"
+    ],
+    "raw_jd": "Job Title: Junior .NET Developer (Fresher)\nCompany: Toverto Solutions Private Limited\nLocation: Chinniyampalayam, Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:56:29.453134+00:00",
+  "applied": false,
+  "applied_at": null
+}

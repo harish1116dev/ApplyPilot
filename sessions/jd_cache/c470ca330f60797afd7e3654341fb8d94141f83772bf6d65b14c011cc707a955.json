@@ -1,0 +1,44 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=d962c3caf7f4f137",
+  "url_hash": "c470ca330f60797afd7e3654341fb8d94141f83772bf6d65b14c011cc707a955",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:53:10.145742+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title 'Trainee' implies an entry-level position and no minimum experience is explicitly stated.",
+    "profile_match": 60,
+    "profile_reason": "The candidate matches the trainee level profile, but the JD provides insufficient details about the specific technology stack or role responsibilities to confirm a strong alignment.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "Python",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "On Job Trainee",
+    "company": "EagleHiTech PVt LtD",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an entry-level trainee position based in Chennai. The JD lacks specific technical requirements or job description details, necessitating further inquiry before applying.",
+    "match": 60,
+    "match_reason": "The candidate matches the trainee level profile, but the JD provides insufficient details about the specific technology stack or role responsibilities to confirm a strong alignment.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=d962c3caf7f4f137",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=d962c3caf7f4f137"
+    ],
+    "raw_jd": "Job Title: On Job Trainee\nCompany: EagleHiTech PVt LtD\nLocation: Hybrid work in Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:53:10.145742+00:00",
+  "applied": false,
+  "applied_at": null
+}

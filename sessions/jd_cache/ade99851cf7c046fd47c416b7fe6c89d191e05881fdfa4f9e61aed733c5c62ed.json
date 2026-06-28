@@ -1,0 +1,53 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-developer-1-machine-learning-at-kinaxis-4417657623",
+  "url_hash": "ade99851cf7c046fd47c416b7fe6c89d191e05881fdfa4f9e61aed733c5c62ed",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:17:41.310229+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description provided.",
+    "profile_match": 75,
+    "profile_reason": "Candidate has relevant B.Tech degree and academic project experience in ML/DL, though professional experience requirements remain ambiguous.",
+    "missing_skills": [
+      "Production ML deployment",
+      "Cloud infrastructure experience",
+      "Specific ML frameworks requested by JD"
+    ],
+    "strong_matches": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "TensorFlow",
+      "scikit-learn"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Software Developer 1, Machine Learning",
+    "company": "Kinaxis",
+    "location": "Sholinganallur, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Machine Learning",
+      "Software Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an entry-level software development role focused on machine learning. The position involves applying software engineering principles to machine learning models, aligning well with the candidate's academic background and ML project portfolio.",
+    "match": 75,
+    "match_reason": "Candidate has relevant B.Tech degree and academic project experience in ML/DL, though professional experience requirements remain ambiguous.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-developer-1-machine-learning-at-kinaxis-4417657623",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-developer-1-machine-learning-at-kinaxis-4417657623"
+    ],
+    "raw_jd": "Job Title: Software Developer 1, Machine Learning\nCompany: Kinaxis\nLocation: Sholinganallur, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:17:41.310229+00:00",
+  "applied": false,
+  "applied_at": null
+}

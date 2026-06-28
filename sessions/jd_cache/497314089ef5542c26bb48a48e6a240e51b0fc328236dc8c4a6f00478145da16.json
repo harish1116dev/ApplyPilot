@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=6cc8d146c0992b70",
+  "url_hash": "497314089ef5542c26bb48a48e6a240e51b0fc328236dc8c4a6f00478145da16",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:57:02.419629+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The role of MEP (Mechanical, Electrical, and Plumbing) Engineer is a specialized core engineering role unrelated to the candidate's AI/Data Science/Software Engineering profile.",
+    "profile_match": 0,
+    "profile_reason": "The candidate has a background in AI/Data Science and software development, whereas this role requires mechanical, electrical, or civil engineering expertise.",
+    "missing_skills": [
+      "MEP design",
+      "AutoCAD",
+      "HVAC systems",
+      "Electrical design",
+      "Plumbing systems"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "Jr MEP Engineer",
+    "company": "Suryatej Infratech Pvt Ltd",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "MEP Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The Jr MEP Engineer role involves designing and managing mechanical, electrical, and plumbing systems for infrastructure projects. This position requires core civil or electrical engineering domain knowledge not present in the candidate's profile.",
+    "match": 0,
+    "match_reason": "The candidate has a background in AI/Data Science and software development, whereas this role requires mechanical, electrical, or civil engineering expertise.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=6cc8d146c0992b70",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=6cc8d146c0992b70",
+      "https://in.indeed.com/viewjob?jk=fedcba9876543210"
+    ],
+    "raw_jd": "Job Title: Jr MEP Engineer\nCompany: Suryatej Infratech Pvt Ltd\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:57:02.419629+00:00",
+  "applied": false,
+  "applied_at": null
+}

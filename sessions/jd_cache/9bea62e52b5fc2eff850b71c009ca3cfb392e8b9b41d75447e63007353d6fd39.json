@@ -1,0 +1,49 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-engineer-ii-at-perch-energy-4423350327",
+  "url_hash": "9bea62e52b5fc2eff850b71c009ca3cfb392e8b9b41d75447e63007353d6fd39",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:48:18.907143+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title 'Software Engineer II' typically denotes a mid-level role requiring professional experience, making it unsuitable for a fresh graduate.",
+    "profile_match": 20,
+    "profile_reason": "The candidate is a fresher, and 'Software Engineer II' roles almost universally require 2-5 years of professional experience, making a successful application highly unlikely.",
+    "missing_skills": [
+      "Professional work experience",
+      "System design for production scale",
+      "Mentorship/Lead experience"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "SQL"
+    ],
+    "recommendation": "ignore",
+    "confidence": 90,
+    "title": "Software Engineer II",
+    "company": "Perch Energy",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Software Engineer II role at Perch Energy based in Chennai. This position is a mid-level engineering role that requires prior professional industry experience beyond the fresher level.",
+    "match": 20,
+    "match_reason": "The candidate is a fresher, and 'Software Engineer II' roles almost universally require 2-5 years of professional experience, making a successful application highly unlikely.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-ii-at-perch-energy-4423350327",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-engineer-ii-at-perch-energy-4423350327"
+    ],
+    "raw_jd": "Job Title: Software Engineer II\nCompany: Perch Energy\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:48:18.907143+00:00",
+  "applied": false,
+  "applied_at": null
+}

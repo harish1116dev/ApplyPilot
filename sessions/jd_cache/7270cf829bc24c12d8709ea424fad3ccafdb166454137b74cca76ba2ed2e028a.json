@@ -1,0 +1,51 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=4faa6a1a576444a0",
+  "url_hash": "7270cf829bc24c12d8709ea424fad3ccafdb166454137b74cca76ba2ed2e028a",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:53:56.639065+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title explicitly mentions (Freshers).",
+    "profile_match": 40,
+    "profile_reason": "The candidate's profile is focused on software engineering and development, while the job is for a teaching role which may not utilize the candidate's technical project skills.",
+    "missing_skills": [
+      "Teaching/Instructional Experience",
+      "Classroom Management",
+      "Curriculum Development"
+    ],
+    "strong_matches": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "Computer Science Fundamentals"
+    ],
+    "recommendation": "ignore",
+    "confidence": 90,
+    "title": "Computer Science Teacher(Freshers)",
+    "company": "The Art of Living HR",
+    "location": "Bangalore City, Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Computer Science knowledge"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an entry-level teaching position involving the instruction of computer science concepts. The role is suitable for freshers but does not align with the candidate's target career path as a software developer.",
+    "match": 40,
+    "match_reason": "The candidate's profile is focused on software engineering and development, while the job is for a teaching role which may not utilize the candidate's technical project skills.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=4faa6a1a576444a0",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=4faa6a1a576444a0"
+    ],
+    "raw_jd": "Job Title: Computer Science Teacher(Freshers)\nCompany: The Art of Living HR\nLocation: Bangalore City, Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:53:56.639065+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=de616900710c90d3",
+  "url_hash": "2cd55b58f01cee669e3e9e676f7799d08c21098f4fd0844dc9f9e43634d337cd",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:56:15.839239+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description, making it potentially eligible for a fresher.",
+    "profile_match": 30,
+    "profile_reason": "The candidate has no experience or project history with Flutter/Dart, which is the core requirement for this specific role.",
+    "missing_skills": [
+      "Flutter",
+      "Dart"
+    ],
+    "strong_matches": [
+      "Mobile App Development environment familiarity"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Mobile App Developer (Flutter)",
+    "company": "Adhoc Softwares Pvt ltd",
+    "location": "Saravanampatti, Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Flutter",
+      "Dart"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role focuses on developing mobile applications using the Flutter framework. It is located in Coimbatore and requires proficiency in Flutter and Dart development.",
+    "match": 30,
+    "match_reason": "The candidate has no experience or project history with Flutter/Dart, which is the core requirement for this specific role.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=de616900710c90d3",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=de616900710c90d3"
+    ],
+    "raw_jd": "Job Title: Mobile App Developer (Flutter)\nCompany: Adhoc Softwares Pvt ltd\nLocation: Saravanampatti, Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:56:15.839239+00:00",
+  "applied": false,
+  "applied_at": null
+}

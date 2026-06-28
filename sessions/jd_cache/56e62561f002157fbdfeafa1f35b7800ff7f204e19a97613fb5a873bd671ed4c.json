@@ -1,0 +1,52 @@
+{
+  "url": "https://internshala.com/job/detail/desktop-supporter-job-in-bangalore-at-scan-computer-aid1781178019",
+  "url_hash": "56e62561f002157fbdfeafa1f35b7800ff7f204e19a97613fb5a873bd671ed4c",
+  "raw_jd": "Key responsibilities: \r\n\r\n1. Handle hardware networking setup, troubleshooting, and maintenance across systems\r\n2. Perform Tally software installation, data migration, and version conversion\r\n3. Assemble, configure, and upgrade desktop computers and related hardware components\r\n4. Set up and manage printer sharing across networked systems, ensuring smooth connectivity and usage",
+  "jd_hash": "021887f3d332b2d09661775e384bc8083a064a71f1479f171ddb025070e0c56b",
+  "fetched_at": "2026-06-28T08:52:10.902444+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state any specific experience requirement, allowing for a fresher entry.",
+    "profile_match": 20,
+    "profile_reason": "The role is for hardware and IT support, while the candidate's profile is focused on software engineering and AI development.",
+    "missing_skills": [
+      "Hardware Troubleshooting",
+      "Networking Setup",
+      "Tally Software",
+      "Desktop Assembly"
+    ],
+    "strong_matches": [
+      "Network Basics"
+    ],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Desktop Supporter",
+    "company": "SCAN COMPUTER AID",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Hardware Networking",
+      "Tally software installation",
+      "Desktop assembly",
+      "Printer sharing"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an IT support role focused on hardware maintenance, desktop configuration, and Tally software management. It does not align with the candidate's specialization in software development, AI, or full-stack web development.",
+    "match": 20,
+    "match_reason": "The role is for hardware and IT support, while the candidate's profile is focused on software engineering and AI development.",
+    "apply_url": "https://internshala.com/job/detail/desktop-supporter-job-in-bangalore-at-scan-computer-aid1781178019",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/desktop-supporter-job-in-bangalore-at-scan-computer-aid1781178019"
+    ],
+    "raw_jd": "Key responsibilities: \r\n\r\n1. Handle hardware networking setup, troubleshooting, and maintenance across systems\r\n2. Perform Tally software installation, data migration, and version conversion\r\n3. Assemble, configure, and upgrade desktop computers and related hardware components\r\n4. Set up and manage printer sharing across networked systems, ensuring smooth connectivity and usage"
+  },
+  "verdict_at": "2026-06-28T08:52:17.307861+00:00",
+  "applied": false,
+  "applied_at": null
+}

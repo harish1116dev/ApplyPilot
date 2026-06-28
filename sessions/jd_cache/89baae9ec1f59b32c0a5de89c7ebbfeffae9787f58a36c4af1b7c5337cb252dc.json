@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-at-nordex-group-4432549295",
+  "url_hash": "89baae9ec1f59b32c0a5de89c7ebbfeffae9787f58a36c4af1b7c5337cb252dc",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:41:58.445529+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The title explicitly contains 'Trainee' and there is no minimum experience threshold specified.",
+    "profile_match": 60,
+    "profile_reason": "While the role title is a strong fit, the JD is critically underspecified regarding technical requirements, making it impossible to confirm alignment with the candidate's specific software/AI stack.",
+    "missing_skills": [
+      "not stated"
+    ],
+    "strong_matches": [
+      "Graduate Engineer Trainee role alignment"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Graduate Engineer Trainee",
+    "company": "Nordex Group",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "not stated"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Graduate Engineer Trainee at Nordex Group in Chennai. The job description is incomplete and does not specify required technical skills or responsibilities.",
+    "match": 60,
+    "match_reason": "While the role title is a strong fit, the JD is critically underspecified regarding technical requirements, making it impossible to confirm alignment with the candidate's specific software/AI stack.",
+    "apply_url": "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-at-nordex-group-4432549295",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/graduate-engineer-trainee-at-nordex-group-4432549295"
+    ],
+    "raw_jd": "Job Title: Graduate Engineer Trainee\nCompany: Nordex Group\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:41:58.445529+00:00",
+  "applied": false,
+  "applied_at": null
+}

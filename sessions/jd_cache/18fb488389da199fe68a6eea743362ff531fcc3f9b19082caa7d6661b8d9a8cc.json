@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=a03fcbf7877b367f",
+  "url_hash": "18fb488389da199fe68a6eea743362ff531fcc3f9b19082caa7d6661b8d9a8cc",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:59:16.377981+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job specifically targets Diploma Mechanical Engineering graduates, while the candidate is a B.Tech AI & Data Science graduate.",
+    "profile_match": 0,
+    "profile_reason": "The candidate has a degree in AI & Data Science, which is not compatible with the specific mechanical engineering diploma requirement.",
+    "missing_skills": [
+      "Mechanical Engineering",
+      "Diploma in Mechanical Engineering"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "Diploma mechanical engineering(Fresher)",
+    "company": "Staffing Synergy Solutions",
+    "location": "Bangalore City, Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Mechanical Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an entry-level position specifically for candidates holding a Diploma in Mechanical Engineering. It is not suitable for a B.Tech graduate in Artificial Intelligence and Data Science.",
+    "match": 0,
+    "match_reason": "The candidate has a degree in AI & Data Science, which is not compatible with the specific mechanical engineering diploma requirement.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=a03fcbf7877b367f",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=a03fcbf7877b367f"
+    ],
+    "raw_jd": "Job Title: Diploma mechanical engineering(Fresher)\nCompany: Staffing Synergy Solutions\nLocation: Bangalore City, Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:59:16.377981+00:00",
+  "applied": false,
+  "applied_at": null
+}

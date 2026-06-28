@@ -1,0 +1,47 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=82b182b8cf5118b7",
+  "url_hash": "be8abc390cd0fb75d9b3d44e177795f596de5436d70a81ac34889d9a4bb6ddc1",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:59:56.669629+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title includes 'Trainee', which is explicitly identified as fresher-eligible.",
+    "profile_match": 15,
+    "profile_reason": "The candidate's profile is focused on Software Development and AI/ML, while this is a core mechanical/manufacturing engineering role.",
+    "missing_skills": [
+      "Manufacturing Engineering",
+      "Mechanical Engineering",
+      "Production Planning",
+      "Quality Control"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Trainee Manufacturing Engineer",
+    "company": "MEHLER ENGINEERED PRODUCTS INDIA Pvt. Ltd.",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Manufacturing Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Trainee Manufacturing Engineer at Mehler Engineered Products, focused on manufacturing operations. This position is not relevant to the candidate's software development and artificial intelligence background.",
+    "match": 15,
+    "match_reason": "The candidate's profile is focused on Software Development and AI/ML, while this is a core mechanical/manufacturing engineering role.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=82b182b8cf5118b7",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=82b182b8cf5118b7"
+    ],
+    "raw_jd": "Job Title: Trainee Manufacturing Engineer\nCompany: MEHLER ENGINEERED PRODUCTS INDIA Pvt. Ltd.\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:59:56.669629+00:00",
+  "applied": false,
+  "applied_at": null
+}

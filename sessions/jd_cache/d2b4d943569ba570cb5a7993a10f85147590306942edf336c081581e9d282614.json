@@ -1,0 +1,48 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=ef50fb9a5d072de3",
+  "url_hash": "d2b4d943569ba570cb5a7993a10f85147590306942edf336c081581e9d282614",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:55:55.698251+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 75,
+    "profile_reason": "The candidate has direct experience with React and Node.js through projects, though the lack of explicit fresher-friendliness warrants caution.",
+    "missing_skills": [
+      "Professional experience"
+    ],
+    "strong_matches": [
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Full Stack Developer - React & Nodejs",
+    "company": "Aaludra Technology Solutions Pvt Ltd",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js",
+      "Node.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Full Stack Developer role focused on React and Node.js development at Aaludra Technology Solutions. Located in Coimbatore, the role aligns with the candidate's core technology stack.",
+    "match": 75,
+    "match_reason": "The candidate has direct experience with React and Node.js through projects, though the lack of explicit fresher-friendliness warrants caution.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=ef50fb9a5d072de3",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=ef50fb9a5d072de3"
+    ],
+    "raw_jd": "Job Title: Full Stack Developer - React & Nodejs\nCompany: Aaludra Technology Solutions Pvt Ltd\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:55:55.698251+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=da0f78e0ab127be7",
+  "url_hash": "dbbcc29118ff905b1f39ce50ac1877d81020339bc5209c3ee484e7c3b62d9661",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:55:09.313094+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, which defaults to fresher-eligible.",
+    "profile_match": 60,
+    "profile_reason": "The candidate has relevant full-stack skills, but the JD lacks sufficient detail regarding the technical stack or responsibilities to ensure a high-quality match.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Product Engineer (Bangalore)",
+    "company": "Supa",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Product Engineer role based in Bengaluru. The job description provided is incomplete and lacks specific technical requirements or experience mandates.",
+    "match": 60,
+    "match_reason": "The candidate has relevant full-stack skills, but the JD lacks sufficient detail regarding the technical stack or responsibilities to ensure a high-quality match.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=da0f78e0ab127be7",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=da0f78e0ab127be7"
+    ],
+    "raw_jd": "Job Title: Product Engineer (Bangalore)\nCompany: Supa\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:55:09.313094+00:00",
+  "applied": false,
+  "applied_at": null
+}

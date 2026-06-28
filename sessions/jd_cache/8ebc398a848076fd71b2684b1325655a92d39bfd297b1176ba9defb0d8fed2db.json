@@ -1,0 +1,52 @@
+{
+  "url": "https://internshala.com/job/detail/fresher-flutter-developer-job-in-multiple-locations-at-md-shahbaz-ansari1780731356",
+  "url_hash": "8ebc398a848076fd71b2684b1325655a92d39bfd297b1176ba9defb0d8fed2db",
+  "raw_jd": "Key Responsibilities: \r\n\r\n1. Develop and maintain mobile applications using Flutter and Dart.\r\n2. Build responsive and user-friendly interfaces for Android and iOS platforms.\r\n3. Integrate APIs, databases, and third-party services into mobile applications.\r\n4. Collaborate with designers and developers to implement new features.\r\n5. Debug, test, and optimize applications for performance and scalability.\r\n6. Participate in code reviews and contribute to improving application quality.\r\n7. Maintain proper documentation of development processes and features.\r\n8. Stay updated with the latest Flutter and mobile development trends.",
+  "jd_hash": "6414f9dc295719c238895ff1c77e46123d777239b087e5212ca57c439bfde4c3",
+  "fetched_at": "2026-06-28T08:50:26.439696+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify any minimum years of experience requirement.",
+    "profile_match": 20,
+    "profile_reason": "The candidate has zero experience with Flutter or Dart; the profile is heavily focused on Web and AI/ML, making this a poor fit.",
+    "missing_skills": [
+      "Flutter",
+      "Dart",
+      "Mobile Development"
+    ],
+    "strong_matches": [
+      "REST APIs",
+      "Git"
+    ],
+    "recommendation": "ignore",
+    "confidence": 90,
+    "title": "Flutter Developer",
+    "company": "Md Shahbaz Ansari",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Flutter",
+      "Dart",
+      "Mobile Development",
+      "API Integration"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role involves developing and maintaining cross-platform mobile applications using Flutter and Dart. The candidate will be responsible for building UI components, integrating APIs, and ensuring performance and scalability of mobile features.",
+    "match": 20,
+    "match_reason": "The candidate has zero experience with Flutter or Dart; the profile is heavily focused on Web and AI/ML, making this a poor fit.",
+    "apply_url": "https://internshala.com/job/detail/fresher-flutter-developer-job-in-multiple-locations-at-md-shahbaz-ansari1780731356",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/fresher-flutter-developer-job-in-multiple-locations-at-md-shahbaz-ansari1780731356"
+    ],
+    "raw_jd": "Key Responsibilities: \r\n\r\n1. Develop and maintain mobile applications using Flutter and Dart.\r\n2. Build responsive and user-friendly interfaces for Android and iOS platforms.\r\n3. Integrate APIs, databases, and third-party services into mobile applications.\r\n4. Collaborate with designers and developers to implement new features.\r\n5. Debug, test, and optimize applications for performance and scalability.\r\n6. Participate in code reviews and contribute to improving application quality.\r\n7. Maintain proper documentation of development processes and features.\r\n8. Stay updated with the latest Flutter and mobile development trends."
+  },
+  "verdict_at": "2026-06-28T08:50:32.959066+00:00",
+  "applied": false,
+  "applied_at": null
+}

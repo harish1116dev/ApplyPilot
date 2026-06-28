@@ -1,0 +1,53 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-development-engineer-amazon-books-at-amazon-4380546745",
+  "url_hash": "6c8a92e786d3650db48fd90addbd500d9db69a35c61dc51d183055f0fd2aed29",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:44:21.154168+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, which classifies it as potentially fresher-eligible.",
+    "profile_match": 65,
+    "profile_reason": "While the candidate has a strong technical background, Amazon SDE roles are notoriously difficult for freshers without explicit 'Campus' or 'New Grad' tags.",
+    "missing_skills": [
+      "Distributed Systems",
+      "Data Structures & Algorithms (specific assessment)",
+      "System Design"
+    ],
+    "strong_matches": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Software Development Engineer, Amazon Books",
+    "company": "Amazon",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Software Development",
+      "Problem Solving"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a generic Software Development Engineer position at Amazon within the Books division. The role likely involves building scalable software solutions and requires strong computer science fundamentals.",
+    "match": 65,
+    "match_reason": "While the candidate has a strong technical background, Amazon SDE roles are notoriously difficult for freshers without explicit 'Campus' or 'New Grad' tags.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-development-engineer-amazon-books-at-amazon-4380546745",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-development-engineer-amazon-books-at-amazon-4380546745"
+    ],
+    "raw_jd": "Job Title: Software Development Engineer, Amazon Books\nCompany: Amazon\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:44:21.154168+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,47 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/backend-developer-at-capgemini-4419903250",
+  "url_hash": "2143180c7437639e7455d343deb203ebb07a435d675539e4c003fb008b9f74a8",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:46:00.034307+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 70,
+    "profile_reason": "The candidate has strong backend project experience (Node.js/Express/SQL), but the job description is too vague to guarantee it is a fresher-level role.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Node.js",
+      "Express.js",
+      "SQL",
+      "REST APIs"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Backend Developer",
+    "company": "Capgemini",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Backend Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Capgemini is hiring for a Backend Developer role in Chennai. The description lacks specific details regarding experience, technology stack, or specific requirements.",
+    "match": 70,
+    "match_reason": "The candidate has strong backend project experience (Node.js/Express/SQL), but the job description is too vague to guarantee it is a fresher-level role.",
+    "apply_url": "https://in.linkedin.com/jobs/view/backend-developer-at-capgemini-4419903250",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/backend-developer-at-capgemini-4419903250"
+    ],
+    "raw_jd": "Job Title: Backend Developer\nCompany: Capgemini\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:46:00.034307+00:00",
+  "applied": false,
+  "applied_at": null
+}

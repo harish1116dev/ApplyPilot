@@ -1,0 +1,52 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=e9f79c85b4eece07",
+  "url_hash": "0e4727482570741dea6b18d24f3e4bae96cd2f3a4f3d0a2396d3b8908e3a0f63",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:54:43.058760+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The role title 'Associate' at Goldman Sachs typically denotes an experienced hire level (post-Analyst), not an entry-level or graduate position.",
+    "profile_match": 20,
+    "profile_reason": "Quantitative Engineering roles at Goldman Sachs typically require advanced degrees (Master's/PhD) in Math/Physics/Financial Engineering and deep experience in C++/Quantitative modeling, which the candidate lacks.",
+    "missing_skills": [
+      "C++",
+      "Quantitative Finance",
+      "Stochastic Calculus",
+      "Financial Mathematics"
+    ],
+    "strong_matches": [
+      "Python"
+    ],
+    "recommendation": "ignore",
+    "confidence": 90,
+    "title": "GBM - Bengaluru - Associate - Quantitative Engineering",
+    "company": "Goldman Sachs",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Quantitative Analysis",
+      "Programming",
+      "Financial Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is a Quantitative Engineering position within Goldman Sachs' Global Banking & Markets division. It focuses on mathematical modeling, financial data analysis, and algorithmic development rather than general software development.",
+    "match": 20,
+    "match_reason": "Quantitative Engineering roles at Goldman Sachs typically require advanced degrees (Master's/PhD) in Math/Physics/Financial Engineering and deep experience in C++/Quantitative modeling, which the candidate lacks.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=e9f79c85b4eece07",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=e9f79c85b4eece07",
+      "https://in.indeed.com/viewjob?jk=cdef0123456789ab"
+    ],
+    "raw_jd": "Job Title: GBM - Bengaluru - Associate - Quantitative Engineering\nCompany: Goldman Sachs\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:54:43.058760+00:00",
+  "applied": false,
+  "applied_at": null
+}

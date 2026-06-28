@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/junior-javascript-developer-remote-work-at-bairesdev-4431228712",
+  "url_hash": "67d027a196d2d5ad00db8c3df30fe078f7fac4970d57f2093672e23c3ee90a26",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:42:32.840805+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is unstated, making it potentially eligible for a fresher.",
+    "profile_match": 65,
+    "profile_reason": "BairesDev is known for hiring experienced developers and often filters out freshers despite 'Junior' titles; requires verification of intake policy.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Junior JavaScript Developer - Remote Work",
+    "company": "BairesDev",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": true,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "JavaScript"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "A remote Junior JavaScript Developer position at BairesDev. The role focuses on JavaScript development, though BairesDev's recruitment process typically favors candidates with professional experience.",
+    "match": 65,
+    "match_reason": "BairesDev is known for hiring experienced developers and often filters out freshers despite 'Junior' titles; requires verification of intake policy.",
+    "apply_url": "https://in.linkedin.com/jobs/view/junior-javascript-developer-remote-work-at-bairesdev-4431228712",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/junior-javascript-developer-remote-work-at-bairesdev-4431228712"
+    ],
+    "raw_jd": "Job Title: Junior JavaScript Developer - Remote Work\nCompany: BairesDev\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:42:32.840805+00:00",
+  "applied": false,
+  "applied_at": null
+}

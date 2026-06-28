@@ -1,0 +1,40 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/fullstack-%E2%80%93-software-engineer-ii-at-deloitte-4432692719",
+  "url_hash": "b0a0dd9a64cc2e09731cf8d1e68d451af039ecdb30cce1a796197abc5667786a",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:46:38.917668+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title 'Software Engineer II' explicitly implies a mid-level role, disqualifying it for a fresher candidate.",
+    "profile_match": 0,
+    "profile_reason": "The role title 'Software Engineer II' indicates a seniority level beyond a fresh graduate; therefore, it is unsuitable.",
+    "missing_skills": [],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Fullstack – Software Engineer II",
+    "company": "Deloitte",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Software Engineer II role at Deloitte located in Chennai. It requires experience beyond the fresher level based on the standard industry nomenclature for 'Level II' positions.",
+    "match": 0,
+    "match_reason": "The role title 'Software Engineer II' indicates a seniority level beyond a fresh graduate; therefore, it is unsuitable.",
+    "apply_url": "https://in.linkedin.com/jobs/view/fullstack-%E2%80%93-software-engineer-ii-at-deloitte-4432692719",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/fullstack-%E2%80%93-software-engineer-ii-at-deloitte-4432692719"
+    ],
+    "raw_jd": "Job Title: Fullstack – Software Engineer II\nCompany: Deloitte\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:46:38.917668+00:00",
+  "applied": false,
+  "applied_at": null
+}

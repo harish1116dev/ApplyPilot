@@ -1,0 +1,53 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/associate-software-engineer-salesforce-at-millerknoll-4432280453",
+  "url_hash": "f3cf8e47830819bacf7b6ed341ad13964993cdefc90e5f72e4fef395e9ea6cb2",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:41:18.288676+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 45,
+    "profile_reason": "The candidate has strong software development skills but lacks the specific Salesforce expertise (Apex, Visualforce, Lightning) required for this niche role.",
+    "missing_skills": [
+      "Salesforce",
+      "Apex",
+      "Visualforce",
+      "Lightning Web Components",
+      "CRM"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "SQL",
+      "Software Development Fundamentals"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Associate Software Engineer - Salesforce",
+    "company": "MillerKnoll",
+    "location": "Bengaluru, Karnataka, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Salesforce",
+      "Software Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role involves developing and maintaining solutions within the Salesforce ecosystem. It is an associate-level position at MillerKnoll suitable for individuals interested in specialized CRM development.",
+    "match": 45,
+    "match_reason": "The candidate has strong software development skills but lacks the specific Salesforce expertise (Apex, Visualforce, Lightning) required for this niche role.",
+    "apply_url": "https://in.linkedin.com/jobs/view/associate-software-engineer-salesforce-at-millerknoll-4432280453",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/associate-software-engineer-salesforce-at-millerknoll-4432280453"
+    ],
+    "raw_jd": "Job Title: Associate Software Engineer - Salesforce\nCompany: MillerKnoll\nLocation: Bengaluru, Karnataka, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:41:18.288676+00:00",
+  "applied": false,
+  "applied_at": null
+}

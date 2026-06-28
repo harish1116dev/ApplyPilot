@@ -1,0 +1,56 @@
+{
+  "url": "https://internshala.com/job/detail/salesforce-devops-job-in-bangalore-at-infosys1781607231",
+  "url_hash": "af1dc1a97c3cce0c1e77f195ae10cbd138b361588690c21058eea7aaf6a1c41c",
+  "raw_jd": "Key responsibilities: \r\n\r\n1. Design, develop, and maintain Internal Developer Platform (IDP) tools to support engineering teams.\r\n2. Build and enhance self-service capabilities, including resource provisioning, CI/CD pipelines, and service management solutions.\r\n3. Integrate development and deployment tools such as Git, Jenkins, Kubernetes, and Helm into a unified platform ecosystem.\r\n4. Ensure platform services are scalable, reliable, secure, and optimized for performance.\r\n5. Collaborate with development and operations teams to improve automation and deployment efficiency.\r\n6. Support continuous improvement initiatives related to DevOps practices and platform management.\r\n7. Monitor platform performance and implement enhancements to improve developer productivity.",
+  "jd_hash": "2b4630160ea21bd1936832e2f31d9341e64b1107891c7f43184f28ef9155ca19",
+  "fetched_at": "2026-06-28T08:52:03.615641+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "While the experience requirement is not explicitly stated, the role requires specialized expertise in Salesforce DevOps, Kubernetes, Helm, and Jenkins, which are not entry-level developer skillsets.",
+    "profile_match": 20,
+    "profile_reason": "The candidate has zero professional experience and lacks the specific DevOps and Salesforce ecosystem experience required for this role.",
+    "missing_skills": [
+      "Salesforce",
+      "DevOps",
+      "Jenkins",
+      "Kubernetes",
+      "Helm",
+      "Platform Engineering"
+    ],
+    "strong_matches": [
+      "Git"
+    ],
+    "recommendation": "ignore",
+    "confidence": 85,
+    "title": "Salesforce DevOps",
+    "company": "Infosys",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Git",
+      "Jenkins",
+      "Kubernetes",
+      "Helm",
+      "Salesforce",
+      "DevOps"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a specialized DevOps engineering role focused on managing Internal Developer Platforms and CI/CD pipelines within the Salesforce ecosystem. It requires high-level expertise in infrastructure automation and platform reliability that is outside the scope of a fresh graduate.",
+    "match": 20,
+    "match_reason": "The candidate has zero professional experience and lacks the specific DevOps and Salesforce ecosystem experience required for this role.",
+    "apply_url": "https://internshala.com/job/detail/salesforce-devops-job-in-bangalore-at-infosys1781607231",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/salesforce-devops-job-in-bangalore-at-infosys1781607231"
+    ],
+    "raw_jd": "Key responsibilities: \r\n\r\n1. Design, develop, and maintain Internal Developer Platform (IDP) tools to support engineering teams.\r\n2. Build and enhance self-service capabilities, including resource provisioning, CI/CD pipelines, and service management solutions.\r\n3. Integrate development and deployment tools such as Git, Jenkins, Kubernetes, and Helm into a unified platform ecosystem.\r\n4. Ensure platform services are scalable, reliable, secure, and optimized for performance.\r\n5. Collaborate with development and operations teams to improve automation and deployment efficiency.\r\n6. Support continuous improvement initiatives related to DevOps practices and platform management.\r\n7. Monitor platform performance and implement enhancements to improve developer productivity."
+  },
+  "verdict_at": "2026-06-28T08:52:10.424914+00:00",
+  "applied": false,
+  "applied_at": null
+}

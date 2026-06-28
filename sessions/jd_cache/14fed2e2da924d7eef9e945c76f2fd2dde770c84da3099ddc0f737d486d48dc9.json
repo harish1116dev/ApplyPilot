@@ -1,0 +1,44 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/python-at-virtusa-4395869077",
+  "url_hash": "14fed2e2da924d7eef9e945c76f2fd2dde770c84da3099ddc0f737d486d48dc9",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:39:37.921843+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated, necessitating a manual review.",
+    "profile_match": 65,
+    "profile_reason": "Candidate has strong Python skills and relevant academic background, but the JD is too sparse to confirm role scope or seniority.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Python"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Python",
+    "company": "Virtusa",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The job description provided is extremely sparse, listing only the title 'Python' and the company 'Virtusa'. No further details on project scope, seniority, or specific technologies are provided.",
+    "match": 65,
+    "match_reason": "Candidate has strong Python skills and relevant academic background, but the JD is too sparse to confirm role scope or seniority.",
+    "apply_url": "https://in.linkedin.com/jobs/view/python-at-virtusa-4395869077",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/python-at-virtusa-4395869077"
+    ],
+    "raw_jd": "Job Title: Python\nCompany: Virtusa\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:39:37.921843+00:00",
+  "applied": false,
+  "applied_at": null
+}

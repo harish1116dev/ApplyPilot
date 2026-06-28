@@ -1,0 +1,47 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=ca79f030c359c087",
+  "url_hash": "d029f8991ecae6659412189574a53befbba31e9ae7756031ddc6af2b1c5034cd",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:55:22.739811+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 70,
+    "profile_reason": "Candidate has a strong full-stack project portfolio and academic background in AI/DS, matching the location requirement for Coimbatore.",
+    "missing_skills": [
+      "not stated"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "Full Stack Engineer - (Onsite-Coimbatore only)",
+    "company": "Miulogic",
+    "location": "Vadavalli, Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Full Stack Engineer role based in Coimbatore. The JD provides no specific requirements regarding experience or technical skills, making it a potential opportunity for an entry-level candidate with a strong project portfolio.",
+    "match": 70,
+    "match_reason": "Candidate has a strong full-stack project portfolio and academic background in AI/DS, matching the location requirement for Coimbatore.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=ca79f030c359c087",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=ca79f030c359c087"
+    ],
+    "raw_jd": "Job Title: Full Stack Engineer - (Onsite-Coimbatore only)\nCompany: Miulogic\nLocation: Vadavalli, Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:55:22.739811+00:00",
+  "applied": false,
+  "applied_at": null
+}

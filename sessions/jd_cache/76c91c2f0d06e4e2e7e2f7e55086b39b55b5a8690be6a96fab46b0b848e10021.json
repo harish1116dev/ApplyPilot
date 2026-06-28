@@ -1,0 +1,50 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/java-developer-at-capgemini-4408768447",
+  "url_hash": "76c91c2f0d06e4e2e7e2f7e55086b39b55b5a8690be6a96fab46b0b848e10021",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:39:24.694782+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it defaults to fresher-eligible for review.",
+    "profile_match": 35,
+    "profile_reason": "The candidate's core stack is JavaScript/Python/MERN, while the role specifically requires Java, for which the candidate has no listed experience.",
+    "missing_skills": [
+      "Java",
+      "J2EE",
+      "Spring Boot",
+      "Hibernate"
+    ],
+    "strong_matches": [
+      "SQL",
+      "REST APIs"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Java developer",
+    "company": "Capgemini",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Java"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Capgemini is hiring a Java developer in Chennai. The role focuses on Java development, which lacks alignment with the candidate's primary JavaScript and Python-based skillset.",
+    "match": 35,
+    "match_reason": "The candidate's core stack is JavaScript/Python/MERN, while the role specifically requires Java, for which the candidate has no listed experience.",
+    "apply_url": "https://in.linkedin.com/jobs/view/java-developer-at-capgemini-4408768447",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/java-developer-at-capgemini-4408768447"
+    ],
+    "raw_jd": "Job Title: Java developer\nCompany: Capgemini\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:39:24.694782+00:00",
+  "applied": false,
+  "applied_at": null
+}

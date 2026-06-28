@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-developer-3-frontend-at-oracle-4428220169",
+  "url_hash": "05189077f6a98f27b3f76a7eb034757fd369d795f80156fd820ea91f93517075",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:43:54.123304+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The title 'Software Developer 3' explicitly denotes a senior-level position in industry standard hierarchies, making it unsuitable for a fresher.",
+    "profile_match": 0,
+    "profile_reason": "The role 'Software Developer 3' is a senior-level position requiring multiple years of professional experience, which is incompatible with a fresher profile.",
+    "missing_skills": [
+      "Multiple years of professional experience"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Frontend"
+    ],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "Software Developer 3 (Frontend)",
+    "company": "Oracle",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a senior-level Software Developer position at Oracle. As it is a 'Level 3' role, it requires significant professional software engineering experience not applicable to fresh graduates.",
+    "match": 0,
+    "match_reason": "The role 'Software Developer 3' is a senior-level position requiring multiple years of professional experience, which is incompatible with a fresher profile.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-developer-3-frontend-at-oracle-4428220169",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-developer-3-frontend-at-oracle-4428220169"
+    ],
+    "raw_jd": "Job Title: Software Developer 3 (Frontend)\nCompany: Oracle\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:43:54.123304+00:00",
+  "applied": false,
+  "applied_at": null
+}

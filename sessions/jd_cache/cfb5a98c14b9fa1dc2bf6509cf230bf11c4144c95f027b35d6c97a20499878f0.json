@@ -1,0 +1,40 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=8e9510dea78fac15",
+  "url_hash": "cfb5a98c14b9fa1dc2bf6509cf230bf11c4144c95f027b35d6c97a20499878f0",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:52:30.424464+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify any minimum experience requirement.",
+    "profile_match": 60,
+    "profile_reason": "The JD is extremely vague with no listed skills or requirements, making it impossible to assess technical fit beyond location proximity.",
+    "missing_skills": [],
+    "strong_matches": [],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "KTOC Associate Engineer",
+    "company": "Kone",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for an Associate Engineer at Kone based in Chennai. The job description provided is incomplete and lacks specific technical requirements or job responsibilities.",
+    "match": 60,
+    "match_reason": "The JD is extremely vague with no listed skills or requirements, making it impossible to assess technical fit beyond location proximity.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=8e9510dea78fac15",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=8e9510dea78fac15"
+    ],
+    "raw_jd": "Job Title: KTOC Associate Engineer\nCompany: Kone\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:52:30.424464+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=14451fb577c6a494",
+  "url_hash": "3fb7a9c71cc71c74f9605fce901ac8ea77f7fe0c05462e6b7337a658b2251b7f",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:58:36.730266+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not specify any minimum experience requirement.",
+    "profile_match": 40,
+    "profile_reason": "The candidate's skill set is heavily software-focused, while 'Junior Engineer' at a storage and racking systems company likely requires mechanical, civil, or industrial engineering expertise.",
+    "missing_skills": [
+      "Mechanical Engineering",
+      "AutoCAD",
+      "Industrial Design",
+      "Structural Analysis"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 70,
+    "title": "Junior Engineer",
+    "company": "TNT storage & racking systems Pvt Ltd",
+    "location": "Jigani, Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a Junior Engineer at a storage and racking systems manufacturing company. It is likely a core engineering position focused on physical infrastructure and design rather than software development.",
+    "match": 40,
+    "match_reason": "The candidate's skill set is heavily software-focused, while 'Junior Engineer' at a storage and racking systems company likely requires mechanical, civil, or industrial engineering expertise.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=14451fb577c6a494",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=14451fb577c6a494"
+    ],
+    "raw_jd": "Job Title: Junior Engineer\nCompany: TNT storage & racking systems Pvt Ltd\nLocation: Jigani, Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:58:36.730266+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=bd5006ecb47ae6c2",
+  "url_hash": "d609de85b9f8fcb62453946b7721296b922efd3414e164db4038a79d61474321",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:01:22.782010+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 0,
+    "profile_reason": "The role is for a Civil Design Engineer, whereas the candidate's education and skill set are entirely focused on Software Engineering and AI/Data Science.",
+    "missing_skills": [
+      "Civil Engineering",
+      "AutoCAD",
+      "Structural Analysis",
+      "Drafting",
+      "Building Codes"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Civil Design Engineer – Hiring Now",
+    "company": "Lasak enterprises",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Civil Engineering",
+      "Design Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a Civil Design Engineer at Lasak enterprises. The position requires professional expertise in civil engineering design and structural drafting, which does not align with the candidate's software and AI background.",
+    "match": 0,
+    "match_reason": "The role is for a Civil Design Engineer, whereas the candidate's education and skill set are entirely focused on Software Engineering and AI/Data Science.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=bd5006ecb47ae6c2",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=bd5006ecb47ae6c2"
+    ],
+    "raw_jd": "Job Title: Civil Design Engineer – Hiring Now\nCompany: Lasak enterprises\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:01:22.782010+00:00",
+  "applied": false,
+  "applied_at": null
+}

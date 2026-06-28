@@ -1,0 +1,45 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-engineer-nodejs-at-bigthinkcode-4423125982",
+  "url_hash": "d6ed04b98f8e35d160bcdeb0b2ba87fba76cc94e042b47477c3ba6742e3e5783",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:44:14.278916+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, making it potentially open to freshers.",
+    "profile_match": 75,
+    "profile_reason": "The candidate has strong Node.js/Full Stack project experience, but the JD is extremely sparse, providing no specific requirements to verify beyond the job title.",
+    "missing_skills": [],
+    "strong_matches": [
+      "Node.js",
+      "JavaScript"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Software Engineer (nodeJS)",
+    "company": "BigThinkCode",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "nodeJS"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Software Engineer role specializing in Node.js development based in Chennai. The JD lacks sufficient details regarding specific responsibilities or seniority levels.",
+    "match": 75,
+    "match_reason": "The candidate has strong Node.js/Full Stack project experience, but the JD is extremely sparse, providing no specific requirements to verify beyond the job title.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-engineer-nodejs-at-bigthinkcode-4423125982",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-engineer-nodejs-at-bigthinkcode-4423125982"
+    ],
+    "raw_jd": "Job Title: Software Engineer (nodeJS)\nCompany: BigThinkCode\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:44:14.278916+00:00",
+  "applied": false,
+  "applied_at": null
+}

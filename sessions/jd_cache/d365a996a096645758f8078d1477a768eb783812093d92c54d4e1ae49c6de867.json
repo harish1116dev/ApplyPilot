@@ -1,0 +1,50 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=63a86c1db1b8db2b",
+  "url_hash": "d365a996a096645758f8078d1477a768eb783812093d92c54d4e1ae49c6de867",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:54:29.917858+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 40,
+    "profile_reason": "The role is for a Trainer, whereas the candidate is looking for software development roles; furthermore, the candidate lacks Java proficiency.",
+    "missing_skills": [
+      "Java",
+      "Teaching",
+      "Public Speaking"
+    ],
+    "strong_matches": [
+      "Python"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "We’re Hiring – Java | Python Trainer in RT Nagar Bengaluru",
+    "company": "Quickstep Computer Centre",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Java",
+      "Python"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Quickstep Computer Centre is looking for a trainer to teach Java and Python programming languages in Bengaluru. This role focuses on instruction rather than software engineering project development.",
+    "match": 40,
+    "match_reason": "The role is for a Trainer, whereas the candidate is looking for software development roles; furthermore, the candidate lacks Java proficiency.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=63a86c1db1b8db2b",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=63a86c1db1b8db2b",
+      "https://in.indeed.com/viewjob?jk=a1b2c3d4e5f67890"
+    ],
+    "raw_jd": "Job Title: We’re Hiring – Java | Python Trainer in RT Nagar Bengaluru\nCompany: Quickstep Computer Centre\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:54:29.917858+00:00",
+  "applied": false,
+  "applied_at": null
+}

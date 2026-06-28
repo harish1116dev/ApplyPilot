@@ -1,0 +1,46 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=3b6c3fc7055f7e34",
+  "url_hash": "31968df8bf2f24537132de3b8b3d8ef2bf4d533380ed59bd288aaad6ccdccd6c",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:57:56.652594+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job description implies entry-level by targeting 'Engineering graduate or Diploma Holder' without specifying any years of experience.",
+    "profile_match": 30,
+    "profile_reason": "The candidate has a B.Tech in AI/DS, but the role specifically targets ECE (Electronics and Communication Engineering) graduates, creating a significant educational misalignment.",
+    "missing_skills": [
+      "Electronics Engineering",
+      "Embedded Systems",
+      "Circuit Design"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 80,
+    "title": "Engineering graduate or Diploma Holder in ECE",
+    "company": "BAMBALIO TECHNOLOGIES",
+    "location": "Madhavaram, Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Electronics and Communication Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is an entry-level position at Bambalio Technologies specifically aimed at Engineering or Diploma holders in ECE. The role appears to be hardware or electronics-focused, which does not align with the candidate's software and AI/DS background.",
+    "match": 30,
+    "match_reason": "The candidate has a B.Tech in AI/DS, but the role specifically targets ECE (Electronics and Communication Engineering) graduates, creating a significant educational misalignment.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=3b6c3fc7055f7e34",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=3b6c3fc7055f7e34"
+    ],
+    "raw_jd": "Job Title: Engineering graduate or Diploma Holder in ECE\nCompany: BAMBALIO TECHNOLOGIES\nLocation: Madhavaram, Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:57:56.652594+00:00",
+  "applied": false,
+  "applied_at": null
+}

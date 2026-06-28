@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=534294c25be786ce",
+  "url_hash": "995e026c329565d4705b1cc333234bbd7aa9658fd0605c672565ab8b96478c6c",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:56:22.726834+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job description does not specify an experience requirement, making it potentially eligible for a fresher.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has relevant full-stack skills (React, Node.js, Express), but the job description is critically underspecified, lacking any details on required tech stacks or job scope.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Full Stack Engineer",
+    "company": "qtv",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Full Stack Engineer position at qtv based in Coimbatore. The job description is extremely brief and provides no specific technical requirements or company details.",
+    "match": 65,
+    "match_reason": "The candidate has relevant full-stack skills (React, Node.js, Express), but the job description is critically underspecified, lacking any details on required tech stacks or job scope.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=534294c25be786ce",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=534294c25be786ce"
+    ],
+    "raw_jd": "Job Title: Full Stack Engineer\nCompany: qtv\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:56:22.726834+00:00",
+  "applied": false,
+  "applied_at": null
+}

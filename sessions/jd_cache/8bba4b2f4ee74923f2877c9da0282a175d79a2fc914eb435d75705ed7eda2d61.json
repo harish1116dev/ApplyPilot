@@ -1,0 +1,52 @@
+{
+  "url": "https://internshala.com/job/detail/data-privacy-job-in-chennai-at-deloitte1782027200",
+  "url_hash": "8bba4b2f4ee74923f2877c9da0282a175d79a2fc914eb435d75705ed7eda2d61",
+  "raw_jd": "The teamDeloitte helps organizations prevent cyberattacks and protect valuable assets. We believe in being secure, vigilant, and resilientnot only by looking at how to prevent and respond to attacks, but at how to manage cyber risk in a way that allows you to unleash new opportunities. Embed cyber risk at the start of strategy development for more effective management of information and technology risks. Lear more about CybersecurityYour work profileAs a Consultant in our Cyber Team, youll build and nurture positive working relationships with teams and clients with the intention to exceed client expectations.Develop data protection policies and procedures in accordance with privacy laws and regulations for clientsConduct assessments to identify potential data privacy and protection risks and develop mitigation strategies for clients as per their requirementsMonitor and evaluate data processing activities to ensure compliance with data protection laws and company policies as per client requirementProvide guidance and support to the clients on conducting data protection impact assessments (DPIAs), conducting risk assessments, data governance, application, privacy impact assessments.Design and build security / privacy framework, design/re-design processes and privacy controls to ensure framework development for clientsKey skills required: Minimum of 2+ years of experience in data protection or privacy complianceCIPT/CIPM/CIPPE or any other related certifications preferredIn-dept",
+  "jd_hash": "cb32ebf1e1c7387e9d1c24282820a06a5f18268205262bfdd2feece7d1123928",
+  "fetched_at": "2026-06-28T08:50:12.992668+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "Minimum of 2+ years of experience in data protection or privacy compliance",
+    "experience_reason": "The job explicitly requires a minimum of 2+ years of professional experience, exceeding the fresher status of the candidate.",
+    "profile_match": 10,
+    "profile_reason": "The candidate has no professional experience in data privacy or compliance, and the role is not intended for entry-level applicants.",
+    "missing_skills": [
+      "data protection compliance",
+      "privacy laws",
+      "data governance",
+      "privacy impact assessments",
+      "CIPT/CIPM/CIPPE certifications"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "Data Privacy",
+    "company": "Deloitte",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "data protection compliance",
+      "privacy laws",
+      "risk assessment",
+      "data governance",
+      "privacy impact assessments"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Consultant in the Cyber Team at Deloitte, focusing on developing data protection policies, conducting risk assessments, and ensuring compliance with privacy laws. It requires specific professional experience in data privacy and relevant industry certifications.",
+    "match": 10,
+    "match_reason": "The candidate has no professional experience in data privacy or compliance, and the role is not intended for entry-level applicants.",
+    "apply_url": "https://internshala.com/job/detail/data-privacy-job-in-chennai-at-deloitte1782027200",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/data-privacy-job-in-chennai-at-deloitte1782027200"
+    ],
+    "raw_jd": "The teamDeloitte helps organizations prevent cyberattacks and protect valuable assets. We believe in being secure, vigilant, and resilientnot only by looking at how to prevent and respond to attacks, but at how to manage cyber risk in a way that allows you to unleash new opportunities. Embed cyber risk at the start of strategy development for more effective management of information and technology risks. Lear more about CybersecurityYour work profileAs a Consultant in our Cyber Team, youll build and nurture positive working relationships with teams and clients with the intention to exceed client expectations.Develop data protection policies and procedures in accordance with privacy laws and regulations for clientsConduct assessments to identify potential data privacy and protection risks and develop mitigation strategies for clients as per their requirementsMonitor and evaluate data processing activities to ensure compliance with data protection laws and company policies as per client requirementProvide guidance and support to the clients on conducting data protection impact assessments (DPIAs), conducting risk assessments, data governance, application, privacy impact assessments.Design and build security / privacy framework, design/re-design processes and privacy controls to ensure framework development for clientsKey skills required: Minimum of 2+ years of experience in data protection or privacy complianceCIPT/CIPM/CIPPE or any other related certifications preferredIn-dept"
+  },
+  "verdict_at": "2026-06-28T08:50:19.554302+00:00",
+  "applied": false,
+  "applied_at": null
+}

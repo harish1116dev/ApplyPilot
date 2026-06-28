@@ -1,0 +1,47 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/react-js-developer-at-tata-consultancy-services-4421654422",
+  "url_hash": "b86402e61dbfbc029bb477a2a577e77a0db1228a896be3a973cb00ad7f5f901c",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:45:00.999500+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it is treated as fresher-eligible.",
+    "profile_match": 80,
+    "profile_reason": "The candidate has strong React.js and JavaScript skills matching the job title, though the JD lacks detail to confirm if it is a graduate-level opening.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "React JS Developer",
+    "company": "Tata Consultancy Services",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a React JS Developer at TCS located in Chennai. The JD is extremely sparse and lacks information regarding experience expectations or specific technical requirements beyond the primary tech stack.",
+    "match": 80,
+    "match_reason": "The candidate has strong React.js and JavaScript skills matching the job title, though the JD lacks detail to confirm if it is a graduate-level opening.",
+    "apply_url": "https://in.linkedin.com/jobs/view/react-js-developer-at-tata-consultancy-services-4421654422",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/react-js-developer-at-tata-consultancy-services-4421654422"
+    ],
+    "raw_jd": "Job Title: React JS Developer\nCompany: Tata Consultancy Services\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:45:00.999500+00:00",
+  "applied": false,
+  "applied_at": null
+}

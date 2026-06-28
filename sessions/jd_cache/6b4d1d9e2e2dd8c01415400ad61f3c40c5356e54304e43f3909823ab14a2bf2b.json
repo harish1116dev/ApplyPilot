@@ -1,0 +1,47 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-accenture-in-india-4348943011",
+  "url_hash": "6b4d1d9e2e2dd8c01415400ad61f3c40c5356e54304e43f3909823ab14a2bf2b",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:46:06.921228+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, which classifies it as potentially open to entry-level candidates.",
+    "profile_match": 70,
+    "profile_reason": "While the candidate has a strong technical stack matching a Full Stack role, 'Full Stack Engineer' at Accenture often requires vetting through campus/entry-level specific channels if not explicitly stated.",
+    "missing_skills": [],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js",
+      "SQL"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Full Stack Engineer",
+    "company": "Accenture in India",
+    "location": "Greater Chennai Area",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Full Stack Development"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Full Stack Engineer position at Accenture based in Chennai. The role focuses on end-to-end application development, requiring proficiency in both frontend and backend technologies.",
+    "match": 70,
+    "match_reason": "While the candidate has a strong technical stack matching a Full Stack role, 'Full Stack Engineer' at Accenture often requires vetting through campus/entry-level specific channels if not explicitly stated.",
+    "apply_url": "https://in.linkedin.com/jobs/view/full-stack-engineer-at-accenture-in-india-4348943011",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/full-stack-engineer-at-accenture-in-india-4348943011"
+    ],
+    "raw_jd": "Job Title: Full Stack Engineer\nCompany: Accenture in India\nLocation: Greater Chennai Area\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:46:06.921228+00:00",
+  "applied": false,
+  "applied_at": null
+}

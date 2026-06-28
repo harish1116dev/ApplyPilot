@@ -1,0 +1,40 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/job-summary-at-my-school-diary-4408485088",
+  "url_hash": "1113195080079ac7e01043f776289ec220d3a4b44a31df2fc29140f46889063b",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:47:52.036322+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job description does not specify an experience requirement.",
+    "profile_match": 40,
+    "profile_reason": "The job description is incomplete (Job Summary) and lacks any information about roles, responsibilities, or technical requirements to assess a match.",
+    "missing_skills": [],
+    "strong_matches": [],
+    "recommendation": "manual_review",
+    "confidence": 30,
+    "title": "Job Summary",
+    "company": "My School Diary",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The provided job description is empty and only lists the title as 'Job Summary'. It contains no information regarding the specific role, required technical skills, or job duties.",
+    "match": 40,
+    "match_reason": "The job description is incomplete (Job Summary) and lacks any information about roles, responsibilities, or technical requirements to assess a match.",
+    "apply_url": "https://in.linkedin.com/jobs/view/job-summary-at-my-school-diary-4408485088",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/job-summary-at-my-school-diary-4408485088"
+    ],
+    "raw_jd": "Job Title: Job Summary\nCompany: My School Diary\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:47:52.036322+00:00",
+  "applied": false,
+  "applied_at": null
+}

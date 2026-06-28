@@ -1,0 +1,55 @@
+{
+  "url": "https://internshala.com/job/detail/gpu-infrastructure-networking-architect-job-in-multiple-locations-at-jio1781051414",
+  "url_hash": "8b39c45977862a4cc7aa57052876e08e2b23ea8f602111edf0f3ee1ce04aa443",
+  "raw_jd": "The GPU Infrastructure & Networking Architect is responsible for the Low-Level Design (LLD) and Day-0 implementation of the physical GPU compute and DPU-centric networking fabric within the CloudXP Sovereign AI Cloud. This role owns the end-to-end design of the GB300 NVL72 bare-metal compute layer, NVIDIA BlueField-3 DPU deployment in DPF mode, Spectrum-X GPU TAN, Spectrum-3 ancillary fabric, and F5/Netris internet egress  translating the High-Level Design (HLD) into deployable, validated configurations aligned to the NVIDIA Reference Architecture.\n\nKey Responsibilities\n\n1.   Design Infrastructure LLD & Day-0 Configuration\n    Produce rack-level and node-level LLD for GB300 NVL72 bare-metal GPU nodes including cabling, power, and cooling topology\n    Design and document BF-3 DPU deployment in DPF mode across all node types (GB300 and ancillary); validate DOCA DPF Operator configuration and lifecycle\n    Define NVIDIA NICo zero-trust enrollment workflow for GB300 nodes; document pre-boot attestation sequences and BMC integration\n    Produce IP addressing schemes for GPU TAN (Spectrum-X), ancillary compute fabric (Spectrum-3), OOB management, and storage planes\n    Author Day-0 runbooks for Spectrum-X spine-leaf bring-up, rail-optimised RoCE configuration, and MTU/ECN tuning for GB300 workloads\n\n2.   Design Networking & Egress Design\n    Design distributed BGP egress using FRR DaemonSet with /32 EIP injection; configure eBGP peering between AS 65100 (compute) and AS 65000 (Spec",
+  "jd_hash": "20dfefa780f805b466fa643b32d599bdd7f9c30cd195e6f2f1c5a72d92eb9a60",
+  "fetched_at": "2026-06-28T08:51:41.743939+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title 'Architect' and the high-level responsibilities (LLD, bare-metal deployment, spine-leaf fabric design) explicitly indicate a senior-level infrastructure engineering role.",
+    "profile_match": 0,
+    "profile_reason": "The role requires advanced expertise in hardware architecture, data center networking, and NVIDIA compute fabric design, which is beyond the scope of a fresh graduate.",
+    "missing_skills": [
+      "GPU Infrastructure Design",
+      "Data Center Networking",
+      "NVIDIA BlueField-3 DPU",
+      "Spectrum-X/3 Fabric",
+      "BGP Egress Design",
+      "Hardware Lifecycle Management"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 100,
+    "title": "GPU Infrastructure & Networking Architect",
+    "company": "Jio",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "GPU compute",
+      "Networking fabric",
+      "LLD",
+      "NVIDIA Reference Architecture",
+      "BGP",
+      "RoCE",
+      "DOCA"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a specialized infrastructure architecture role focused on low-level design and configuration of physical GPU compute clusters and enterprise networking fabrics. It requires deep expertise in data center hardware and network routing protocols, unsuitable for a entry-level software developer.",
+    "match": 0,
+    "match_reason": "The role requires advanced expertise in hardware architecture, data center networking, and NVIDIA compute fabric design, which is beyond the scope of a fresh graduate.",
+    "apply_url": "https://internshala.com/job/detail/gpu-infrastructure-networking-architect-job-in-multiple-locations-at-jio1781051414",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/gpu-infrastructure-networking-architect-job-in-multiple-locations-at-jio1781051414"
+    ],
+    "raw_jd": "The GPU Infrastructure & Networking Architect is responsible for the Low-Level Design (LLD) and Day-0 implementation of the physical GPU compute and DPU-centric networking fabric within the CloudXP Sovereign AI Cloud. This role owns the end-to-end design of the GB300 NVL72 bare-metal compute layer, NVIDIA BlueField-3 DPU deployment in DPF mode, Spectrum-X GPU TAN, Spectrum-3 ancillary fabric, and F5/Netris internet egress  translating the High-Level Design (HLD) into deployable, validated configurations aligned to the NVIDIA Reference Architecture.\n\nKey Responsibilities\n\n1.   Design Infrastructure LLD & Day-0 Configuration\n    Produce rack-level and node-level LLD for GB300 NVL72 bare-metal GPU nodes including cabling, power, and cooling topology\n    Design and document BF-3 DPU deployment in DPF mode across all node types (GB300 and ancillary); validate DOCA DPF Operator configuration and lifecycle\n    Define NVIDIA NICo zero-trust enrollment workflow for GB300 nodes; document pre-boot attestation sequences and BMC integration\n    Produce IP addressing schemes for GPU TAN (Spectrum-X), ancillary compute fabric (Spectrum-3), OOB management, and storage planes\n    Author Day-0 runbooks for Spectrum-X spine-leaf bring-up, rail-optimised RoCE configuration, and MTU/ECN tuning for GB300 workloads\n\n2.   Design Networking & Egress Design\n    Design distributed BGP egress using FRR DaemonSet with /32 EIP injection; configure eBGP peering between AS 65100 (compute) and AS 65000 (Spec"
+  },
+  "verdict_at": "2026-06-28T08:51:48.501653+00:00",
+  "applied": false,
+  "applied_at": null
+}

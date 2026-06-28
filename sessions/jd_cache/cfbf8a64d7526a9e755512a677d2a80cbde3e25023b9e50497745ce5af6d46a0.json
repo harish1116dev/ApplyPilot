@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/web-application-developer-analyst-at-quest-global-4425854534",
+  "url_hash": "cfbf8a64d7526a9e755512a677d2a80cbde3e25023b9e50497745ce5af6d46a0",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:47:58.745721+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has relevant full-stack skills, but the lack of detailed JD responsibilities makes it difficult to verify core alignment.",
+    "missing_skills": [
+      "not stated"
+    ],
+    "strong_matches": [
+      "JavaScript",
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Web Application Developer / Analyst",
+    "company": "Quest Global",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role is for a Web Application Developer/Analyst at Quest Global in Chennai. The JD provides no specific requirements or job responsibilities, necessitating further manual inquiry.",
+    "match": 65,
+    "match_reason": "The candidate has relevant full-stack skills, but the lack of detailed JD responsibilities makes it difficult to verify core alignment.",
+    "apply_url": "https://in.linkedin.com/jobs/view/web-application-developer-analyst-at-quest-global-4425854534",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/web-application-developer-analyst-at-quest-global-4425854534"
+    ],
+    "raw_jd": "Job Title: Web Application Developer / Analyst\nCompany: Quest Global\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:47:58.745721+00:00",
+  "applied": false,
+  "applied_at": null
+}

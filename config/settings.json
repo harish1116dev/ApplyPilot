@@ -1,13 +1,13 @@
 {
   "pipeline": {
-    "analyze_workers": 1,
+    "analyze_workers": 2,
     "apply_workers": 3
   },
   "match_thresholds": {
-    "auto_apply": 70,
-    "apply": 70,
-    "manual_review": 60,
-    "ignore_below": 50
+    "auto_apply": 85,
+    "apply": 80,
+    "manual_review": 70,
+    "ignore_below": 60
   },
   "scraping": {
     "delay_between_requests_seconds": 3,
@@ -24,11 +24,44 @@
     "rate_limit_rpm": 12,
     "rate_limit_rpd": 500
   },
+  "jd_cache": {
+    "enabled": true,
+    "cache_dir": "sessions/jd_cache",
+    "max_age_days": 7
+  },
   "filters": {
     "exclude_experience_above_years": 2,
     "exclude_companies": [],
-    "exclude_keywords": ["senior", "lead", "manager", "10+ years", "5+ years", "8+ years", "7+ years"],
-    "include_experience_patterns": ["0-1", "0-2", "0-3", "0 years", "0 - 1", "0 - 2", "entry level", "no experience", "any graduate", "2024 passout", "2025 passout", "recent graduate"]
+    "reject_keywords": [
+      "senior", "sr.", "sr ",
+      "lead engineer", "lead developer", "tech lead", "team lead",
+      "principal", "staff engineer", "staff developer",
+      "architect", "solution architect", "software architect",
+      "manager", "engineering manager", "delivery manager", "project manager",
+      "director", "vp of", "vice president", "head of engineering", "head of",
+      "cto", "cxo",
+      "10+ years", "9+ years", "8+ years", "7+ years", "6+ years", "5+ years",
+      "10 years", "9 years", "8 years", "7 years"
+    ],
+    "accept_keywords": [
+      "fresher", "freshers", "fresh graduate", "fresh graduates",
+      "entry level", "entry-level",
+      "graduate engineer trainee", "graduate trainee", "graduate engineer",
+      "2025 batch", "2026 batch", "2024 batch",
+      "campus hire", "campus recruitment", "campus drive",
+      "trainee", "associate engineer", "junior engineer",
+      "0 years experience", "0 year experience",
+      "no experience required", "no prior experience",
+      "recent graduate", "recent graduates",
+      "any graduate", "any graduation"
+    ],
+    "accept_experience_patterns": [
+      "0-1", "0-2", "0-3",
+      "0 - 1", "0 - 2", "0 - 3",
+      "0 to 1", "0 to 2", "0 to 3",
+      "0–1", "0–2", "0–3",
+      "0 years", "0 yrs"
+    ]
   },
   "telegram": {
     "morning_report_hour": 9,

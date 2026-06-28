@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/react-js-developer-at-cashkaro-com-4418125415",
+  "url_hash": "71edf871ed00249efd3db7d3037a0ef56326ba04b698b34f8b08ddd313335f6d",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:42:53.158077+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description.",
+    "profile_match": 80,
+    "profile_reason": "The candidate has strong React.js, JavaScript, and HTML/CSS skills that align directly with the role requirements in the preferred location.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "JavaScript",
+      "HTML/CSS"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 70,
+    "title": "React.js Developer",
+    "company": "CashKaro.com",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a React.js Developer based in Chennai. The candidate will be expected to build and maintain user interfaces using the React framework.",
+    "match": 80,
+    "match_reason": "The candidate has strong React.js, JavaScript, and HTML/CSS skills that align directly with the role requirements in the preferred location.",
+    "apply_url": "https://in.linkedin.com/jobs/view/react-js-developer-at-cashkaro-com-4418125415",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/react-js-developer-at-cashkaro-com-4418125415"
+    ],
+    "raw_jd": "Job Title: React.js Developer\nCompany: CashKaro.com\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:42:53.158077+00:00",
+  "applied": false,
+  "applied_at": null
+}

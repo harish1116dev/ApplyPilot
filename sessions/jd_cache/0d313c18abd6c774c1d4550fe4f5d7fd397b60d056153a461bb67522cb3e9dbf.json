@@ -1,0 +1,40 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=3697ccd827646272",
+  "url_hash": "0d313c18abd6c774c1d4550fe4f5d7fd397b60d056153a461bb67522cb3e9dbf",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:55:16.021042+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated, making it potentially eligible for a fresher.",
+    "profile_match": 60,
+    "profile_reason": "The JD is extremely vague with no listed skills or requirements, making it impossible to verify fit; however, the candidate matches the general 'Software Engineer' title.",
+    "missing_skills": [],
+    "strong_matches": [],
+    "recommendation": "manual_review",
+    "confidence": 50,
+    "title": "Software Engineer",
+    "company": "Sellyco promotions",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a generic Software Engineer position at Sellyco promotions in Bengaluru. The job description provides no specific details regarding required technology stacks or experience levels.",
+    "match": 60,
+    "match_reason": "The JD is extremely vague with no listed skills or requirements, making it impossible to verify fit; however, the candidate matches the general 'Software Engineer' title.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=3697ccd827646272",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=3697ccd827646272"
+    ],
+    "raw_jd": "Job Title: Software Engineer\nCompany: Sellyco promotions\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:55:16.021042+00:00",
+  "applied": false,
+  "applied_at": null
+}

@@ -1,0 +1,49 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/ui-engineer-react-typescript-javascript-at-intraedge-4432619048",
+  "url_hash": "3df83bce8f7367f898566879dba9ecd743d207430d70eb77ee94a8f118180ce8",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:45:14.279807+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description, making it potentially open to freshers.",
+    "profile_match": 75,
+    "profile_reason": "Candidate has strong proficiency in React and JavaScript, which are the core requirements, though TypeScript is missing from the skill set.",
+    "missing_skills": [
+      "TypeScript"
+    ],
+    "strong_matches": [
+      "React.js",
+      "JavaScript"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "UI Engineer (React / TypeScript / JavaScript)",
+    "company": "IntraEdge",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role focuses on UI engineering using React, TypeScript, and JavaScript. It is located in Chennai and requires strong frontend development capabilities.",
+    "match": 75,
+    "match_reason": "Candidate has strong proficiency in React and JavaScript, which are the core requirements, though TypeScript is missing from the skill set.",
+    "apply_url": "https://in.linkedin.com/jobs/view/ui-engineer-react-typescript-javascript-at-intraedge-4432619048",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/ui-engineer-react-typescript-javascript-at-intraedge-4432619048"
+    ],
+    "raw_jd": "Job Title: UI Engineer (React / TypeScript / JavaScript)\nCompany: IntraEdge\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:45:14.279807+00:00",
+  "applied": false,
+  "applied_at": null
+}

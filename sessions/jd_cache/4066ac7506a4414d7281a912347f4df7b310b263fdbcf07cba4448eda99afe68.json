@@ -1,0 +1,46 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/fullstack-developer-react-node-at-tvs-next-4428424287",
+  "url_hash": "4066ac7506a4414d7281a912347f4df7b310b263fdbcf07cba4448eda99afe68",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:44:34.126702+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, therefore it is treated as potentially fresher-eligible.",
+    "profile_match": 70,
+    "profile_reason": "The candidate has strong technical skills in React and Node.js which align with the title, but the lack of explicit fresher mention requires manual verification.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "Node.js"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Fullstack Developer (React & Node)",
+    "company": "TVS Next",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js",
+      "Node.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a Fullstack Developer focusing on React and Node.js technologies at TVS Next in Chennai. The JD is incomplete and lacks explicit experience requirements or specific responsibilities.",
+    "match": 70,
+    "match_reason": "The candidate has strong technical skills in React and Node.js which align with the title, but the lack of explicit fresher mention requires manual verification.",
+    "apply_url": "https://in.linkedin.com/jobs/view/fullstack-developer-react-node-at-tvs-next-4428424287",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/fullstack-developer-react-node-at-tvs-next-4428424287"
+    ],
+    "raw_jd": "Job Title: Fullstack Developer (React & Node)\nCompany: TVS Next\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:44:34.126702+00:00",
+  "applied": false,
+  "applied_at": null
+}

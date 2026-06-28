@@ -1,0 +1,42 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=d3c842e6a3a0ee4d",
+  "url_hash": "f8403d7b05fbe1e333cf6bc8a6374efa25877368e961ab2e4e65bed997ca3449",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:58:03.373605+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title explicitly states 'Fresher Only' and 'Graduate Engineering Trainee'.",
+    "profile_match": 45,
+    "profile_reason": "The JD is extremely vague with no technical requirements or job description provided, making it impossible to determine if the role is suitable for a software-focused candidate.",
+    "missing_skills": [
+      "not stated"
+    ],
+    "strong_matches": [],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Graduate Engineering Trainee (Fresher Only)",
+    "company": "CHRIST NISHOTECH WATER SYSTEMS PVT. LTD",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Graduate Engineering Trainee position for a water systems company in Chennai. The JD lacks technical details, duties, or specific domain requirements.",
+    "match": 45,
+    "match_reason": "The JD is extremely vague with no technical requirements or job description provided, making it impossible to determine if the role is suitable for a software-focused candidate.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=d3c842e6a3a0ee4d",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=d3c842e6a3a0ee4d"
+    ],
+    "raw_jd": "Job Title: Graduate Engineering Trainee (Fresher Only)\nCompany: CHRIST NISHOTECH WATER SYSTEMS PVT. LTD\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:58:03.373605+00:00",
+  "applied": false,
+  "applied_at": null
+}

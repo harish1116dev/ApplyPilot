@@ -1,0 +1,53 @@
+{
+  "url": "https://internshala.com/job/detail/fresher-technical-instructor-java-python-dsa-job-in-multiple-locations-at-examate1780286961",
+  "url_hash": "466d4a40baff28a3ef15cec71dd34007b33c1069840375f0c4ea000f798df4a3",
+  "raw_jd": "We are looking for passionate, technically strong candidates interested in mentoring and training engineering students in programming, problem-solving, and technical concepts.\r\n\r\nThe selected candidates will work as Training Engineer Interns and will be involved in delivering technical sessions, mentoring students, and supporting placement-oriented training activities.\r\n\r\nKey Responsibilities:\r\n\r\n1. Deliver technical training sessions for engineering students.\r\n2. Handle approximately 6 hours of teaching/training sessions per day.\r\n3. Teach assigned technologies/topics as per the company curriculum.\r\n4. Complete the assigned syllabus/content within the given timelines.\r\n5. Explain programming concepts and understandably.\r\n6. Support students in problem-solving and practical implementation.\r\n7. Maintain professionalism, punctuality, and consistency throughout the internship period.\r\n8. Coordinate with the internal team regarding daily session updates and progress.\r\n\r\nRequired Skills:\r\n\r\n1. Good knowledge of Java, Python, or Full Stack Technologies (based on the applied role).\r\n2. Basic understanding of Data Structures and Algorithms (DSA).\r\n3. Good communication and presentation skills.\r\n4. Basic mentoring and teaching abilities.\r\n5. Strong problem-solving mindset.\r\n6. Willingness to learn and adapt quickly.\r\n\r\nEligibility/Requirements:\r\n\r\n1. B.Tech or M.Tech students and graduates can apply.\r\n2. Candidates from the 2023, 2024, 2025, and 2026 batches are eligible.\r\n3. Candidat",
+  "jd_hash": "f482a9cbb0e18a361d7e1a2d3e17e9ddc348559310a94e7d22a0ad0f9f0680a7",
+  "fetched_at": "2026-06-28T08:50:33.238856+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The role is for a Training Engineer Intern and explicitly invites 2024 graduates, which fits the fresher criteria.",
+    "profile_match": 65,
+    "profile_reason": "The candidate has strong technical skills in Python and Full Stack, but the role is primarily a teaching/mentorship position rather than a core software development role.",
+    "missing_skills": [
+      "Java",
+      "Formal teaching experience"
+    ],
+    "strong_matches": [
+      "Python",
+      "Full Stack Technologies",
+      "Communication skills"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 75,
+    "title": "Technical Instructor (Java/Python/DSA)",
+    "company": "Examate",
+    "location": "not stated",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Java",
+      "Python",
+      "Full Stack Technologies",
+      "Data Structures and Algorithms",
+      "Communication and presentation skills"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a Training Engineer Internship focused on mentoring and delivering technical sessions to engineering students. The candidate would be responsible for teaching programming concepts and supporting student problem-solving.",
+    "match": 65,
+    "match_reason": "The candidate has strong technical skills in Python and Full Stack, but the role is primarily a teaching/mentorship position rather than a core software development role.",
+    "apply_url": "https://internshala.com/job/detail/fresher-technical-instructor-java-python-dsa-job-in-multiple-locations-at-examate1780286961",
+    "platform": "internshala",
+    "source_urls": [
+      "https://internshala.com/job/detail/fresher-technical-instructor-java-python-dsa-job-in-multiple-locations-at-examate1780286961"
+    ],
+    "raw_jd": "We are looking for passionate, technically strong candidates interested in mentoring and training engineering students in programming, problem-solving, and technical concepts.\r\n\r\nThe selected candidates will work as Training Engineer Interns and will be involved in delivering technical sessions, mentoring students, and supporting placement-oriented training activities.\r\n\r\nKey Responsibilities:\r\n\r\n1. Deliver technical training sessions for engineering students.\r\n2. Handle approximately 6 hours of teaching/training sessions per day.\r\n3. Teach assigned technologies/topics as per the company curriculum.\r\n4. Complete the assigned syllabus/content within the given timelines.\r\n5. Explain programming concepts and understandably.\r\n6. Support students in problem-solving and practical implementation.\r\n7. Maintain professionalism, punctuality, and consistency throughout the internship period.\r\n8. Coordinate with the internal team regarding daily session updates and progress.\r\n\r\nRequired Skills:\r\n\r\n1. Good knowledge of Java, Python, or Full Stack Technologies (based on the applied role).\r\n2. Basic understanding of Data Structures and Algorithms (DSA).\r\n3. Good communication and presentation skills.\r\n4. Basic mentoring and teaching abilities.\r\n5. Strong problem-solving mindset.\r\n6. Willingness to learn and adapt quickly.\r\n\r\nEligibility/Requirements:\r\n\r\n1. B.Tech or M.Tech students and graduates can apply.\r\n2. Candidates from the 2023, 2024, 2025, and 2026 batches are eligible.\r\n3. Candidat"
+  },
+  "verdict_at": "2026-06-28T08:50:39.711284+00:00",
+  "applied": false,
+  "applied_at": null
+}

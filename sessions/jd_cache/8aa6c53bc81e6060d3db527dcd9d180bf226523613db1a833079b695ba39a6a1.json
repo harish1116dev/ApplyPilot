@@ -1,0 +1,54 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=dbb88979f017795e",
+  "url_hash": "8aa6c53bc81e6060d3db527dcd9d180bf226523613db1a833079b695ba39a6a1",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:57:29.454026+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The job title includes 'Trainee' and there is no explicit experience requirement stated.",
+    "profile_match": 40,
+    "profile_reason": "The role is for Quality Engineering (Testing), whereas the candidate's profile and projects are heavily focused on Full Stack Development and AI/ML.",
+    "missing_skills": [
+      "Software Testing",
+      "Manual Testing",
+      "Automation Testing",
+      "Selenium",
+      "Test Automation Frameworks",
+      "Quality Assurance Processes"
+    ],
+    "strong_matches": [
+      "Python",
+      "SQL",
+      "Git"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 65,
+    "title": "Quality Engineer Trainee",
+    "company": "KUMARAN SYSTEMS PVT LTD",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Software Testing",
+      "Quality Assurance"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The Quality Engineer Trainee role at Kumaran Systems focuses on software testing and quality assurance processes. The candidate would be responsible for ensuring product quality through various testing methodologies, which deviates from their primary experience in software development.",
+    "match": 40,
+    "match_reason": "The role is for Quality Engineering (Testing), whereas the candidate's profile and projects are heavily focused on Full Stack Development and AI/ML.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=dbb88979f017795e",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=dbb88979f017795e"
+    ],
+    "raw_jd": "Job Title: Quality Engineer Trainee\nCompany: KUMARAN SYSTEMS PVT LTD\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:57:29.454026+00:00",
+  "applied": false,
+  "applied_at": null
+}

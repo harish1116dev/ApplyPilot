@@ -1,0 +1,49 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=3ebf23e976263f9f",
+  "url_hash": "625c69b87281da81e3c143a0ff5df0841b38e85cd4d406668bf6a68228b2321d",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T09:00:49.648669+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The title 'Graduate Engineer' implies an entry-level position and no minimum experience is explicitly stated.",
+    "profile_match": 30,
+    "profile_reason": "The candidate has a software/AI profile, while the role is for a 'Design' engineer, likely in mechanical or industrial engineering which is outside the candidate's core domain.",
+    "missing_skills": [
+      "Mechanical Design",
+      "CAD",
+      "AutoCAD",
+      "SolidWorks"
+    ],
+    "strong_matches": [
+      "Engineering Fundamentals"
+    ],
+    "recommendation": "ignore",
+    "confidence": 80,
+    "title": "Graduate Engineeer – Design",
+    "company": "Texmo Industries",
+    "location": "Coimbatore, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Design Engineering"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "Texmo Industries is seeking a Graduate Engineer for their Design department in Coimbatore. This role typically involves mechanical or industrial product design, which does not align with the candidate's software development and AI background.",
+    "match": 30,
+    "match_reason": "The candidate has a software/AI profile, while the role is for a 'Design' engineer, likely in mechanical or industrial engineering which is outside the candidate's core domain.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=3ebf23e976263f9f",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=3ebf23e976263f9f"
+    ],
+    "raw_jd": "Job Title: Graduate Engineeer – Design\nCompany: Texmo Industries\nLocation: Coimbatore, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T09:00:49.648669+00:00",
+  "applied": false,
+  "applied_at": null
+}

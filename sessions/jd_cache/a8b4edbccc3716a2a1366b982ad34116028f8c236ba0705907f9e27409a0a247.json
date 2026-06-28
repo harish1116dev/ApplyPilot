@@ -1,0 +1,45 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=0b477cc82de607b5",
+  "url_hash": "a8b4edbccc3716a2a1366b982ad34116028f8c236ba0705907f9e27409a0a247",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:52:37.048568+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD specifically targets candidates with a 'Career Gap', which is fundamentally misaligned with a 2024 fresh graduate.",
+    "profile_match": 10,
+    "profile_reason": "The role targets professionals returning from a career break, not a recent engineering graduate looking to start their career.",
+    "missing_skills": [
+      "Software Testing",
+      "QA Methodologies",
+      "Automation Testing",
+      "Test Planning"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Software Test Engineer (Career Gap Opportunity)",
+    "company": "Triplette",
+    "location": "Chennai, Tamil Nadu",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "A Software Test Engineer role specifically marketed for individuals seeking to return to the workforce after a career gap. The position does not mention entry-level or graduate hiring criteria.",
+    "match": 10,
+    "match_reason": "The role targets professionals returning from a career break, not a recent engineering graduate looking to start their career.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=0b477cc82de607b5",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=0b477cc82de607b5"
+    ],
+    "raw_jd": "Job Title: Software Test Engineer (Career Gap Opportunity)\nCompany: Triplette\nLocation: Chennai, Tamil Nadu\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:52:37.048568+00:00",
+  "applied": false,
+  "applied_at": null
+}

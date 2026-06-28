@@ -1,0 +1,43 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/software-developer-2-at-oracle-4417249106",
+  "url_hash": "9e725a0c9db001de17c2add5971fe2e59ff8bdbffee37ca86518c1f44b98a9e5",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:39:31.341230+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": false,
+    "experience_requirement": "not stated",
+    "experience_reason": "The title 'Software Developer 2' at major tech firms like Oracle strictly denotes a mid-level professional role, not an entry-level position.",
+    "profile_match": 0,
+    "profile_reason": "Software Developer 2 roles require professional experience; the candidate is a fresher.",
+    "missing_skills": [
+      "Professional experience in enterprise software development"
+    ],
+    "strong_matches": [],
+    "recommendation": "ignore",
+    "confidence": 95,
+    "title": "Software Developer 2",
+    "company": "Oracle",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This is a mid-level software engineering role at Oracle. It is not suitable for freshers, as 'Developer 2' positions typically require several years of industry experience.",
+    "match": 0,
+    "match_reason": "Software Developer 2 roles require professional experience; the candidate is a fresher.",
+    "apply_url": "https://in.linkedin.com/jobs/view/software-developer-2-at-oracle-4417249106",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/software-developer-2-at-oracle-4417249106",
+      "https://in.linkedin.com/jobs/view/software-developer-3-at-oracle-4422211700"
+    ],
+    "raw_jd": "Job Title: Software Developer 2\nCompany: Oracle\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:39:31.341230+00:00",
+  "applied": false,
+  "applied_at": null
+}

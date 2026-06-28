@@ -1,0 +1,45 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/react-developer-at-swits-digital-private-limited-4419402925",
+  "url_hash": "f1a22a9da8f888db43f8b2fc4258f9fc0035a45fac62594b2a95dc677338c260",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:43:34.123818+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not explicitly stated in the job description, allowing for entry-level consideration.",
+    "profile_match": 75,
+    "profile_reason": "The candidate has strong React.js skills and projects, but the JD lacks sufficient detail to confirm if they are open to freshers or require professional history.",
+    "missing_skills": [],
+    "strong_matches": [
+      "React.js",
+      "JavaScript"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "React Developer",
+    "company": "SWITS DIGITAL Private Limited",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "React.js"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a React Developer at SWITS DIGITAL Private Limited based in Chennai. The JD is extremely sparse and lacks information regarding experience, specific technical requirements, or application procedures.",
+    "match": 75,
+    "match_reason": "The candidate has strong React.js skills and projects, but the JD lacks sufficient detail to confirm if they are open to freshers or require professional history.",
+    "apply_url": "https://in.linkedin.com/jobs/view/react-developer-at-swits-digital-private-limited-4419402925",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/react-developer-at-swits-digital-private-limited-4419402925"
+    ],
+    "raw_jd": "Job Title: React Developer\nCompany: SWITS DIGITAL Private Limited\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:43:34.123818+00:00",
+  "applied": false,
+  "applied_at": null
+}

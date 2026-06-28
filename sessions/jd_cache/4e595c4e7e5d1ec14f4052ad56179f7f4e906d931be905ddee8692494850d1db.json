@@ -1,0 +1,52 @@
+{
+  "url": "https://in.linkedin.com/jobs/view/adobe-target-developer-at-invictus-4409195360",
+  "url_hash": "4e595c4e7e5d1ec14f4052ad56179f7f4e906d931be905ddee8692494850d1db",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:48:25.563300+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The experience requirement is not stated in the job description.",
+    "profile_match": 20,
+    "profile_reason": "The candidate has zero experience with the specific Adobe Experience Cloud stack required for an Adobe Target Developer role.",
+    "missing_skills": [
+      "Adobe Target",
+      "Adobe Experience Cloud",
+      "A/B Testing",
+      "Experience Optimization",
+      "Targeting and Personalization"
+    ],
+    "strong_matches": [
+      "JavaScript"
+    ],
+    "recommendation": "ignore",
+    "confidence": 70,
+    "title": "Adobe Target Developer",
+    "company": "Invictus",
+    "location": "Chennai, Tamil Nadu, India",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [
+      "Adobe Target",
+      "JavaScript",
+      "A/B Testing"
+    ],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "The role focuses on web personalization, A/B testing, and optimization using Adobe Target. It is a specialized niche role requiring specific experience with Adobe's marketing technology stack.",
+    "match": 20,
+    "match_reason": "The candidate has zero experience with the specific Adobe Experience Cloud stack required for an Adobe Target Developer role.",
+    "apply_url": "https://in.linkedin.com/jobs/view/adobe-target-developer-at-invictus-4409195360",
+    "platform": "linkedin",
+    "source_urls": [
+      "https://in.linkedin.com/jobs/view/adobe-target-developer-at-invictus-4409195360"
+    ],
+    "raw_jd": "Job Title: Adobe Target Developer\nCompany: Invictus\nLocation: Chennai, Tamil Nadu, India\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:48:25.563300+00:00",
+  "applied": false,
+  "applied_at": null
+}

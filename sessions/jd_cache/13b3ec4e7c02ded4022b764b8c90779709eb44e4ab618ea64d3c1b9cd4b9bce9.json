@@ -1,0 +1,46 @@
+{
+  "url": "https://in.indeed.com/viewjob?jk=5fa4d40b385d5997",
+  "url_hash": "13b3ec4e7c02ded4022b764b8c90779709eb44e4ab618ea64d3c1b9cd4b9bce9",
+  "raw_jd": "",
+  "jd_hash": "",
+  "fetched_at": "2026-06-28T08:54:49.777679+00:00",
+  "gemini_verdict": {
+    "is_fresher_job": true,
+    "experience_requirement": "not stated",
+    "experience_reason": "The JD does not state an experience requirement, which aligns with entry-level eligibility criteria.",
+    "profile_match": 65,
+    "profile_reason": "The JD lacks sufficient detail regarding specific tech stacks or responsibilities to ensure a high-confidence match, despite the candidate's strong full-stack and AI project background.",
+    "missing_skills": [
+      "not specified in JD"
+    ],
+    "strong_matches": [
+      "Python",
+      "JavaScript",
+      "Full Stack Development"
+    ],
+    "recommendation": "manual_review",
+    "confidence": 60,
+    "title": "Software Dev Engineer, UTR Tech, UTR Tech",
+    "company": "ADCI - Karnataka - A66",
+    "location": "Bengaluru, Karnataka",
+    "remote": false,
+    "salary_min": null,
+    "salary_max": null,
+    "skills_required": [],
+    "apply_method": "not_stated",
+    "questions": [],
+    "cover_letter_required": false,
+    "summary": "This role is for a Software Development Engineer at ADCI in Bengaluru. The job description is highly sparse, providing no specific technical requirements, responsibilities, or experience constraints.",
+    "match": 65,
+    "match_reason": "The JD lacks sufficient detail regarding specific tech stacks or responsibilities to ensure a high-confidence match, despite the candidate's strong full-stack and AI project background.",
+    "apply_url": "https://in.indeed.com/viewjob?jk=5fa4d40b385d5997",
+    "platform": "indeed",
+    "source_urls": [
+      "https://in.indeed.com/viewjob?jk=5fa4d40b385d5997"
+    ],
+    "raw_jd": "Job Title: Software Dev Engineer, UTR Tech, UTR Tech\nCompany: ADCI - Karnataka - A66\nLocation: Bengaluru, Karnataka\nExperience: \nSalary: "
+  },
+  "verdict_at": "2026-06-28T08:54:49.777679+00:00",
+  "applied": false,
+  "applied_at": null
+}
